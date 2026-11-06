@@ -1,0 +1,3 @@
+- **Setting**: A stateless, alternate-modern world with high-tech espionage, diverse fashion, and action-comedy tone (NOT medieval/isekai, and NOT tied to real-world Earth nations).
+- **Naming & Appearance Rule**: Characters have culturally diverse names (English, Cantonese/Chinese, Japanese, European) and varied physical phenotypes, but **real-world countries (China, Japan, Germany, USA, etc.) do NOT exist** in this timeline.
+- **Strict Image Generation Constraint**: NEVER describe characters by real-world nationality. Use pure physical traits (skin tone, hair color, eye shape, attire). NEVER draw real-world national flags or country codes on character design sheets or ID badges.
