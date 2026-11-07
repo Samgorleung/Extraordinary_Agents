@@ -7,6 +7,7 @@
 - Resulting Arc: Maya and Barnaby become inseparable best friends and partners from Episode 2 onward.
 
 ### Episode 2 Planning (In Progress)
+- Preliminary Script Outline & Storyboard Framework created in `ep2_shots/storyboard.md` (Four-Act structure + 8-shot initial storyboard table).
 - Core Goal: Transition from Episode 1's intro into a structured mission blending the Field Comedy Trio (Maya, Saffron, Chloe + Barnaby) with the Specialist Trio (Evelyn, Naomi, Isabella) and the overarching Military Conspiracy (Victoria's MIA mystery, Aoi, Elise, Minister Helena Voss, and The Colossus).
 - Character Development To-Do (New Male Characters):
   1. Gadget / Weapons Quartermaster (young tech genius who built the Banana Blaster and maintains Victoria's cybernetic arm; constantly argues with Saffron).
