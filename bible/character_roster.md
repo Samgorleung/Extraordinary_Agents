@@ -30,6 +30,10 @@
 - **Visual & Outfit Anchor**: East Asian features, long black wavy hair with a large red ribbon bow, ornate red-and-gold phoenix embroidered high-slit gown (or blue-and-white floral dress in Ep1), gold-patterned sheer stockings, red high heels.
 - **Personality & Role**: Elegant, composed, meticulous elite operative. Appears gentle and dignified, but is a master of disguise, deep infiltration, and psychological warfare.
 
+### Agent Finn Calder (芬恩・考爾德 / Codename: Trigger 觸發器)
+- **Visual & Outfit Anchor**: Young adult male with short spiky orange hair, serious amber eyes, athletic build, bright orange utility/training jacket with dark patches, black T-shirt/undershirt, dark gray/black cargo trousers with tactical pouches, sturdy gray lace-up combat boots.
+- **Personality & Running Gag**: New male rookie field agent assigned to Commander Griz's squad. Earnest, determined, and tactically capable in combat, but possesses terrible luck—perpetually getting caught in the crossfire of Maya, Barnaby, and Saffron's slapstick chaos.
+
 ---
 
 ## 2. HQ Command, Military Intelligence & Civilian Support
@@ -52,6 +56,10 @@
 - **Visual & Outfit Anchor**: Age 25, European/Nordic features, blonde hair in a ponytail, blue eyes, dark green military administrative uniform skirt suit, **10D light brown sheer pantyhose**, red high heels. (Fictional cross-sector liaison officer; NO real-world flags).
 - **Personality & Relationships**: Cheerful, proactive, approachable, occasionally slightly clumsy but highly capable logistics and operations coordinator. Aoi Fujimoto's trusted partner ("Aoi finds the answers, and I make sure everyone can reach them!"). Also dotes on Emily like a younger sister and helps Aoi investigate Victoria's disappearance.
 
+### Oliver Kade (奧利佛・凱德 / Codename: Patch 補丁)
+- **Visual & Outfit Anchor**: Late-twenties adult male, warm brown wavy side-swept hair, square dark-rimmed glasses, white long-sleeve collared shirt with rolled-up sleeves, fitted charcoal waistcoat, dark tailored trousers, brown leather dress shoes.
+- **Personality & Relationships**: HQ Gadget & Weapons Quartermaster. Inventive, analytical, and highly precise tech genius who built and maintains Saffron's **Banana Blaster** and engineered/supports **Victoria Parker's cybernetic mechanical arm**. Constantly argues with and gets exasperated by Saffron's reckless equipment mishaps, yet remains deeply committed to keeping every agent alive through his gear.
+
 ---
 
 ## 3. Civilian, Political & Shadow Figures
@@ -65,10 +73,18 @@
 - **Visual & Outfit Anchor**: Age 22, 178 cm, model physique, long wavy dark brown hair with cool violet nuances, violet-brown eyes. Wears a light pink/beige polka-dot short-sleeve blouse with a deep V-neckline and model ID lanyard (Lumière Model Agency), black high-slit tight mini skirt, and black pointed-toe patent high heels. Often seen with a ginger tabby cat.
 - **Role & Relationships**: Younger sister of **Aoi Fujimoto** (1 year younger). Famous professional fashion model whose high-society and media connections frequently intersect with the agents' undercover missions.
 
+### Nia Vale (妮雅・維爾)
+- **Visual & Outfit Anchor**: Age 22, adult woman with warm brown skin, waist-length wavy dark hair, small red decorative devil-horn headband (fashion accessory, non-supernatural), gold hoop earrings, fitted red ribbed turtleneck, black leather jacket, short black leather miniskirt with a side slit, **sheer light-brown tights/pantyhose**, glossy black ankle-strap high heels, and a small black bag.
+- **Role & Relationships**: Fashion student and part-time event assistant at high-society galas in the Central Sector; a fashion-community acquaintance of **Airi Fujimoto**. Witty, nightlife-loving, and sharp-eyed—accidentally witnesses a clandestine syndicate information handoff during the Episode 2 gala, drawing her into the agents' orbit.
+
 ### Helena Voss (海倫娜・沃斯)
 - **Visual & Outfit Anchor**: Age 38, 180 cm, sophisticated updo brown hair, gold hoop earrings, tailored dark brown/black long double-breasted coat-dress, **sheer black dotted pantyhose (dotted sheer)**, and white pointed high heels.
 - **Role & Relationships**: **Political Affairs Minister** (Civilian Leadership / Government Liaison of the Continental Union). Composed, sharp, and diplomatic power broker bridging the civilian government, military intelligence, and special operations.
 
+### Gideon Ward (基甸・沃德 / Codename: The Broker 經紀人)
+- **Visual & Outfit Anchor**: Rugged adult man in his early 40s, cropped dark brown hair, neat full stubble beard, stern weathered face with intense gray eyes, weathered black/dark olive field jacket over a faded charcoal/gray overshirt, dark cargo trousers, and scuffed brown leather boots.
+- **Abilities & Lore**: Patient, calculating **Syndicate Mastermind** who oversees the invulnerable juggernaut **The Colossus**. Rarely raises his voice, controlling operatives and political targets through confidential intelligence and ruthless leverage. Directly tied to the covert operation and battle where **Victoria Parker (Raven)** went MIA.
+
 ### The Colossus (巨像)
 - **Visual Anchor**: 210 cm, 165 kg towering juggernaut clad in heavy golden armor and an eerie smiling metal mask, wielding a giant battleaxe and warhammer.
-- **Abilities & Lore**: Cruel, arrogant high-ranking enforcer of a mysterious armed syndicate. Possesses superhuman strength, extreme armor defense, and abnormal regeneration (immune to standard gunfire/explosives). Directly connected to the battle where **Victoria Parker** went MIA and holds clues to the origin of her awakened power.
+- **Abilities & Lore**: Cruel, arrogant high-ranking enforcer of a mysterious armed syndicate under **Gideon Ward (The Broker)**. Possesses superhuman strength, extreme armor defense, and abnormal regeneration (immune to standard gunfire/explosives). Directly connected to the battle where **Victoria Parker** went MIA and holds clues to the origin of her awakened power.

@@ -6,11 +6,12 @@
   1. **Field Comedy Trio + Barnaby** (Maya, Saffron, Chloe Han, and Barnaby as Maya's loyal slapstick partner-in-crime).
   2. **Specialist Trio** (Evelyn Carter, Naomi Brooks, Isabella Chen) and their dynamic friction with the comedy crew.
   3. **Military Conspiracy & Shadow Arc** (Victoria Parker / Raven's MIA investigation via Aoi Fujimoto, Elise Mori, and Emily Parker; political maneuvering by Minister Helena Voss; and the looming threat of **The Colossus**).
-- **New Character Integration Placeholders**:
-  - **Gadget Quartermaster** (young tech genius arguing with Saffron over the Banana Blaster).
-  - **Narcissistic Male Rival Agent** (Minister Voss's "James Bond" operative acting as Saffron's foil).
-  - **Unlucky Rookie Male Agent** (caught in Maya & Barnaby's slapstick crossfire).
-  - **Syndicate Mastermind** (shadowy figure behind The Colossus).
+- **New Character Integrations (Episode 2 Debuts)**:
+  - **Oliver Kade / Patch (奧利佛・凱德／補丁)**: HQ Gadget & Weapons Quartermaster (late-20s tech genius arguing with Saffron over the Banana Blaster and secretly maintaining Victoria's cybernetic arm).
+  - **Finn Calder / Trigger (芬恩・考爾德／觸發器)**: Unlucky Rookie Male Agent (spiky orange-haired competent fighter caught in Maya, Saffron & Barnaby's slapstick crossfire).
+  - **Nia Vale (妮雅・維爾)**: 22-year-old fashion student & part-time gala event assistant (acquaintance of Airi Fujimoto) who accidentally witnesses a clandestine syndicate handoff.
+  - **Gideon Ward / The Broker (基甸・沃德／經紀人)**: Calculating Syndicate Mastermind overseeing **The Colossus** and connected to Victoria's MIA battle.
+  - **Narcissistic Male Rival Agent** *(Pending Casting)*: Minister Voss's "James Bond" operative acting as Saffron's foil.
 
 ---
 
@@ -26,17 +27,18 @@
     - **Isabella (Phoenix)** smilingly opens a secret betting pool on how many minutes it will take before Maya loses her shoes or Saffron triggers an alarm.
   - **Maya & Barnaby**: Maya starts the briefing in full uniform (wearing her high heels over sheer pale brown pantyhose), with **Barnaby** dutifully sitting beside her holding a banana—and protectively eyeing her shoes.
 - **Plot Beat 2 (Quartermaster Lab / Comms Hub)**:
-  - *(Optional/New Character Slot)*: The **Gadget Quartermaster** hands out upgraded gear and gets into a heated argument with Saffron over why she keeps jamming the **Banana Blaster**.
+  - **Oliver Kade (Patch)** hands out upgraded gear in the Quartermaster Lab and gets into a heated argument with Saffron over why she keeps jamming the **Banana Blaster**, while quietly checking diagnostics linked to **Victoria Parker's cybernetic arm**.
   - **Emily Parker**, **Aoi Fujimoto (Lethe)**, and **Elise Mori** coordinate mission logistics. Aoi privately spots an encrypted signature matching the battle where **Victoria Parker (Raven)** went MIA, vowing again to find the truth while protecting Emily from the darkest details.
 
 ### Act II: High-Society Gala Infiltration & Rival Interference (第二幕：高級晚宴潛入與政務部特工亂入)
 - **Location**: `Luxury Marble Corridor / High-Security Gala Venue` & `Ministry of Political Affairs`
-- **Plot Beat 1 (Glamour & Undercover Entry)**:
+- **Plot Beat 1 (Glamour, Witness & Undercover Entry)**:
   - Supermodel **Airi Fujimoto** graces the gala red carpet, unintentionally providing cover for the Specialist Trio (**Evelyn, Naomi, Isabella**) to infiltrate the VIP lounge.
+  - Fashion student & part-time gala event assistant **Nia Vale** (in her red devil-horn headband, leather miniskirt, and sheer light-brown tights) accidentally spots a clandestine syndicate data handoff in the dusk corridor.
   - **Minister Helena Voss** attends as the Continental Union's political power broker, secretly dispatching her **Narcissistic Male Rival Agent** to secure the syndicate's target data before Griz's squad can touch it.
 - **Plot Beat 2 (Corridor Slapstick & Footwear Mishap Callback)**:
-  - **Saffron, Maya, Chloe, and Barnaby** take the back marble corridor route lined with floor-level red laser beams.
-  - Saffron attempts a "flawless Johnny English" acrobatic vault that backfires spectacularly, tangling with the **Narcissistic Rival Agent** and the **Unlucky Rookie Agent**.
+  - **Saffron, Maya, Chloe, Barnaby, and rookie Finn Calder (Trigger)** take the back marble corridor route lined with floor-level red laser beams.
+  - Saffron attempts a "flawless Johnny English" acrobatic vault that backfires spectacularly, tangling with the **Narcissistic Rival Agent** and knocking unlucky rookie **Finn Calder** straight into the chaos.
   - In the ensuing banana-peel / laser-grid scramble, **Maya** slips or gets her heels snagged (optional shoeless callback in sheer pale brown pantyhose), while **Barnaby** "helps" by tickling/carrying her out of the laser path, leaving **Chloe Han** to sip her tea with pinky extended.
 
 ### Act III: The Colossus Crashes the Party (第三幕：巨像襲擊與雙線交鋒)
@@ -56,7 +58,7 @@
   - **Isabella** collects her betting winnings; **Barnaby** proudly returns Maya's missing heel (stuffed with a banana peel).
 - **Plot Beat 2 (Conspiracy Cliffhanger)**:
   - **Aoi and Elise** isolate a single clear frame of **Victoria's cybernetic arm and 10D pantyhose silhouette** from the gala security feed, confirming beyond doubt that Raven is alive.
-  - Elsewhere, the **Syndicate Mastermind** reviews combat data from The Colossus, setting the stage for Episode 3.
+  - Elsewhere in a covert syndicate operations room illuminated by amber holo-displays, **Gideon Ward (The Broker)** calmly reviews combat telemetry from **The Colossus**, setting the stage for Episode 3.
 
 ---
 

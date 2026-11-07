@@ -2,21 +2,21 @@
 
 ## 1. Image Generation Rules: Two Distinct Formats (ChatGPT Image / Nano Banana)
 
-- **Base Visual Style (Applies to All Art)**: 2D cel-shaded anime blended with detailed comic linework, crisp black ink outlines, and high-contrast cinematic lighting.
-- **Stateless World Rule**: No real-world national flags, country names, or unintended watermark text.
+- **Base Visual Style (Applies to All Art)**: Clean 2D cel-shaded Japanese anime blended with detailed comic-style black ink outlines and high-contrast cinematic lighting. Non-photorealistic, no 3D CGI rendering or realistic photo skin textures.
+- **Stateless World Rule**: Continental Union alternate-modern setting; NO real-world national flags, country names, or unintended watermark text.
 
-### Format A: Character Turnaround Sheets (角色設定集 — 存入 `bible/character_sheets/`)
-- **When to Use**: When designing, updating, or documenting a character's canonical reference sheet.
-- **Required Multi-View Reference Sheet Layout** (following the exact template standard of **Airi Fujimoto** and **Helena Voss**):
-  1. **Full-Body 3-View Turnaround**: Full-body **Front, Side, and Back** views standing on a clean reference baseline.
-  2. **6 Facial Expression Close-Ups**: Distinct head/shoulder portraits showing key personality emotions (e.g., neutral, smirk/smile, angry/serious, surprised, embarrassed/flustered, signature expression).
-  3. **Outfit, Footwear, Hosiery & Accessory Detail Callout Boxes**: Dedicated zoomed-in inset boxes highlighting signature garments, hosiery/pantyhose texture & denier (e.g., 10D sheer, dotted sheer, fishnet, thigh-highs), high heels/footwear, and key props/weapons.
-  4. **Height Scale Ruler**: Vertical metric height scale bar (cm) alongside the full-body views.
-  5. **English / Japanese Profile Info Card**: Clean header/sidebar typography block displaying the character's Name, Codename/Title, Age, Height, Affiliation, and key personality/visual notes in English & Japanese.
+### Rule Set 1: 角色三視圖設定表 (Character Turnaround Sheets — 存入 `bible/character_sheets/`)
+- **Purpose**: Official character design reference sheets used to lock in visual identity across all AI tools.
+- **Required Multi-View Reference Sheet Layout** (strictly following the template standard of **Airi Fujimoto** and **Helena Voss**):
+  1. **Full-Body 3-View Turnaround (全身正、側、背面三視圖)**: Full-body **Front, Side, and Back** views standing on a clean reference baseline.
+  2. **6 Facial Expression Close-Ups (6種表情特寫)**: 6 distinct head/shoulder portraits showcasing core personality emotions (e.g., neutral, smirk/smile, serious/angry, surprised, flustered/embarrassed, signature expression).
+  3. **Outfit, Footwear, Hosiery & Accessory Detail Callout Boxes (服裝鞋襪配件細節框)**: Zoomed-in inset boxes highlighting signature garments, hosiery/pantyhose texture & denier (e.g., 10D light brown sheer, black dotted sheer, fishnet, sheer light-brown tights, white thigh-highs), high heels/boots, and signature props/weapons.
+  4. **Height Scale Ruler (身高比例尺)**: Vertical metric height scale bar (cm) alongside the full-body turnaround views.
+  5. **English / Japanese Profile Info Card (英文/日文簡介卡)**: Clean typography block displaying the character's Name, Codename/Title, Age, Height, Affiliation, and key visual/personality notes in English & Japanese.
 
-### Format B: Episode Storyboard Keyframes (分鏡算片底圖 — 存入 `ep1_shots/` 或 `ep2_shots/`)
-- **When to Use**: When generating shot-by-shot keyframe images intended as input frames for **Google Flow** and **MiniMax H3** video generation.
-- **CRITICAL SINGLE-FRAME RULE**: Strictly generate **individual, single-frame 16:9 widescreen full-bleed images** for each shot. **NEVER** combine multiple panels, inset boxes, character sheet callouts, or split-screen grids into an episode keyframe.
+### Rule Set 2: 單幅 16:9 劇集分鏡圖 (Single-Frame 16:9 Episode Storyboard Keyframes — 存入 `ep1_shots/` 或 `ep2_shots/`)
+- **Purpose**: Shot-by-shot keyframe images generated specifically as input frames for **Google Flow** and **MiniMax H3** video generation (or single-scene character concept previews).
+- **CRITICAL SINGLE-FRAME RULE**: Strictly generate **individual, single-frame 16:9 widescreen (1920×1080) full-bleed images** for each shot. **NEVER** combine multiple views, panels, inset callout boxes, character sheets, or split-screen grids into an episode keyframe.
 - **Close-Up Anti-3D Rule**: For close-up inserts of hands, feet, shoes, or props where faces are not visible, explicitly enforce: `strictly flat 2D anime cel-shading with visible black ink outlines, non-photorealistic, no 3D CGI rendering or realistic skin textures`.
 - **Footwear & Limb Clarity**: By default, Agent Maya wears her high heels with sheer pale brown pantyhose unless a scene specifically calls for a shoeless callback/gag. When multiple characters are on the floor, state: `Keep all legs and feet clearly separated on the floor`.
 

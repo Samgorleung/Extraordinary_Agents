@@ -8,17 +8,20 @@
 
 ### Episode 2 Planning (In Progress)
 - Preliminary Script Outline & Storyboard Framework created in `ep2_shots/storyboard.md` (Four-Act structure + 8-shot initial storyboard table).
-- Core Goal: Transition from Episode 1's intro into a structured mission blending the Field Comedy Trio (Maya, Saffron, Chloe + Barnaby) with the Specialist Trio (Evelyn, Naomi, Isabella) and the overarching Military Conspiracy (Victoria's MIA mystery, Aoi, Elise, Minister Helena Voss, and The Colossus).
-- Character Development To-Do (New Male Characters):
-  1. Gadget / Weapons Quartermaster (young tech genius who built the Banana Blaster and maintains Victoria's cybernetic arm; constantly argues with Saffron).
-  2. Narcissistic Male Rival Agent (dispatched by Minister Helena Voss; acts as a James Bond-style foil to Saffron's Johnny English antics).
-  3. Syndicate Mastermind (brains behind The Colossus, connected to Victoria's past).
-  4. Unlucky Rookie Male Agent (competent fighter with terrible luck who gets caught in Maya and Barnaby's slapstick crossfire).
+- Core Goal: Transition from Episode 1's intro into a structured mission blending the Field Comedy Trio (Maya, Saffron, Chloe + Barnaby) with the Specialist Trio (Evelyn, Naomi, Isabella) and the overarching Military Conspiracy (Victoria's MIA mystery, Aoi, Elise, Minister Helena Voss, Gideon Ward, and The Colossus).
+- Character Development Status (Episode 2 New Additions):
+  1. [DONE] **Oliver Kade / Patch (奧利佛・凱德／補丁)** — Gadget / Weapons Quartermaster (late-20s tech genius who built the Banana Blaster and maintains Victoria's cybernetic arm; constantly argues with Saffron).
+  2. [DONE] **Finn Calder / Trigger (芬恩・考爾德／觸發器)** — Unlucky Rookie Male Agent (competent fighter with spiky orange hair and terrible luck who gets caught in Maya and Barnaby's slapstick crossfire).
+  3. [DONE] **Gideon Ward / The Broker (基甸・沃德／經紀人)** — Syndicate Mastermind (calculating strategist behind The Colossus, connected to Victoria's MIA battle).
+  4. [DONE] **Nia Vale (妮雅・維爾)** — Civilian Gala Witness (22-year-old fashion student & part-time gala event assistant, acquaintance of Airi Fujimoto, who accidentally spots a clandestine syndicate handoff).
+  5. [TO-DO] **Narcissistic Male Rival Agent** (dispatched by Minister Helena Voss; acts as a James Bond-style foil to Saffron's Johnny English antics — still pending casting/design).
+  6. [TO-DO] Generate full **Character Turnaround Sheets (`bible/character_sheets/`)** for Nia Vale, Finn Calder, Gideon Ward, and Oliver Kade following Rule Set 1 in `prompts/style_guide.md`.
 
 ## 2. Changelog (更新日誌)
 
-### [2026-11-07] - Centralization & Deep Persona Overhaul
-- Updated `prompts/style_guide.md` to explicitly separate two image formats: **Format A: Character Turnaround Sheets** (`bible/character_sheets/`, multi-view reference layout with front/side/back views, 6 expressions, outfit/hosiery/footwear detail boxes, height ruler, and EN/JP profile card modeled after Airi Fujimoto & Helena Voss) vs. **Format B: Episode Storyboard Keyframes** (`ep1_shots/` & `ep2_shots/`, strictly single-frame 16:9 widescreen with no multi-panel grids for Flow & MiniMax H3).
+### [2026-11-07] - Centralization, Style Guide Split & 19-Character Roster Expansion
+- Integrated 4 new characters into `bible/character_roster.md` (expanding roster to 19 characters): **Nia Vale (妮雅・維爾)**, **Finn Calder / Trigger (芬恩・考爾德)**, **Gideon Ward / The Broker (基甸・沃德)**, and **Oliver Kade / Patch (奧利佛・凱德)**.
+- Updated `prompts/style_guide.md` to explicitly separate **Rule Set 1: 角色三視圖設定表 (Character Turnaround Sheets)** (`bible/character_sheets/`, multi-view reference layout with front/side/back views, 6 expressions, outfit/hosiery/footwear detail boxes, height ruler, and EN/JP profile card modeled after Airi Fujimoto & Helena Voss) vs. **Rule Set 2: 單幅 16:9 劇集分鏡圖 (Single-Frame 16:9 Episode Storyboard Keyframes)** (`ep1_shots/` & `ep2_shots/`, strictly single-frame 16:9 widescreen with no multi-panel grids for Flow & MiniMax H3).
 - Added AGENTS.md, PLANNING_CHANGELOG.md, and bible/locations.md.
 - Refined Character Personas (bible/character_roster.md):
   - Commander Griz: Clean-shaven, grizzled tactical commander who uses Maya and Saffron's unpredictability as a tactical weapon.
