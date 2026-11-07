@@ -15,11 +15,12 @@
   3. [DONE] **Gideon Ward / The Broker (基甸・沃德／經紀人)** — Syndicate Mastermind (calculating strategist behind The Colossus, connected to Victoria's MIA battle).
   4. [DONE] **Nia Vale (妮雅・維爾)** — Civilian Gala Witness (22-year-old fashion student & part-time gala event assistant, acquaintance of Airi Fujimoto, who accidentally spots a clandestine syndicate handoff).
   5. [TO-DO] **Narcissistic Male Rival Agent** (dispatched by Minister Helena Voss; acts as a James Bond-style foil to Saffron's Johnny English antics — still pending casting/design).
-  6. [TO-DO] Generate full **Character Turnaround Sheets (`bible/character_sheets/`)** for Nia Vale, Finn Calder, Gideon Ward, and Oliver Kade following Rule Set 1 in `prompts/style_guide.md`.
+  6. [DONE] Added & standardized **Character Turnaround Sheets (`bible/character_sheets/`)** for the 4 new characters: `Finn Calder.png`, `Nia Vale.png`, `Oliver Kade.png`, and `Gideon Ward.png`.
 
 ## 2. Changelog (更新日誌)
 
 ### [2026-11-07] - Centralization, Style Guide Split & 19-Character Roster Expansion
+- Added and renamed 4 new character turnaround sheets in `bible/character_sheets/`: `Finn Calder.png`, `Nia Vale.png`, `Oliver Kade.png`, and `Gideon Ward.png`.
 - Integrated 4 new characters into `bible/character_roster.md` (expanding roster to 19 characters): **Nia Vale (妮雅・維爾)**, **Finn Calder / Trigger (芬恩・考爾德)**, **Gideon Ward / The Broker (基甸・沃德)**, and **Oliver Kade / Patch (奧利佛・凱德)**.
 - Updated `prompts/style_guide.md` to explicitly separate **Rule Set 1: 角色三視圖設定表 (Character Turnaround Sheets)** (`bible/character_sheets/`, multi-view reference layout with front/side/back views, 6 expressions, outfit/hosiery/footwear detail boxes, height ruler, and EN/JP profile card modeled after Airi Fujimoto & Helena Voss) vs. **Rule Set 2: 單幅 16:9 劇集分鏡圖 (Single-Frame 16:9 Episode Storyboard Keyframes)** (`ep1_shots/` & `ep2_shots/`, strictly single-frame 16:9 widescreen with no multi-panel grids for Flow & MiniMax H3).
 - Added AGENTS.md, PLANNING_CHANGELOG.md, and bible/locations.md.
