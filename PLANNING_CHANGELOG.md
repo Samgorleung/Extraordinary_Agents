@@ -18,6 +18,7 @@
 ## 2. Changelog (更新日誌)
 
 ### [2026-11-07] - Centralization & Deep Persona Overhaul
+- Updated `prompts/style_guide.md` to explicitly separate two image formats: **Format A: Character Turnaround Sheets** (`bible/character_sheets/`, multi-view reference layout with front/side/back views, 6 expressions, outfit/hosiery/footwear detail boxes, height ruler, and EN/JP profile card modeled after Airi Fujimoto & Helena Voss) vs. **Format B: Episode Storyboard Keyframes** (`ep1_shots/` & `ep2_shots/`, strictly single-frame 16:9 widescreen with no multi-panel grids for Flow & MiniMax H3).
 - Added AGENTS.md, PLANNING_CHANGELOG.md, and bible/locations.md.
 - Refined Character Personas (bible/character_roster.md):
   - Commander Griz: Clean-shaven, grizzled tactical commander who uses Maya and Saffron's unpredictability as a tactical weapon.
