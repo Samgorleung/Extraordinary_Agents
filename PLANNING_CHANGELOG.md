@@ -20,7 +20,8 @@
 
 ## 2. Changelog (更新日誌)
 
-### [2026-11-08] - Dorian Marlowe (Mirror) Integration + Maya/Barnaby Ep2+ Evolution & AI Filter Safeguard
+### [2026-11-08] - Dorian Marlowe (Mirror) Integration + Maya "Incompetent Hawk (無能之鷹)" Persona Upgrade & AI Filter Safeguard
+- Upgraded **Agent Maya**'s core comedy persona to the **Tsumeko Takano (鷹野爪子 from *The Incompetent Hawk / 無能之鷹*)** archetype: projecting an ultra-professional elite aura while doing completely silly, clueless things with 100% deadpan earnestness (alongside Barnaby) that miraculously succeed by accident ("failing upwards / 錯有錯著").
 - Fixed `bible/character_roster.md`, `bible/world_rules.md`, `prompts/style_guide.md`, and `ep2_shots/storyboard.md` where an earlier WSL Python `.replace()` script had failed to overwrite Maya and Barnaby's old Ep1 descriptions:
   - Locked **Episode 1's shoeless/tickle incident strictly as their one-off Origin Story**.
   - Set **Episode 2+ default**: Maya keeps her high heels on, and Barnaby operates as her loyal protective guardian & buddy-cop partner (focusing on banana-peel traps, mixed-up gadgets, and slapstick chain reactions with Dorian Marlowe and Finn Calder—avoiding foot-tickling prompts that trigger AI content filter blocks).

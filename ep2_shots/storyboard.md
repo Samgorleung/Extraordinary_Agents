@@ -36,10 +36,10 @@
   - Supermodel **Airi Fujimoto** graces the gala red carpet, unintentionally providing cover for the Specialist Trio (**Evelyn, Naomi, Isabella**) to infiltrate the VIP lounge.
   - Fashion student & part-time gala event assistant **Nia Vale** (in her red devil-horn headband, leather miniskirt, and sheer light-brown tights) accidentally spots a clandestine syndicate data handoff in the dusk corridor.
   - **Minister Helena Voss** attends as the Continental Union's political power broker, secretly dispatching her narcissistic Special Liaison Operative **Dorian Marlowe (Mirror)** to secure the syndicate's target data before Griz's squad can touch it.
-- **Plot Beat 2 (Corridor Laser-Grid & Buddy-Cop Slapstick)**:
-  - **Saffron, Maya, Chloe, Barnaby, and rookie Finn Calder (Trigger)** take the back marble corridor route lined with floor-level red laser beams.
+- **Plot Beat 2 (Corridor Laser-Grid & "Incompetent Hawk / 無能之鷹" Accidental Genius)**:
+  - **Saffron, Maya, Chloe, Barnaby, and rookie Finn Calder (Trigger)** take the back marble corridor route lined with floor-level red laser beams, running into rival operative **Dorian Marlowe (Mirror)**.
   - Saffron attempts a "flawless Johnny English" acrobatic vault to upstage **Dorian Marlowe**, which backfires spectacularly—tangling Dorian's immaculate double-breasted suit.
-  - Trying to help **Maya**, **Barnaby** enthusiastically mimics spy hand-signals and hands Maya a peeled banana instead of her laser-decoder, while tossing the banana peel right under Dorian's polished dress shoes—sending Dorian and Saffron crashing straight into unlucky rookie **Finn Calder**, while Barnaby heroically hoists Maya onto his shoulder above the laser grid and **Chloe Han** calmly sips her tea with pinky extended.
+  - Meanwhile, **Maya** (channeling **Tsumeko Takano from *The Incompetent Hawk / 無能之鷹***) stands with ultra-professional, deadpan poise as **Barnaby** solemnly hands her a peeled banana instead of a laser-decoder. With 100% earnest focus, Maya inspects the banana like a classified device and crouches in her high heels to place the peel on the floor—miraculously ducking under a sweeping security laser, causing Dorian and Saffron to slip on the peel and crash straight into unlucky **Finn Calder**, and accidentally pressing the hidden marble wall switch that unlocks the vault while **Chloe Han** calmly sips her tea!
 
 ### Act III: The Colossus Crashes the Party (第三幕：巨像襲擊與雙線交鋒)
 - **Location**: `Luxury Marble Corridor / High-Security Gala Venue (Main Vault & Terrace)`
