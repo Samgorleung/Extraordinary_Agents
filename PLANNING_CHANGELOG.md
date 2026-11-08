@@ -20,7 +20,10 @@
 
 ## 2. Changelog (更新日誌)
 
-### [2026-11-08] - Dorian Marlowe (Mirror) Integration + Character Canon Rules + 4-Step Dispatch Pipeline
+### [2026-11-08] - Dorian Marlowe (Mirror) Integration + Maya/Barnaby Ep2+ Evolution & AI Filter Safeguard
+- Fixed `bible/character_roster.md`, `bible/world_rules.md`, `prompts/style_guide.md`, and `ep2_shots/storyboard.md` where an earlier WSL Python `.replace()` script had failed to overwrite Maya and Barnaby's old Ep1 descriptions:
+  - Locked **Episode 1's shoeless/tickle incident strictly as their one-off Origin Story**.
+  - Set **Episode 2+ default**: Maya keeps her high heels on, and Barnaby operates as her loyal protective guardian & buddy-cop partner (focusing on banana-peel traps, mixed-up gadgets, and slapstick chain reactions with Dorian Marlowe and Finn Calder—avoiding foot-tickling prompts that trigger AI content filter blocks).
 - Added and renamed `bible/character_sheets/Dorian Marlowe.png` and integrated **Dorian Marlowe / Mirror (多利安・馬洛／鏡像)** into `bible/character_roster.md` and `ep2_shots/storyboard.md` (completing all 5 new Episode 2 character slots and expanding the canonical roster to 20 characters).
 - Added Section 5 (**End-to-End Episode Production Pipeline & Antigravity Prompt-Dispatch Protocol**) to `AGENTS.md`, defining the 4-step workflow where Antigravity proactively provides ready-to-copy prompts for ChatGPT, Gemini, Google Flow, and MiniMax H3 at each production stage.
 - Added **Character Canon & Relationship Validation Rules** (Canon First, Relationship Lock, No Template Text Bleeding, Proposal vs. Canon) to `AGENTS.md` and `prompts/style_guide.md` to prevent layout reference text from bleeding into new character sheets (e.g., clarifying that Airi Fujimoto is Aoi's sister, while Nia Vale is an independent fashion student / gala assistant).

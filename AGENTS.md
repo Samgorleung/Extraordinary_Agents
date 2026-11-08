@@ -62,4 +62,4 @@ Antigravity 除咗負責本地檔案管理同 Git 同步之外，喺完成每一
 4. **Step 4: Dual-Engine Video Generation (雙引擎算片：Google Flow vs. MiniMax H3) 👉 Antigravity 直接寫入算片 Prompts**
    - **流程**：按鏡頭性質分流算片：
      - **Google Flow**：負責大場景 Establishing Shots、光影氣氛、緩慢推進及首尾幀過渡（Start-to-End Frame Transitions）。Antigravity 直接輸出 Flow 專用英文 Camera & Motion Instructions。
-     - **MiniMax H3 (WSL)**：負責快節奏武打（如 Chloe 高踢腿）、複雜肢體／絲襪腳底搞笑互動（如 Maya 除鞋與 Barnaby 互動）、以及多國語言對嘴（特別係地道香港廣東話口語 Lip-Sync）。Antigravity 直接生成並更新 `epX_shots/prompt.txt`（英文版）及 `epX_shots/prompt_hk.txt`（香港廣東話口語版，包含 `<Picture 1>` 標記）。
+     - **MiniMax H3 (WSL)**：負責快節奏武打（如 Chloe 高踢腿）、複雜肢體拍檔搞笑互動（如 Maya 與 Barnaby 蕉皮／道具烏龍、Saffron 與 Dorian 撞擊鬧劇）、以及多國語言對嘴（特別係地道香港廣東話口語 Lip-Sync）。Antigravity 直接生成並更新 `epX_shots/prompt.txt`（英文版）及 `epX_shots/prompt_hk.txt`（香港廣東話口語版，包含 `<Picture 1>` 標記）。

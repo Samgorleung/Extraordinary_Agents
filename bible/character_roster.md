@@ -3,32 +3,33 @@
 ## 1. Core Field Agents & Comedy Crew (Commander Griz's Squad)
 
 ### Agent Maya
-- **Visual & Outfit Anchor**: Adult woman with brown hair, tailored reddish-brown/red sleeveless blouse, dark brown mini skirt, sheer pale brown pantyhose.
-- **Personality & Running Gag**: Energetic, resourceful field agent who **always loses her shoes early in the action**. Forced to navigate missions completely shoeless in sheer pantyhose, making her perpetually vulnerable to stepping on banana peels, floor hazards, and tickle attacks.
+- **Visual & Outfit Anchor**: Adult woman with brown hair, tailored reddish-brown/red sleeveless blouse, dark brown mini skirt, sheer pale brown pantyhose, and **high heels (worn by default from Episode 2 onward)**.
+- **Persona & Combat Style**: Hot-blooded, big-hearted, and overly eager operative. Her body moves before her brain, causing her to charge headfirst into action with endearing clumsiness.
+- **Arc & Bond with Barnaby (Origin vs. Ep2+ Status)**: Prior to Episode 1, Maya and Barnaby were complete strangers; losing her shoes during Episode 1's infiltration was strictly their **one-off origin story** that turned them into inseparable best friends. **From Episode 2 onward, Maya wears her high heels normally**, and Barnaby stays by her side as her loyal protective guardian and buddy-cop partner—delivering PG-friendly action-comedy and clumsy gadget/banana-peel mishaps (without repeating foot-tickling gags that risk AI content filter blocks).
 
 ### Agent Saffron
 - **Visual & Outfit Anchor**: Adult woman with a sleek black updo, elegant black halter dress with a high side slit, sheer grey garter stockings, long black gloves, black high heels. Wields the **Banana Blaster**.
-- **Personality & Running Gag**: Maya's senior partner. Desperately wants to be a cool, ultra-serious, professional secret agent, but her clumsiness or over-enthusiasm always triggers hilarious slapstick disasters (rope tangles, crashing ziplines, physical comedy).
+- **Personality & Running Gag**: Maya's senior partner (the **Female Johnny English / Dan Hibiki** archetype). Desperately wants to be a cool, ultra-serious, professional secret agent and constantly tries to outshine **Evelyn Carter** and **Dorian Marlowe**, but her overconfidence always triggers hilarious slapstick disasters (rope tangles, crashing ziplines, gadget misfires).
 
-### Agent Chloe & White Rabbit
+### Agent Chloe Han (韓克洛伊) & White Rabbit
 - **Visual & Outfit Anchor**: Adult woman with dark bob hair, intricate blue-and-white floral evening gown, white thigh-high stockings, matching blue-and-white high heels. Accompanied everywhere by her white rabbit.
-- **Personality & Running Gag**: Imperturbable, ladylike elegance and deadpan calm. Keeps her pinky extended, loves sipping her tea, and effortlessly dodges chaos or handles heavy weapons with grace while Maya and Saffron tumble into a mess.
+- **Personality & Running Gag**: The squad's **VIP Sixth Ranger / Ultimate Ace**. Maintains imperturbable, ladylike elegance and deadpan calm—keeping her pinky extended while sipping tea as chaos unfolds around her, before effortlessly clearing the room with lethal, graceful **Taekwondo high-kick martial arts**.
 
 ### Barnaby the Orangutan
-- **Visual Anchor**: Large, highly expressive orangutan with long arms, often carrying a peeled yellow banana.
-- **Personality & Running Gag**: Mischievous team companion. Obsessed with women's shoes/heels, and cannot resist poking, tickling, inspecting, or licking banana residue off Maya's shoeless pantyhose soles.
+- **Visual Anchor**: Large, highly expressive orangutan with long arms, often carrying a banana.
+- **Persona & Bond**: Originally an unaligned orangutan encountered by chance in Episode 1. After bonding with Maya during their chaotic first encounter, he became her **devoted protective guardian and partner-in-crime**. Fiercely protective whenever Maya is threatened by enemies, yet overly playful during quiet missions—trying to imitate spy hand-signals, handing Maya a banana instead of a weapon magazine, or tossing banana peels under rival agents' feet.
 
 ### Agent Evelyn Carter (Codename: Vermilion / 朱紅)
 - **Visual & Outfit Anchor**: Light brown wavy long hair, white short-sleeve collared top, red mini skirt, black fishnet stockings (黑色網襪), red high heels.
-- **Personality & Role**: Confident, mature, slightly haughty specialist excelling in social engineering, high-society infiltration, and intelligence gathering.
+- **Personality & Role**: Confident, mature, slightly haughty specialist excelling in social engineering, high-society infiltration, and intelligence gathering. Loves teasing and looking down on Saffron's "elite agent" posturing.
 
 ### Agent Naomi Brooks (Codename: Violet / 紫羅蘭)
-- **Visual & Outfit Anchor**: Warm bronze skin, voluminous dark curly hair, black turtleneck sweater, beige pleated mini skirt, pink handbag, black ankle boots.
-- **Personality & Role**: Independent, decisive, highly vigilant field agent; cool and aloof on the outside but deeply protective of her teammates.
+- **Visual & Outfit Anchor**: Warm bronze skin, voluminous dark curly hair, black turtleneck sweater, beige pleated mini skirt, **bottomless pink tactical handbag**, black ankle boots.
+- **Personality & Role**: Independent, decisive, highly vigilant field agent; delivers deadpan snark and pulls impossibly large tactical gear out of her small pink handbag while remaining deeply protective of her teammates.
 
 ### Agent Isabella Chen (Codename: Phoenix / 鳳凰)
 - **Visual & Outfit Anchor**: East Asian features, long black wavy hair with a large red ribbon bow, ornate red-and-gold phoenix embroidered high-slit gown (or blue-and-white floral dress in Ep1), gold-patterned sheer stockings, red high heels.
-- **Personality & Role**: Elegant, composed, meticulous elite operative. Appears gentle and dignified, but is a master of disguise, deep infiltration, and psychological warfare.
+- **Personality & Role**: Elegant, composed, meticulous elite operative. Appears gentle and dignified, but is a smiling schemer, master of psychological warfare, and runs a secret HQ betting pool on her teammates' mission mishaps.
 
 ### Agent Finn Calder (芬恩・考爾德 / Codename: Trigger 觸發器)
 - **Visual & Outfit Anchor**: Young adult male with short spiky orange hair, serious amber eyes, athletic build, bright orange utility/training jacket with dark patches, black T-shirt/undershirt, dark gray/black cargo trousers with tactical pouches, sturdy gray lace-up combat boots.

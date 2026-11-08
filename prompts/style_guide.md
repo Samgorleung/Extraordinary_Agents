@@ -23,7 +23,10 @@
 - **Purpose**: Shot-by-shot keyframe images generated specifically as input frames for **Google Flow** and **MiniMax H3** video generation (or single-scene character concept previews).
 - **CRITICAL SINGLE-FRAME RULE**: Strictly generate **individual, single-frame 16:9 widescreen (1920×1080) full-bleed images** for each shot. **NEVER** combine multiple views, panels, inset callout boxes, character sheets, or split-screen grids into an episode keyframe.
 - **Close-Up Anti-3D Rule**: For close-up inserts of hands, feet, shoes, or props where faces are not visible, explicitly enforce: `strictly flat 2D anime cel-shading with visible black ink outlines, non-photorealistic, no 3D CGI rendering or realistic skin textures`.
-- **Footwear & Limb Clarity**: By default, Agent Maya wears her high heels with sheer pale brown pantyhose unless a scene specifically calls for a shoeless callback/gag. When multiple characters are on the floor, state: `Keep all legs and feet clearly separated on the floor`.
+- **Footwear, Limb Clarity & AI Filter Safety (Episode 2+ Standard)**:
+  - From Episode 2 onward, **Agent Maya wears her high heels with sheer pale brown pantyhose by default**. The shoeless/foot-tickling gag was strictly Episode 1's one-off origin story.
+  - **AI Content Filter Safeguard**: Never write prompts describing foot-tickling, licking soles, or bare/stockinged foot fetish tropes, as ChatGPT, Gemini, and Google Flow safety filters frequently misclassify them as adult/sexual content. Focus Maya & Barnaby's comedy on **classic buddy-cop slapstick** (banana-peel slips, handing over the wrong gadget, Barnaby protectively body-slamming threats, or knocking over Dorian Marlowe and Finn Calder).
+  - When multiple characters are on the floor, state: `Keep all legs and feet clearly separated on the floor`.
 
 ---
 
