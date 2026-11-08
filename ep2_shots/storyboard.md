@@ -270,3 +270,118 @@
 | **Ep2_Shot_18** | Act IV | Maya & Barnaby earnest high-five with victory bananas + Isabella collecting bets + Dorian in awe | **MiniMax H3** | `--mode reference` (~1 CU) |
 | **Ep2_Shot_19** | Act IV | Aoi & Elise zooming in on clear monitor frame of Victoria's cybernetic arm & 10D pantyhose | **Google Flow** | `8s Tier (12 Credits)` / Screen Zoom |
 | **Ep2_Shot_20** | Act IV | Syndicate Mastermind Gideon Ward reviewing Colossus mask & Raven telemetry in amber-lit room | **Google Flow** | `8s Tier (12 Credits)` / Villain Teaser |
+
+---
+
+## 4. Step 3: Single-Frame 16:9 Keyframe Image Prompts & Reference Sheet Guide (20 鏡算片底圖生圖指南)
+
+> **CRITICAL RULE SET 2 REMINDER**: Every image MUST be generated as an **individual, single-frame 16:9 widescreen (1920×1080) full-bleed anime keyframe**. NEVER combine multiple views, inset boxes, character sheets, or split-screen grids.
+
+### Act I Keyframe Prompts (`Ep2_Shot_01` – `Ep2_Shot_05`)
+
+- **`Ep2_Shot_01` (Save as `ep2_shots/1.png` or `1.jpg`)**
+  - **Attach Reference Sheets (`bible/character_sheets/`)**: `Commander Griz.jpg`, `Agent Maya.jpg`, `Agent Saffron.jpg`, `Agent Chloe.jpg`, `Finn Calder.png`
+  - **16:9 Image Prompt**:
+    `Single-frame 16:9 widescreen cinematic 2D cel-shaded Japanese anime with crisp black ink outlines, no split screen, no collage, no text. Inside the Continental Union HQ Operations Command Center with a glowing cyan holographic tactical table. On the center-left, 190cm tall muscular Commander Griz (buzz cut, clean-shaven stern jaw, no mask, black tactical combat vest and gloves) leans one hand on the glass table while rubbing his temples with a heavy sigh. Next to him, Agent Maya (wavy shoulder-length brown hair with earpiece, reddish-brown ribbed sleeveless top, dark brown mini skirt with waist ID badge, sheer pale brown pantyhose, burgundy high heels) stands with ultra-poised elite posture and a deadpan serious gaze as she and Barnaby the large orange orangutan solemnly inspect the ripening spots on a yellow banana together. On the right, Agent Saffron (black updo, black high-slit halter gown, sheer grey thigh-high garter stockings with thigh holster, long black gloves, black heels) poses dramatically with hands on hips; Agent Chloe Han (dark bob with blue-and-white floral hair ornament, blue-and-white floral sheer-sleeve high-slit gown, sheer skin-tone stockings with jeweled thigh garter strap, silver-white floral heels) calmly sips tea with pinky extended beside her blue-ribbon white rabbit; rookie Finn Calder (spiky orange hair, bright orange utility jacket, dark gray cargo pants, combat boots) stands at nervous attention. Keep all legs and feet clearly separated on the floor.`
+
+- **`Ep2_Shot_02` (Save as `ep2_shots/2.png` or `2.jpg`)**
+  - **Attach Reference Sheets (`bible/character_sheets/`)**: `Evelyn Cater.jpg`, `Naomi Brooks.jpg`, `Isabella Chen.jpg`, `Agent Saffron.jpg`
+  - **16:9 Image Prompt**:
+    `Single-frame 16:9 widescreen 2D cel-shaded Japanese anime with crisp black ink outlines, no panels or grids, no text. Medium 3-shot inside the cyan-lit HQ Command Center. On the left, Agent Evelyn Carter (light brown wavy hair, white short-sleeve collared top, red mini skirt, black fishnet stockings, red high heels) crosses her arms with a teasing smirk toward Agent Saffron's silhouette in the foreground edge. In the center, Agent Naomi Brooks (warm bronze skin, voluminous dark curly hair, black turtleneck sweater, beige pleated mini skirt, black ankle boots) deadpans as she pulls a massive heavy tactical grapple-launcher out of her tiny pink handbag. On the right, Agent Isabella Chen (long black wavy hair with large red ribbon bow, ornate red-and-gold phoenix embroidered high-slit gown, gold-patterned sheer stockings, red high heels) smiles sweetly while holding open a small betting notebook.`
+
+- **`Ep2_Shot_03` (Save as `ep2_shots/3.png` or `3.jpg`)**
+  - **Attach Reference Sheets (`bible/character_sheets/`)**: `Oliver Kade.png`, `Agent Saffron.jpg`, `Finn Calder.png`
+  - **16:9 Image Prompt**:
+    `Single-frame 16:9 widescreen 2D cel-shaded Japanese anime with crisp black ink outlines, no split screen, no text. Inside the high-tech HQ Quartermaster Lab with turquoise holographic weapon schematics. On the left, Quartermaster Oliver Kade (late-20s male, wavy brown side-swept hair, square black-rimmed glasses, rolled-up white shirt sleeves, fitted charcoal waistcoat, dark trousers) holds up the yellow Banana Blaster pistol in exasperation as mashed yellow banana drips from its jammed barrel. On the right, Agent Saffron (black updo, black high-slit halter gown, sheer grey garter stockings, long black gloves) argues back unapologetically with hands on hips. In the center background between them, unlucky rookie Finn Calder (spiky orange hair, bright orange utility jacket) flinches backward and bumps the back of his head into a metal weapon rack with teary comic shock.`
+
+- **`Ep2_Shot_04` (Save as `ep2_shots/4.png` or `4.jpg`)**
+  - **Attach Reference Sheets (`bible/character_sheets/`)**: `Oliver Kade.png`, `Emily Parker.jpg`
+  - **16:9 Image Prompt**:
+    `Single-frame 16:9 widescreen 2D cel-shaded Japanese anime with crisp black ink outlines, no panels or grids, no text. Over-the-shoulder medium close-up in the corner of the HQ Quartermaster Lab. Oliver Kade (wavy brown hair, square black-rimmed glasses, white shirt with rolled sleeves and charcoal waistcoat) quickly presses a key to hide a glowing cyan monitor schematic of a silver cybernetic mechanical arm, turning with a warm, protective smile toward Emily Parker (long wavy brown hair, emerald green eyes, red blazer jacket, blue tight mini skirt, red high heels) as she hands him a folder of gala security clearances.`
+
+- **`Ep2_Shot_05` (Save as `ep2_shots/5.png` or `5.jpg`)**
+  - **Attach Reference Sheets (`bible/character_sheets/`)**: `Aoi Fujimoto.jpg`, `Elise Mori.jpg`, `Emily Parker.jpg`
+  - **16:9 Image Prompt**:
+    `Single-frame 16:9 widescreen 2D cel-shaded Japanese anime with crisp black ink outlines, no flags, no text, no split screen. Inside the Military Intelligence Comms & Decryption Hub glowing with purple and green server indicator lights and a night metropolis skyline window. Aoi Fujimoto (long purple hair with tactical headset, purple military comms uniform jacket, dark blue mini skirt, purple high heels) types rapidly with a sharp, focused gaze as an encrypted purple waveform flashes on the main monitor. Beside her, Elise Mori (blonde ponytail, blue eyes, dark green military administrative skirt suit, 10D light brown sheer pantyhose, red high heels) places a reassuring hand on Emily Parker's shoulder while exchanging a resolute look with Aoi.`
+
+### Act II Keyframe Prompts (`Ep2_Shot_06` – `Ep2_Shot_10`)
+
+- **`Ep2_Shot_06` (Save as `ep2_shots/6.png` or `6.jpg`)**
+  - **Attach Reference Sheets (`bible/character_sheets/`)**: `Airi Fujimoto.png`, `Nia Vale.png`, `Evelyn Cater.jpg`, `Naomi Brooks.jpg`, `Isabella Chen.jpg`
+  - **16:9 Image Prompt**:
+    `Single-frame 16:9 widescreen cinematic 2D cel-shaded Japanese anime with crisp black ink outlines, no split screen, no text. Grand entrance of the Luxury Marble Gala Venue with tall neoclassical columns and warm amber sconces. In the foreground, supermodel Airi Fujimoto (tall, long wavy dark brown hair with violet nuances, light pink polka-dot deep-V blouse with model ID lanyard, black high-slit tight mini skirt, black patent high heels) waves gracefully at flashing press cameras while smiling at event assistant Nia Vale (warm brown skin, long wavy dark hair, small red devil-horn headband, gold hoop earrings, red ribbed turtleneck under black leather jacket, black leather side-slit miniskirt, sheer light-brown pantyhose, glossy black ankle-strap heels) holding a clipboard. In the background, Evelyn Carter, Naomi Brooks, and Isabella Chen slip smoothly past distracted guards through a VIP archway.`
+
+- **`Ep2_Shot_07` (Save as `ep2_shots/7.png` or `7.jpg`)**
+  - **Attach Reference Sheets (`bible/character_sheets/`)**: `Helena Voss.png`, `Dorian Marlowe.png`
+  - **16:9 Image Prompt**:
+    `Single-frame 16:9 widescreen 2D cel-shaded Japanese anime with crisp black ink outlines, no panels or grids, no text. Low-angle dramatic two-shot on the mezzanine marble balcony overlooking the luxury gala hall, cool blue moonlight contrasting with warm amber chandelier light. Political Affairs Minister Helena Voss (180cm, sophisticated brown updo, gold hoop earrings, tailored dark brown-black long double-breasted coat-dress, sheer black dotted pantyhose, white pointed high heels) leans poised against the marble balustrade. Beside her, rival operative Dorian Marlowe (186cm, sleek dark parted hair, immaculate black double-breasted suit with gold buttons, white shirt, black tie with gold tie pin, white pocket square, Ministerial badge, black leather gloves) removes his aviator sunglasses with one hand while admiring his own reflection in a small hand mirror with a narcissistic smirk.`
+
+- **`Ep2_Shot_08` (Save as `ep2_shots/8.png` or `8.jpg`)**
+  - **Attach Reference Sheets (`bible/character_sheets/`)**: `Nia Vale.png`
+  - **16:9 Image Prompt**:
+    `Single-frame 16:9 widescreen 2D cel-shaded Japanese anime with crisp black ink outlines, no collage, no text. Suspenseful deep-focus shot in a shadowy dusk side wing of the Luxury Marble Corridor. In the foreground, Nia Vale (warm brown skin, long dark wavy hair, small red decorative devil-horn headband, gold hoops, red ribbed turtleneck, black leather jacket, black leather side-slit miniskirt, sheer light-brown tights, glossy black ankle-strap heels) peeks tensely from behind a neoclassical marble column, holding her rabbit-motif smartphone as she witnesses a shadowy syndicate courier in the background slotting a glowing gold chip into a hidden vault door.`
+
+- **`Ep2_Shot_09` (Save as `ep2_shots/9.png` or `9.jpg`)**
+  - **Attach Reference Sheets (`bible/character_sheets/`)**: `Agent Maya.jpg`, `Dorian Marlowe.png`, `Agent Saffron.jpg`, `Finn Calder.png`
+  - **16:9 Image Prompt**:
+    `Single-frame 16:9 widescreen 2D cel-shaded Japanese anime with crisp black ink outlines, no split screen, no text. Medium-wide standoff in a neoclassical marble corridor crisscrossed with thin red security laser beams near the floor. On the left, Agent Maya (wavy brown hair with earpiece, reddish-brown sleeveless top, dark brown mini skirt, sheer pale brown pantyhose, burgundy high heels) stands with ultra-elite, deadpan seriousness as Barnaby the orangutan solemnly hands her a peeled yellow banana; Maya raises the banana to eye level aiming it like a high-precision optical instrument at the red lasers. On the right, narcissistic rival agent Dorian Marlowe (in his tailored black double-breasted suit) stares at Maya with a cold sweat drop of shocked disbelief, while Agent Saffron and orange-haired rookie Finn Calder watch from behind. Keep all legs and feet clearly separated on the floor.`
+
+- **`Ep2_Shot_10` (Save as `ep2_shots/10.png` or `10.jpg`)**
+  - **Attach Reference Sheets (`bible/character_sheets/`)**: `Agent Maya.jpg`, `Dorian Marlowe.png`, `Agent Saffron.jpg`, `Finn Calder.png`, `Agent Chloe.jpg`
+  - **16:9 Image Prompt**:
+    `Single-frame 16:9 widescreen 2D cel-shaded Japanese anime with crisp black ink outlines, no panels or grids, no text. Dynamic slapstick wide shot in the laser-grid marble corridor. On the left, Agent Maya (in her reddish-brown top, dark brown mini skirt, sheer pale brown pantyhose, and burgundy high heels) gracefully crouches with 100% deadpan focus beside Barnaby the orangutan to place a banana peel neatly on the floor—narrowly ducking under a red laser beam as her elbow accidentally presses a wall switch that unlocks the heavy vault door. In the center, Dorian Marlowe slips wildly on a banana peel and collides mid-air with a leaping Agent Saffron, bowling straight into unlucky rookie Finn Calder against a marble pillar. On the far right, Agent Chloe Han (in her blue-and-white floral gown, sheer skin-tone stockings with jeweled thigh garter, and silver-white floral heels) calmly sips tea with pinky extended beside her white rabbit. Keep all legs and feet clearly separated on the floor.`
+
+### Act III Keyframe Prompts (`Ep2_Shot_11` – `Ep2_Shot_16`)
+
+- **`Ep2_Shot_11` (Save as `ep2_shots/11.png` or `11.jpg`)**
+  - **Attach Reference Sheets (`bible/character_sheets/`)**: `The Colossus.jpg`
+  - **16:9 Image Prompt**:
+    `Single-frame 16:9 widescreen epic 2D cel-shaded Japanese anime with crisp black ink outlines, no split screen, no text. Low-angle establishing shot in the Gala Main Vault Hall as billowing smoke and shattered marble debris fly outward. Towering 210cm juggernaut The Colossus strides through the blasted vault doorway, clad in heavy ornate golden armor and an eerie smiling metal mask, wielding a giant golden battleaxe in one hand and a massive warhammer in the other, dramatic lighting and sparks.`
+
+- **`Ep2_Shot_12` (Save as `ep2_shots/12.png` or `12.jpg`)**
+  - **Attach Reference Sheets (`bible/character_sheets/`)**: `Dorian Marlowe.png`, `The Colossus.jpg`, `Naomi Brooks.jpg`, `Evelyn Cater.jpg`, `Isabella Chen.jpg`, `Airi Fujimoto.png`, `Nia Vale.png`
+  - **16:9 Image Prompt**:
+    `Single-frame 16:9 widescreen 2D cel-shaded Japanese anime with crisp black ink outlines, no split screen, no text. Two-layer action shot in the Gala Main Vault Hall. In the foreground, Dorian Marlowe (in his black double-breasted suit) aims his sleek gadget pen as a tiny electric dart bounces harmlessly with a small spark off the massive golden chest armor of The Colossus, freezing Dorian's face in comedic horror. In the background, Agent Naomi Brooks pulls a full-sized tactical riot shield out of her small pink handbag while Evelyn Carter and Isabella Chen escort supermodel Airi Fujimoto and Nia Vale toward the exit.`
+
+- **`Ep2_Shot_13` (Save as `ep2_shots/13.png` or `13.jpg`)**
+  - **Attach Reference Sheets (`bible/character_sheets/`)**: `Agent Chloe.jpg`, `The Colossus.jpg`, `Dorian Marlowe.png`
+  - **16:9 Image Prompt**:
+    `Single-frame 16:9 widescreen high-impact 2D cel-shaded Japanese anime with crisp black ink outlines and dynamic speed lines, no split screen, no text. In the center of the Gala Vault Hall, Agent Chloe Han (dark bob hair with blue-and-white floral ornament, intricate blue-and-white floral evening gown with sheer flowing sleeves and high side slit, sheer skin-tone stockings with a jeweled thigh garter strap, and silver-white floral ankle-strap high heels) leaps gracefully into mid-air, executing a devastating high-kick Taekwondo strike whose heel slams directly into the side of The Colossus's giant warhammer in a burst of golden-silver sparks, deflecting it away from a stunned Dorian Marlowe sitting on the floor behind her, while Chloe's blue-ribbon white rabbit holds her teacup nearby.`
+
+- **`Ep2_Shot_14` (Save as `ep2_shots/14.png` or `14.jpg`)**
+  - **Attach Reference Sheets (`bible/character_sheets/`)**: `Agent Maya.jpg`, `Agent Saffron.jpg`, `The Colossus.jpg`, `Finn Calder.png`
+  - **16:9 Image Prompt**:
+    `Single-frame 16:9 widescreen 2D cel-shaded Japanese anime with crisp black ink outlines, no split screen, no text. Action-comedy chain reaction in the Gala Vault Hall. In the foreground, Agent Maya (with deadpan elite focus, wearing her reddish-brown sleeveless top, dark brown mini skirt, sheer pale brown pantyhose, and burgundy high heels) takes a fresh banana from Barnaby the orangutan and slams it like a rifle magazine into the side vent of Agent Saffron's Banana Blaster pistol; a bright plasma beam fires straight upward from the jammed gun into the ceiling, snapping the chain of a giant crystal chandelier that crashes down onto The Colossus in the background, while a stray crystal ball bonks unlucky orange-haired Finn Calder on the head.`
+
+- **`Ep2_Shot_15` (Save as `ep2_shots/15.png` or `15.jpg`)**
+  - **Attach Reference Sheets (`bible/character_sheets/`)**: `Victoria Parker.jpg`, `The Colossus.jpg`
+  - **16:9 Image Prompt**:
+    `Single-frame 16:9 widescreen cinematic 2D cel-shaded Japanese anime with crisp black ink outlines, no split screen, no text. Epic backlit moonlight shot at the shattered tall arched terrace windows of the Gala Venue. Silhouetted against a giant full moon, Victoria Parker (Codename Raven, brown hair in high ponytail, emerald green eyes, red-and-black tactical combat outfit, black mini skirt, 10D light brown ultra-sheer pantyhose with subtle silk sheen, and silver cybernetic mechanical right arm) descends from the night sky with giant dark feathered/mechanical wings unfurled, facing down the towering golden-armored Colossus below.`
+
+- **`Ep2_Shot_16` (Save as `ep2_shots/16.png` or `16.jpg`)**
+  - **Attach Reference Sheets (`bible/character_sheets/`)**: `Victoria Parker.jpg`, `The Colossus.jpg`, `Agent Maya.jpg`, `Finn Calder.png`
+  - **16:9 Image Prompt**:
+    `Single-frame 16:9 widescreen high-impact 2D cel-shaded Japanese anime with crisp black ink outlines, no split screen, no text. On the moonlit gala terrace, Victoria Parker (Raven, in her red-and-black tactical outfit, black mini skirt, 10D light brown ultra-sheer pantyhose, and dark wings) clashes her glowing silver cybernetic mechanical arm directly against The Colossus's giant golden battleaxe in a brilliant burst of blue and gold shockwave sparks, forcing the juggernaut back toward the ledge as Victoria glances coolly over her shoulder while Maya and Finn Calder rush into the background.`
+
+### Act IV Keyframe Prompts (`Ep2_Shot_17` – `Ep2_Shot_20`)
+
+- **`Ep2_Shot_17` (Save as `ep2_shots/17.png` or `17.jpg`)**
+  - **Attach Reference Sheets (`bible/character_sheets/`)**: `Commander Griz.jpg`, `Oliver Kade.png`, `Finn Calder.png`
+  - **16:9 Image Prompt**:
+    `Single-frame 16:9 widescreen 2D cel-shaded Japanese anime with crisp black ink outlines, no split screen, no text. Medium comedy reaction shot inside the cyan-lit HQ Command Center. On the left, 190cm clean-shaven, buzz-cut Commander Griz (no mask, wearing his black tactical vest uniform) holds a comically long paper repair invoice trailing onto the floor with one hand while pressing his other hand flat against his forehead in soul-crushed exasperation. In the center, Quartermaster Oliver Kade (square glasses, white shirt with rolled sleeves, charcoal waistcoat) cradles his scorched, banana-jammed Banana Blaster in anguish. On the right, unlucky rookie Finn Calder stands blankly with a bandage cross on his forehead and his arm in a sling.`
+
+- **`Ep2_Shot_18` (Save as `ep2_shots/18.png` or `18.jpg`)**
+  - **Attach Reference Sheets (`bible/character_sheets/`)**: `Agent Maya.jpg`, `Isabella Chen.jpg`, `Evelyn Cater.jpg`, `Naomi Brooks.jpg`, `Dorian Marlowe.png`
+  - **16:9 Image Prompt**:
+    `Single-frame 16:9 widescreen 2D cel-shaded Japanese anime with crisp black ink outlines, no split screen, no text. Lively ensemble medium-wide shot in the HQ Command Center. On the left, Agent Maya (in her reddish-brown sleeveless blouse, dark brown mini skirt, sheer pale brown pantyhose, and burgundy high heels) maintains an ultra-poised elite smile as she shares a solemn high-five with Barnaby the orangutan while holding a bunch of victory bananas. In the center, Isabella Chen happily collects a stack of betting cash from Evelyn Carter and Naomi Brooks. On the right, Dorian Marlowe stands in his rumpled black double-breasted suit and crooked tie, staring at Maya in lingering awe.`
+
+- **`Ep2_Shot_19` (Save as `ep2_shots/19.png` or `19.jpg`)**
+  - **Attach Reference Sheets (`bible/character_sheets/`)**: `Aoi Fujimoto.jpg`, `Elise Mori.jpg`, `Victoria Parker.jpg`
+  - **16:9 Image Prompt**:
+    `Single-frame 16:9 widescreen dramatic 2D cel-shaded Japanese anime with crisp black ink outlines, no split screen, no text. Inside the Military Intelligence Comms Hub illuminated by purple and green server lights. Elise Mori (blonde ponytail, dark green military uniform skirt suit, 10D light brown sheer pantyhose) points at the main high-resolution monitor, which displays a zoomed-in, crystal-clear security freeze-frame of Victoria Parker (Raven) in moonlight showing her silver cybernetic arm, dark wings, and 10D light brown pantyhose silhouette. Beside her, Aoi Fujimoto (long purple hair, purple military comms uniform) clenches her fists with fierce, emotional determination.`
+
+- **`Ep2_Shot_20` (Save as `ep2_shots/20.png` or `20.jpg`)**
+  - **Attach Reference Sheets (`bible/character_sheets/`)**: `Gideon Ward.png`, `The Colossus.jpg`
+  - **16:9 Image Prompt**:
+    `Single-frame 16:9 widescreen thriller 2D cel-shaded Japanese anime with crisp black ink outlines, graphic novel shadows, no split screen, no text. Inside a dark covert syndicate operations room lit by warm amber-red holographic displays. Syndicate mastermind Gideon Ward (early-40s rugged male, cropped dark brown hair, neat full stubble beard, intense gray eyes, weathered dark olive-charcoal field jacket) sits at a command desk with fingers steepled and a cold, calculating half-smile. On the desk sits The Colossus's heavy golden smiling metal mask with a scuff mark on its cheek, while amber holo-screens behind him display telemetry of Chloe's high kick and Raven's wing wavelength.`
+
