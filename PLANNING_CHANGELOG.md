@@ -19,7 +19,8 @@
 
 ## 2. Changelog (更新日誌)
 
-### [2026-11-08] - Character Canon & Relationship Validation Rules + Nia Vale Sheet Fix
+### [2026-11-08] - Character Canon & Relationship Validation Rules + Nia Vale Sheet Fix + 4-Step Dispatch Pipeline
+- Added Section 5 (**End-to-End Episode Production Pipeline & Antigravity Prompt-Dispatch Protocol**) to `AGENTS.md`, defining the 4-step workflow where Antigravity proactively provides ready-to-copy prompts for ChatGPT, Gemini, Google Flow, and MiniMax H3 at each production stage.
 - Added **Character Canon & Relationship Validation Rules** (Canon First, Relationship Lock, No Template Text Bleeding, Proposal vs. Canon) to `AGENTS.md` and `prompts/style_guide.md` to prevent layout reference text from bleeding into new character sheets (e.g., clarifying that Airi Fujimoto is Aoi's sister, while Nia Vale is an independent fashion student / gala assistant).
 - Updated `bible/character_sheets/Nia Vale.png` with corrected profile text.
 
