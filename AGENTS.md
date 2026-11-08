@@ -38,3 +38,10 @@ B. 當資料夾加入咗新圖片或改咗檔案後推上 GitHub:
 
 C. 叫 ChatGPT 或另一個 Gemini 開工嘅標準開頭 Prompt:
    "請先讀取我 GitHub Samgorleung/Extraordinary_Agents 入面嘅 AGENTS.md、PLANNING_CHANGELOG.md、prompts/style_guide.md 同埋 bible/ 資料夾下嘅設定檔，跟住最新進度幫我處理以下任務："
+
+## 4. Character Canon & Relationship Validation Rules (角色正史與親屬關係防呆守則)
+
+1. **Canon First (正史優先)**：所有角色背景、身份及人際關係必須嚴格以 `bible/character_roster.md` 為唯一標準（Single Source of Truth）。
+2. **Relationship Lock (關係鎖定)**：嚴禁擅自捏造或混淆親屬／血緣關係（例如：**Nia Vale 絕對唔係藤本葵 Aoi Fujimoto 嘅妹妹**，**Airi Fujimoto 藤本愛莉** 先係藤本葵嘅親妹妹；**Emily Parker** 先係 **Victoria Parker** 嘅親妹妹）。
+3. **No Template Text Bleeding (嚴禁排版參考圖文字滲漏)**：借用舊角色設定圖（如 Airi Fujimoto 或 Helena Voss）做排版參考（Layout Reference）時，嚴禁將參考圖嘅親屬關係、角色簡介或性格文字抄落新角色度；新角色設定表上嘅所有文字必須完全根據新角色本身嘅正史重寫。
+4. **Proposal vs. Canon (提案與正史分界)**：AI 新構思嘅角色背景或關係必須先標示為 `PROPOSED`（提案），經創作者確認後先至可以寫入 `bible/character_roster.md` 成為 Canon（正史）。

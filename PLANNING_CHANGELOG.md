@@ -19,6 +19,10 @@
 
 ## 2. Changelog (更新日誌)
 
+### [2026-11-08] - Character Canon & Relationship Validation Rules + Nia Vale Sheet Fix
+- Added **Character Canon & Relationship Validation Rules** (Canon First, Relationship Lock, No Template Text Bleeding, Proposal vs. Canon) to `AGENTS.md` and `prompts/style_guide.md` to prevent layout reference text from bleeding into new character sheets (e.g., clarifying that Airi Fujimoto is Aoi's sister, while Nia Vale is an independent fashion student / gala assistant).
+- Updated `bible/character_sheets/Nia Vale.png` with corrected profile text.
+
 ### [2026-11-07] - Centralization, Style Guide Split & 19-Character Roster Expansion
 - Added and renamed 4 new character turnaround sheets in `bible/character_sheets/`: `Finn Calder.png`, `Nia Vale.png`, `Oliver Kade.png`, and `Gideon Ward.png`.
 - Integrated 4 new characters into `bible/character_roster.md` (expanding roster to 19 characters): **Nia Vale (妮雅・維爾)**, **Finn Calder / Trigger (芬恩・考爾德)**, **Gideon Ward / The Broker (基甸・沃德)**, and **Oliver Kade / Patch (奧利佛・凱德)**.
