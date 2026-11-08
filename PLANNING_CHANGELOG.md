@@ -3,7 +3,7 @@
 ## 1. Active Production Roadmap (目前計劃與待辦事項)
 
 ### Episode 1 Status: Completed / Archiving
-- Core comedy setup established: Maya loses her shoes and meets Barnaby the orangutan during a chaotic infiltration; Barnaby tickles her pantyhose soles; Saffron's "female Johnny English" antics backfire; Chloe Han steps in as the VIP Sixth-Ranger ace to clear the room with high-kick martial arts.
+- Core comedy setup established: Maya loses her shoes and meets Barnaby the orangutan during a chaotic infiltration; Saffron's overconfident superspy stunts backfire; Chloe Han steps in as the VIP Sixth-Ranger ace to clear the room with high-kick martial arts.
 - Resulting Arc: Maya and Barnaby become inseparable best friends and partners from Episode 2 onward.
 
 ### Episode 2 Planning (In Progress)
@@ -14,17 +14,18 @@
   2. [DONE] **Finn Calder / Trigger (芬恩・考爾德／觸發器)** — Unlucky Rookie Male Agent (competent fighter with spiky orange hair and terrible luck who gets caught in Maya and Barnaby's slapstick crossfire).
   3. [DONE] **Gideon Ward / The Broker (基甸・沃德／經紀人)** — Syndicate Mastermind (calculating strategist behind The Colossus, connected to Victoria's MIA battle).
   4. [DONE] **Nia Vale (妮雅・維爾)** — Civilian Gala Witness (22-year-old fashion student & part-time gala event assistant, acquaintance of Airi Fujimoto, who accidentally spots a clandestine syndicate handoff).
-  5. [DONE] **Dorian Marlowe / Mirror (多利安・馬洛／鏡像)** — Narcissistic Male Rival Agent (31-year-old, 186 cm Special Liaison Operative dispatched by Minister Helena Voss; acts as a suave James Bond-style foil to Saffron's Johnny English antics).
+  5. [DONE] **Dorian Marlowe / Mirror (多利安・馬洛／鏡像)** — Narcissistic Male Rival Agent (31-year-old, 186 cm Special Liaison Operative dispatched by Minister Helena Voss; acts as a suave, image-obsessed gentleman spy competing to outshine Saffron).
   6. [DONE] Added & standardized **Character Turnaround Sheets (`bible/character_sheets/`)** for all 5 new Episode 2 characters: `Finn Calder.png`, `Nia Vale.png`, `Oliver Kade.png`, `Gideon Ward.png`, and `Dorian Marlowe.png`.
 - Next Production Step (Step 2): Expand `ep2_shots/storyboard.md` into a full Shot-by-Shot Script & Dialogue list (EN / HK Cantonese).
 
 ## 2. Changelog (更新日誌)
 
-### [2026-11-08] - Dorian Marlowe (Mirror) Integration + Maya "Incompetent Hawk (無能之鷹)" Persona Upgrade & AI Filter Safeguard
-- Upgraded **Agent Maya**'s core comedy persona to the **Tsumeko Takano (鷹野爪子 from *The Incompetent Hawk / 無能之鷹*)** archetype: projecting an ultra-professional elite aura while doing completely silly, clueless things with 100% deadpan earnestness (alongside Barnaby) that miraculously succeed by accident ("failing upwards / 錯有錯著").
-- Fixed `bible/character_roster.md`, `bible/world_rules.md`, `prompts/style_guide.md`, and `ep2_shots/storyboard.md` where an earlier WSL Python `.replace()` script had failed to overwrite Maya and Barnaby's old Ep1 descriptions:
-  - Locked **Episode 1's shoeless/tickle incident strictly as their one-off Origin Story**.
-  - Set **Episode 2+ default**: Maya keeps her high heels on, and Barnaby operates as her loyal protective guardian & buddy-cop partner (focusing on banana-peel traps, mixed-up gadgets, and slapstick chain reactions with Dorian Marlowe and Finn Calder—avoiding foot-tickling prompts that trigger AI content filter blocks).
+### [2026-11-08] - Dorian Marlowe (Mirror) Integration + Character Audit (Griz, Maya, Chloe, Saffron) & Copyright-Clean Traits
+- Audited `bible/character_roster.md`, `bible/world_rules.md`, `prompts/style_guide.md`, and `ep2_shots/storyboard.md` against the official character sheets in `bible/character_sheets/`:
+  - **Commander Griz**: Removed outdated "respirator mask / steam venting" references; locked in his clean-shaven, stern 190 cm tactical appearance (`Commander Griz.jpg`).
+  - **Agent Maya**: Defined her core persona as an earnest airhead who projects an ultra-competent elite aura while doing silly things with 100% deadpan seriousness that succeed by sheer accident ("failing upwards / 一本正經做傻事卻錯有錯著"). Kept burgundy high heels as her default outfit anchor (not forcing shoeless prompts by default, while allowing occasional natural shoe-loss mishaps when fitting).
+  - **Agent Chloe Han**: Updated hosiery anchor to match `Agent Chloe.jpg` (`sheer skin-tone stockings with a jeweled thigh garter strap and silver-white floral high heels`).
+  - **Copyright-Clean Descriptions**: Replaced all third-party IP names in character docs with pure personality and comedic trait descriptions.
 - Added and renamed `bible/character_sheets/Dorian Marlowe.png` and integrated **Dorian Marlowe / Mirror (多利安・馬洛／鏡像)** into `bible/character_roster.md` and `ep2_shots/storyboard.md` (completing all 5 new Episode 2 character slots and expanding the canonical roster to 20 characters).
 - Added Section 5 (**End-to-End Episode Production Pipeline & Antigravity Prompt-Dispatch Protocol**) to `AGENTS.md`, defining the 4-step workflow where Antigravity proactively provides ready-to-copy prompts for ChatGPT, Gemini, Google Flow, and MiniMax H3 at each production stage.
 - Added **Character Canon & Relationship Validation Rules** (Canon First, Relationship Lock, No Template Text Bleeding, Proposal vs. Canon) to `AGENTS.md` and `prompts/style_guide.md` to prevent layout reference text from bleeding into new character sheets (e.g., clarifying that Airi Fujimoto is Aoi's sister, while Nia Vale is an independent fashion student / gala assistant).
@@ -38,7 +39,7 @@
 - Refined Character Personas (bible/character_roster.md):
   - Commander Griz: Clean-shaven, grizzled tactical commander who uses Maya and Saffron's unpredictability as a tactical weapon.
   - Agent Chloe Han (韓克洛伊): Upgraded to VIP Sixth Ranger / Ace specializing in lethal Taekwondo high-kick combat while keeping ladylike elegance.
-  - Agent Saffron: Defined as the Female Johnny English / Dan Hibiki archetype.
+  - Agent Saffron: Defined as the overconfident, dramatic senior operative whose flashy superspy stunts backfire into slapstick.
   - Agent Maya & Barnaby: Set the shoeless/tickle gag as their Episode 1 origin story; from Episode 2 onward, Barnaby is Maya's loyal guardian and slapstick partner-in-crime.
   - Specialist Trio Sparks: Added rivalry between Evelyn and Saffron, Naomi's bottomless pink tactical handbag + deadpan snark, and Isabella's smiling schemer/betting habit.
   - Expanded Roster (15 Characters): Integrated Victoria Parker (Raven, 10D light brown pantyhose), Emily Parker, Aoi Fujimoto, Elise Mori, Airi Fujimoto, Minister Helena Voss, and The Colossus under the stateless Continental Union setting.

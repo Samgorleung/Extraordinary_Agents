@@ -3,19 +3,19 @@
 ## 1. Core Field Agents & Comedy Crew (Commander Griz's Squad)
 
 ### Agent Maya
-- **Visual & Outfit Anchor**: Adult woman with brown hair, tailored reddish-brown/red sleeveless blouse, dark brown mini skirt, sheer pale brown pantyhose, and **high heels (worn by default from Episode 2 onward)**.
-- **Persona & Archetype ("Tsumeko Takano / 無能之鷹" Style Earnest Airhead)**:
-  - **100% Serious Doing Silly Things (一臉認真做傻事)**: Modeled after **Tsumeko Takano (鷹野爪子) from *The Incompetent Hawk (無能之鷹)***. Externally, Maya projects the poised posture, sharp gaze, and unwavering confidence of a top-tier elite operative—yet internally she is an endearing, pure-hearted airhead who does completely silly, clueless things with **100% deadpan seriousness**.
-  - **Failing Upwards / Accidental Genius (錯有錯著立大功)**: Whenever Maya earnestly says something clueless (e.g., making a solemn observation about a ripening banana) or performs a silly action (e.g., crouching down in her heels with deadpan focus to pick up a dropped snack), enemies and rival agents like **Dorian Marlowe** wildly over-interpret her moves as "4D chess masterstrokes"—causing her to accidentally dodge lethal traps, trigger hidden vault switches, and solve the mission while **Finn Calder** and **Saffron** watch in disbelief.
-- **Arc & Bond with Barnaby (Origin vs. Ep2+ Status)**: Prior to Episode 1, Maya and Barnaby were complete strangers; losing her shoes during Episode 1's infiltration was strictly their **one-off origin story** that turned them into inseparable best friends. **From Episode 2 onward, Maya wears her high heels normally**, and she and Barnaby operate on the exact same earnest, clueless wavelength—doing absurd things together with deadpan gravity that somehow always save the day (without repeating foot-tickling gags that risk AI content filter blocks).
+- **Visual & Outfit Anchor**: Adult woman with wavy shoulder-length brown hair, earpiece headset, tailored reddish-brown ribbed sleeveless blouse, dark brown mini skirt with ID badge clipped at waist, sheer pale brown pantyhose, and burgundy/dark-red high heels (worn by default; may occasionally lose a shoe naturally in a slapstick scramble, though not forced into every scene).
+- **Persona & Running Gag (Earnest Airhead Who Fails Upwards / 一本正經做傻事卻錯有錯著)**:
+  - **100% Serious Doing Silly Things**: Externally, Maya projects the poised posture, sharp gaze, and unwavering confidence of a top-tier elite operative—yet internally she is an endearing, pure-hearted airhead who does completely silly, clueless things with **100% deadpan seriousness**.
+  - **Accidental Genius (錯有錯著立大功)**: Whenever Maya earnestly says something clueless (e.g., making a solemn observation about a ripening banana) or performs a silly action (e.g., crouching down with deadpan focus to pick up a dropped snack or fix her heel), enemies and rival agents like **Dorian Marlowe** wildly over-interpret her moves as brilliant tactical masterstrokes—causing her to accidentally dodge lethal traps, trigger hidden vault switches, and solve the mission while **Finn Calder** and **Saffron** watch in disbelief.
+- **Arc & Bond with Barnaby**: Prior to Episode 1, Maya and Barnaby were complete strangers; losing her shoes during Episode 1's chaotic infiltration was their **origin story** that turned them into inseparable best friends. From Episode 2 onward, she and Barnaby operate on the exact same earnest, clueless wavelength as loyal partners-in-crime—doing absurd things together with deadpan gravity that somehow always save the day.
 
 ### Agent Saffron
-- **Visual & Outfit Anchor**: Adult woman with a sleek black updo, elegant black halter dress with a high side slit, sheer grey garter stockings, long black gloves, black high heels. Wields the **Banana Blaster**.
-- **Personality & Running Gag**: Maya's senior partner (the **Female Johnny English / Dan Hibiki** archetype). Desperately wants to be a cool, ultra-serious, professional secret agent and constantly tries to outshine **Evelyn Carter** and **Dorian Marlowe**, but her overconfidence always triggers hilarious slapstick disasters (rope tangles, crashing ziplines, gadget misfires).
+- **Visual & Outfit Anchor**: Adult woman with a sleek black updo, elegant black halter dress with a high side slit, sheer grey thigh-high garter stockings with thigh holster, long black opera gloves, black ankle-strap high heels. Wields the **Banana Blaster**.
+- **Personality & Running Gag**: Maya's senior partner. Overconfident, dramatic operative who desperately wants to look like an ultra-cool, legendary secret agent and constantly tries to outshine **Evelyn Carter** and **Dorian Marlowe**, but her flashy stunts always backfire into hilarious slapstick disasters (rope tangles, crashing ziplines, gadget misfires).
 
 ### Agent Chloe Han (韓克洛伊) & White Rabbit
-- **Visual & Outfit Anchor**: Adult woman with dark bob hair, intricate blue-and-white floral evening gown, white thigh-high stockings, matching blue-and-white high heels. Accompanied everywhere by her white rabbit.
-- **Personality & Running Gag**: The squad's **VIP Sixth Ranger / Ultimate Ace**. Maintains imperturbable, ladylike elegance and deadpan calm—keeping her pinky extended while sipping tea as chaos unfolds around her, before effortlessly clearing the room with lethal, graceful **Taekwondo high-kick martial arts**.
+- **Visual & Outfit Anchor**: Adult woman with dark bob hair and a blue-and-white floral hair ornament, intricate blue-and-white floral evening gown with sheer flowing sleeves and high side slit, sheer skin-tone stockings with a jeweled thigh garter strap, silver-white floral ankle-strap high heels. Accompanied everywhere by her white rabbit wearing a blue ribbon bow.
+- **Personality & Running Gag**: The squad's **VIP Sixth Ranger / Ultimate Ace**. Maintains imperturbable, ladylike elegance and deadpan calm—keeping her pinky extended while sipping tea as chaos unfolds around her, before effortlessly clearing the room with lethal, graceful **Taekwondo high-kick martial arts** and heavy firepower.
 
 ### Barnaby the Orangutan
 - **Visual Anchor**: Large, highly expressive orangutan with long arms, often carrying a banana.
@@ -42,10 +42,10 @@
 ## 2. HQ Command, Military Intelligence & Civilian Support
 
 ### Commander Griz (葛瑞茲指揮官)
-- **Visual & Outfit Anchor**: Age 45, muscular grizzled build, buzz cut, tactical black suit/vest, and a **steam-venting respirator mask**.
+- **Visual & Outfit Anchor**: Age 45, 190 cm, 102 kg, muscular grizzled build, buzz cut, clean-shaven/light-stubble stern face (NO mask), black tactical combat vest and uniform, tactical gloves, wristwatch.
 - **Dual Role & Running Gag**:
-  - **Serious Side**: Supreme Tactical Commander of the 6 field agents. Decisive, protective leader ("I can accept mission failure, but I will never easily sacrifice a subordinate"). Coordinates closely with Military Intelligence (Aoi & Elise) and knows partial classified truths about Victoria Parker's disappearance.
-  - **Comedy Side**: Perpetually in deadpan, soul-crushed defeat (with steam venting from his mask) over Maya, Saffron, and Barnaby's chaotic antics.
+  - **Serious Side**: Supreme Tactical Commander of the Special Operations Team (SOT). Decisive, protective leader ("I can accept mission failure, but I will never easily sacrifice a subordinate") who shrewdly uses Maya and Saffron's sheer unpredictability as a tactical weapon. Coordinates closely with Military Intelligence (Aoi & Elise) and knows partial classified truths about Victoria Parker's disappearance.
+  - **Comedy Side**: Perpetually left in deadpan, soul-crushed exasperation—rubbing his temples with a heavy sigh over the chaotic collateral damage left behind by Maya, Saffron, and Barnaby.
 
 ### Emily Parker (艾蜜莉・帕克)
 - **Visual & Outfit Anchor**: Long wavy brown hair, emerald green eyes, red blazer jacket, blue tight mini skirt, red high heels.
@@ -86,7 +86,7 @@
 
 ### Dorian Marlowe (多利安・馬洛 / Codename: Mirror 鏡像)
 - **Visual & Outfit Anchor**: Age 31, 186 cm, handsome adult male with sleek dark parted hair and sharp eyes. Wears an immaculate tailored black double-breasted suit with gold buttons, crisp white dress shirt, black tie with gold tie pin, white pocket square, Ministerial Liaison ID badge on chest, black leather gloves, and polished black dress shoes. Equipped with aviator sunglasses, Continental Union cufflinks, luxury wristwatch, concealed earpiece, multi-function gadget pen, and concealed sidearm.
-- **Personality & Running Gag**: Special Liaison Operative / Diplomatic Black-Ops Rival Agent deployed directly by Political Affairs Minister **Helena Voss** to compete with and outshine Commander Griz's Special Operations Team—especially **Agent Saffron**. Highly stylish, narcissistic, charismatic, competitive, and theatrical (acting as a suave "James Bond" foil to Saffron's "Johnny English"). Favors charm, infiltration, and social engineering over brute force, yet despite his immaculate image, he is repeatedly dragged into the absurd slapstick chain reactions caused by **Maya**, **Saffron**, and **Barnaby**, leaving him in offended disbelief as he is forced to clean up the fallout.
+- **Personality & Running Gag**: Special Liaison Operative / Diplomatic Black-Ops Rival Agent deployed directly by Political Affairs Minister **Helena Voss** to compete with and outshine Commander Griz's Special Operations Team—especially **Agent Saffron**. Highly stylish, narcissistic, charismatic, competitive, and theatrical. Favors charm, infiltration, and social engineering over brute force, yet despite his immaculate gentleman-spy image, he is repeatedly dragged into the absurd slapstick chain reactions caused by **Maya**, **Saffron**, and **Barnaby**, leaving him in offended disbelief as he is forced to clean up the fallout.
 
 ### Gideon Ward (基甸・沃德 / Codename: The Broker 經紀人)
 - **Visual & Outfit Anchor**: Rugged adult man in his early 40s, cropped dark brown hair, neat full stubble beard, stern weathered face with intense gray eyes, weathered black/dark olive field jacket over a faded charcoal/gray overshirt, dark cargo trousers, and scuffed brown leather boots.
