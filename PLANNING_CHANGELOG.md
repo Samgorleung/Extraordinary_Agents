@@ -6,21 +6,16 @@
 - Core comedy setup established: Maya loses her shoes and meets Barnaby the orangutan during a chaotic infiltration; Saffron's overconfident superspy stunts backfire; Chloe Han steps in as the VIP Sixth-Ranger ace to clear the room with high-kick martial arts.
 - Resulting Arc: Maya and Barnaby become inseparable best friends and partners from Episode 2 onward.
 
-### Episode 2 Planning (In Progress)
-- Preliminary Script Outline & Storyboard Framework created in `ep2_shots/storyboard.md` (Four-Act structure + 8-shot initial storyboard table).
-- Core Goal: Transition from Episode 1's intro into a structured mission blending the Field Comedy Trio (Maya, Saffron, Chloe + Barnaby) with the Specialist Trio (Evelyn, Naomi, Isabella) and the overarching Military Conspiracy (Victoria's MIA mystery, Aoi, Elise, Minister Helena Voss, Gideon Ward, and The Colossus).
-- Character Development Status (Episode 2 New Additions):
-  1. [DONE] **Oliver Kade / Patch (奧利佛・凱德／補丁)** — Gadget / Weapons Quartermaster (late-20s tech genius who built the Banana Blaster and maintains Victoria's cybernetic arm; constantly argues with Saffron).
-  2. [DONE] **Finn Calder / Trigger (芬恩・考爾德／觸發器)** — Unlucky Rookie Male Agent (competent fighter with spiky orange hair and terrible luck who gets caught in Maya and Barnaby's slapstick crossfire).
-  3. [DONE] **Gideon Ward / The Broker (基甸・沃德／經紀人)** — Syndicate Mastermind (calculating strategist behind The Colossus, connected to Victoria's MIA battle).
-  4. [DONE] **Nia Vale (妮雅・維爾)** — Civilian Gala Witness (22-year-old fashion student & part-time gala event assistant, acquaintance of Airi Fujimoto, who accidentally spots a clandestine syndicate handoff).
-  5. [DONE] **Dorian Marlowe / Mirror (多利安・馬洛／鏡像)** — Narcissistic Male Rival Agent (31-year-old, 186 cm Special Liaison Operative dispatched by Minister Helena Voss; acts as a suave, image-obsessed gentleman spy competing to outshine Saffron).
-  6. [DONE] Added & standardized **Character Turnaround Sheets (`bible/character_sheets/`)** for all 5 new Episode 2 characters: `Finn Calder.png`, `Nia Vale.png`, `Oliver Kade.png`, `Gideon Ward.png`, and `Dorian Marlowe.png`.
-- Next Production Step (Step 2): Expand `ep2_shots/storyboard.md` into a full Shot-by-Shot Script & Dialogue list (EN / HK Cantonese).
+### Episode 2 Planning (In Progress — Step 3: Keyframe Generation)
+- [DONE] **Step 1 (Character Roster & Turnaround Sheets)**: All 20 canonical characters locked in `bible/character_roster.md` and `bible/character_sheets/` (including Episode 2 debuts: `Oliver Kade.png`, `Finn Calder.png`, `Gideon Ward.png`, `Nia Vale.png`, and `Dorian Marlowe.png`).
+- [DONE] **Step 2 (Full 20-Shot Storyboard & Script)**: Expanded `ep2_shots/storyboard.md` into the complete 20-shot script (`Ep2_Shot_01` – `Ep2_Shot_20`) with full visual anchors, bilingual dialogue (English & HK Cantonese), and Google Flow / MiniMax H3 dual-engine routing table.
+- [IN PROGRESS] **Step 3 (Single-Frame 16:9 Keyframe Generation)**: Generate the 20 individual 16:9 keyframe images (`1.jpg`/`1.png` – `20.jpg`/`20.png`) in `ep2_shots/` using `Rule Set 2` in `prompts/style_guide.md`.
+- [TO-DO] **Step 4 (Dual-Engine Video Generation)**: Write `ep2_shots/prompt.txt` and `ep2_shots/prompt_hk.txt` for MiniMax H3 and Google Flow camera instructions once keyframes are placed in `ep2_shots/`.
 
 ## 2. Changelog (更新日誌)
 
-### [2026-11-08] - Dorian Marlowe (Mirror) Integration + Character Audit (Griz, Maya, Chloe, Saffron) & Copyright-Clean Traits
+### [2026-11-08] - Episode 2 Full 20-Shot Storyboard Script + Dorian Marlowe Integration + Character Audit
+- Completed **Step 2**: Expanded `ep2_shots/storyboard.md` into a full 20-shot script (`Ep2_Shot_01` to `Ep2_Shot_20`) with English & HK Cantonese lip-sync dialogue and Google Flow / MiniMax H3 routing table.
 - Audited `bible/character_roster.md`, `bible/world_rules.md`, `prompts/style_guide.md`, and `ep2_shots/storyboard.md` against the official character sheets in `bible/character_sheets/`:
   - **Commander Griz**: Removed outdated "respirator mask / steam venting" references; locked in his clean-shaven, stern 190 cm tactical appearance (`Commander Griz.jpg`).
   - **Agent Maya**: Defined her core persona as an earnest airhead who projects an ultra-competent elite aura while doing silly things with 100% deadpan seriousness that succeed by sheer accident ("failing upwards / 一本正經做傻事卻錯有錯著"). Kept burgundy high heels as her default outfit anchor (not forcing shoeless prompts by default, while allowing occasional natural shoe-loss mishaps when fitting).
