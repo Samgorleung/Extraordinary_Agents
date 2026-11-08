@@ -11,7 +11,7 @@
   - **Finn Calder / Trigger (芬恩・考爾德／觸發器)**: Unlucky Rookie Male Agent (spiky orange-haired competent fighter caught in Maya, Saffron & Barnaby's slapstick crossfire).
   - **Nia Vale (妮雅・維爾)**: 22-year-old fashion student & part-time gala event assistant (acquaintance of Airi Fujimoto) who accidentally witnesses a clandestine syndicate handoff.
   - **Gideon Ward / The Broker (基甸・沃德／經紀人)**: Calculating Syndicate Mastermind overseeing **The Colossus** and connected to Victoria's MIA battle.
-  - **Narcissistic Male Rival Agent** *(Pending Casting)*: Minister Voss's "James Bond" operative acting as Saffron's foil.
+  - **Dorian Marlowe / Mirror (多利安・馬洛／鏡像)**: Narcissistic Male Rival Agent deployed by Minister Helena Voss; a suave "James Bond" Special Liaison Operative who competes to outshine Saffron but gets repeatedly dragged into Maya and Saffron's slapstick chaos.
 
 ---
 
@@ -35,16 +35,16 @@
 - **Plot Beat 1 (Glamour, Witness & Undercover Entry)**:
   - Supermodel **Airi Fujimoto** graces the gala red carpet, unintentionally providing cover for the Specialist Trio (**Evelyn, Naomi, Isabella**) to infiltrate the VIP lounge.
   - Fashion student & part-time gala event assistant **Nia Vale** (in her red devil-horn headband, leather miniskirt, and sheer light-brown tights) accidentally spots a clandestine syndicate data handoff in the dusk corridor.
-  - **Minister Helena Voss** attends as the Continental Union's political power broker, secretly dispatching her **Narcissistic Male Rival Agent** to secure the syndicate's target data before Griz's squad can touch it.
+  - **Minister Helena Voss** attends as the Continental Union's political power broker, secretly dispatching her narcissistic Special Liaison Operative **Dorian Marlowe (Mirror)** to secure the syndicate's target data before Griz's squad can touch it.
 - **Plot Beat 2 (Corridor Slapstick & Footwear Mishap Callback)**:
   - **Saffron, Maya, Chloe, Barnaby, and rookie Finn Calder (Trigger)** take the back marble corridor route lined with floor-level red laser beams.
-  - Saffron attempts a "flawless Johnny English" acrobatic vault that backfires spectacularly, tangling with the **Narcissistic Rival Agent** and knocking unlucky rookie **Finn Calder** straight into the chaos.
+  - Saffron attempts a "flawless Johnny English" acrobatic vault to upstage **Dorian Marlowe**, which backfires spectacularly—tangling Dorian's immaculate double-breasted suit and knocking unlucky rookie **Finn Calder** straight into the chaos.
   - In the ensuing banana-peel / laser-grid scramble, **Maya** slips or gets her heels snagged (optional shoeless callback in sheer pale brown pantyhose), while **Barnaby** "helps" by tickling/carrying her out of the laser path, leaving **Chloe Han** to sip her tea with pinky extended.
 
 ### Act III: The Colossus Crashes the Party (第三幕：巨像襲擊與雙線交鋒)
 - **Location**: `Luxury Marble Corridor / High-Security Gala Venue (Main Vault & Terrace)`
 - **Plot Beat 1 (The Unstoppable Enforcer)**:
-  - **The Colossus** (210 cm golden-armored juggernaut in the smiling metal mask) smashes into the vault area to retrieve the syndicate core. Standard gunfire and the Rival Agent's flashy gadgets bounce harmlessly off his armor.
+  - **The Colossus** (210 cm golden-armored juggernaut in the smiling metal mask) smashes into the vault area to retrieve the syndicate core. Standard gunfire and **Dorian Marlowe's** flashy gadget pen bounce harmlessly off his armor.
 - **Plot Beat 2 (Team Combo & VIP Sixth-Ranger Ace)**:
   - **Evelyn, Naomi, and Isabella** execute coordinated crowd evacuation and psychological/tactical distraction.
   - **Chloe Han** steps forward as the VIP Ace, unleashing lethal high-kick Taekwondo combos with ladylike grace to deflect The Colossus's warhammer swing, while **Maya, Saffron, and Barnaby** accidentally trigger an environmental chandelier/banana-peel trap that stalls the juggernaut.
@@ -72,7 +72,7 @@
 | **Ep2_Shot_02** | Act I | HQ Command Center | Evelyn, Naomi, Isabella | Medium 3-shot of the Specialist Trio; Evelyn smirking at Saffron, Naomi holding her pink handbag, Isabella smiling with a betting notepad. | MiniMax H3 | Snarky banter (EN / HK Cantonese) |
 | **Ep2_Shot_03** | Act I | Military Intel Hub | Aoi Fujimoto, Elise Mori, Emily Parker | Purple/green server glow; Aoi analyzing encrypted Raven telemetry while Elise reassures Emily. | Google Flow / MiniMax H3 | Serious conspiracy tone |
 | **Ep2_Shot_04** | Act II | Gala Marble Corridor | Airi Fujimoto, Minister Helena Voss | Neoclassical columns, warm amber vs. cool moonlight; Airi at the gala entrance while Helena Voss observes from the balcony in black dotted pantyhose. | Google Flow | Atmospheric push-in |
-| **Ep2_Shot_05** | Act II | Gala Laser Corridor | Maya, Saffron, Barnaby, Chloe (+ Rival/Rookie) | Slapstick laser-grid chaos; Saffron tangled, Maya shoeless/slipping in sheer pale brown pantyhose with Barnaby catching/tickling her, Chloe sipping tea. | MiniMax H3 | Slapstick action + laughter |
+| **Ep2_Shot_05** | Act II | Gala Laser Corridor | Maya, Saffron, Barnaby, Chloe, Dorian Marlowe, Finn Calder | Slapstick laser-grid chaos; Saffron tangled with Dorian Marlowe, Finn knocked down, Maya shoeless/slipping in sheer pale brown pantyhose with Barnaby catching/tickling her, Chloe sipping tea. | MiniMax H3 | Slapstick action + laughter |
 | **Ep2_Shot_06** | Act III | Gala Vault Hall | The Colossus, Chloe Han, Specialist Trio | The Colossus (golden armor, smiling mask) swinging his warhammer; Chloe executing an elegant high kick in her blue-and-white gown and white thigh-highs. | MiniMax H3 | Fast combat choreography |
 | **Ep2_Shot_07** | Act III | Gala Rooftop / Window | Victoria Parker (Raven) vs. The Colossus | Moonlight silhouette; Victoria with awakened dark wings, cybernetic arm, and 10D light brown pantyhose intercepting The Colossus. | Google Flow / MiniMax H3 | Dramatic clash & escape |
 | **Ep2_Shot_08** | Act IV | Military Intel Hub / HQ | Aoi Fujimoto, Elise Mori (Screen: Raven) | Close-up on monitor freezing on Victoria's silhouette; Aoi's determined expression. | Google Flow | Cliffhanger ending |
