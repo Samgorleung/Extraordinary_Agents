@@ -9,10 +9,17 @@
 ### Episode 2 Planning (In Progress — Step 3: Keyframe Generation)
 - [DONE] **Step 1 (Character Roster & Turnaround Sheets)**: All 20 canonical characters locked in `bible/character_roster.md` and `bible/character_sheets/` (including Episode 2 debuts: `Oliver Kade.png`, `Finn Calder.png`, `Gideon Ward.png`, `Nia Vale.png`, and `Dorian Marlowe.png`).
 - [DONE] **Step 2 (Full 20-Shot Storyboard & Script)**: Expanded `ep2_shots/storyboard.md` into the complete 20-shot script (`Ep2_Shot_01` – `Ep2_Shot_20`) with full visual anchors, bilingual dialogue (English & HK Cantonese), and Google Flow / MiniMax H3 dual-engine routing table.
-- [IN PROGRESS] **Step 3 (Single-Frame 16:9 Keyframe Generation)**: Generate the 20 individual 16:9 keyframe images (`1.jpg`/`1.png` – `20.jpg`/`20.png`) in `ep2_shots/` using `Rule Set 2` in `prompts/style_guide.md`.
-- [TO-DO] **Step 4 (Dual-Engine Video Generation)**: Write `ep2_shots/prompt.txt` and `ep2_shots/prompt_hk.txt` for MiniMax H3 and Google Flow camera instructions once keyframes are placed in `ep2_shots/`.
+- [IN PROGRESS] **Step 3 (Single-Frame 16:9 Keyframe Generation)**:
+  - [DONE] Act I Keyframes (`ep2_shots/1.png` to `ep2_shots/5.png` for `Ep2_Shot_01` – `Ep2_Shot_05`) generated, standardized, and committed.
+  - [TO-DO] Act II – Act IV Keyframes (`Ep2_Shot_06` – `Ep2_Shot_20`).
+- [IN PROGRESS] **Step 4 (Dual-Engine Video Generation)**:
+  - [DONE] Created English and HK Cantonese video prompt files for Act I (`ep2_shots/prompt_1.txt` – `prompt_5.txt` and `ep2_shots/prompt_1_hk.txt` – `prompt_5_hk.txt`).
 
 ## 2. Changelog (更新日誌)
+
+### [2026-11-10] - Episode 2 Act I Keyframes (1.png–5.png) & Video Prompts Added
+- Added and renamed Act I 16:9 keyframes in `ep2_shots/`: `1.png` (`Ep2_Shot_01`), `2.png` (`Ep2_Shot_02`), `3.png` (`Ep2_Shot_03`), `4.png` (`Ep2_Shot_04`), and `5.png` (`Ep2_Shot_05`).
+- Created English and HK Cantonese MiniMax H3 / Flow video prompt files (`prompt_1.txt`–`prompt_5.txt` and `prompt_1_hk.txt`–`prompt_5_hk.txt`) in `ep2_shots/`.
 
 ### [2026-11-08] - Episode 2 Full 20-Shot Storyboard Script + Dorian Marlowe Integration + Character Audit
 - Completed **Step 2**: Expanded `ep2_shots/storyboard.md` into a full 20-shot script (`Ep2_Shot_01` to `Ep2_Shot_20`) with English & HK Cantonese lip-sync dialogue and Google Flow / MiniMax H3 routing table.
