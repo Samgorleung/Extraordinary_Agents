@@ -30,22 +30,22 @@
 - **Characters in Frame**: Agent Evelyn Carter, Agent Naomi Brooks, Agent Isabella Chen, Agent Saffron (foreground profile)
 - **16:9 Single-Frame Visual & Action Summary**:
   - **Composition**: Medium 3-Shot with cool cyan ambient lighting highlighting the Specialist Trio's composed aura.
-  - **Action & Visual Anchors**: **Evelyn Carter** (light brown wavy hair, white short-sleeve collared top, red mini skirt, black fishnet stockings, red high heels) crosses her arms and smirks teasingly at Saffron. **Naomi Brooks** (warm bronze skin, voluminous dark curly hair, black turtleneck sweater, beige pleated mini skirt, black ankle boots) deadpans while pulling a heavy tactical grapple-launcher three times larger than her small pink handbag out of the bag. **Isabella Chen** (long black wavy hair with large red ribbon bow, red-and-gold phoenix embroidered high-slit gown, gold-patterned sheer stockings, red high heels) smiles sweetly while opening a small betting ledger for "how many minutes until Saffron and the Ministry liaison trigger the gala alarm."
-- **Target Video Engine**: **MiniMax H3** (`--mode reference`).
+  - **Action & Visual Anchors**: **Evelyn Carter** (light brown wavy hair, white short-sleeve collared top, red mini skirt, black fishnet stockings, red high heels) crosses her arms and smirks teasingly at Saffron. **Naomi Brooks** (warm bronze skin, voluminous dark curly hair, black turtleneck sweater, beige pleated mini skirt, black ankle boots, with her sleek small pink crossbody handbag resting neatly at her hip) deadpans as she calmly takes a compact, palm-sized **rose-gold lipstick micro-taser and compact-mirror signal decoder** out of her small pink handbag. **Isabella Chen** (long black wavy hair with large red ribbon bow, red-and-gold phoenix embroidered high-slit gown, gold-patterned sheer stockings, red high heels) smiles sweetly while opening a small betting ledger for "how many minutes until Saffron and the Ministry liaison trigger the gala alarm."
+- **Target Video Engine**: **MiniMax H3** (`--mode first_frame`).
 - **Dialogue**:
-  - **English (`prompt.txt`)**: `Agent Evelyn speaking in English, saying clearly: "Try not to trip over your own dramatic pose tonight, Saffron." Agent Isabella smiling and speaking in English, saying clearly: "Bets are open, ladies. I give her under three minutes before the gala alarm goes off."`
-  - **HK Cantonese (`prompt_hk.txt`)**: `Agent Evelyn speaking in natural Hong Kong Cantonese, saying clearly: "Saffron，今晚擺還擺甫士，千祈唔好又自己絆倒自己呀。" Agent Isabella smiling and speaking in natural Hong Kong Cantonese, saying clearly: "開盤啦各位姊妹，我買佢入去唔夠三分鐘就搞響個警鐘！"`
+  - **English (`prompt.txt`)**: `Agent Evelyn speaking in English, saying clearly: "Try not to trip over your own dramatic pose tonight!" Agent Isabella smiling and speaking in English, saying clearly: "Place your bets, ladies! Ten credits says she triggers the alarm in three minutes!"`
+  - **HK Cantonese (`prompt_hk.txt`)**: `Agent Evelyn speaking in natural Hong Kong Cantonese, saying clearly: "今晚擺還擺甫士，千祈唔好又自己絆親自己呀！" Agent Isabella smiling and speaking in natural Hong Kong Cantonese, saying clearly: "開盤啦各位姊妹，我買佢入去三分鐘就搞響警鐘！"`
 
-#### **Ep2_Shot_03** — Act I: 軍需官 Oliver Kade 與 Saffron 嘅香蕉槍罵戰
+#### **Ep2_Shot_03** — Act I: 軍需官 Oliver Kade 與 Saffron 嘅多功能戰術手槍罵戰
 - **Location**: `HQ Quartermaster Lab`（總部軍需裝備研發室）
 - **Characters in Frame**: Oliver Kade (Patch), Agent Saffron, Agent Finn Calder
 - **16:9 Single-Frame Visual & Action Summary**:
-  - **Composition**: Medium Two-Shot at the modular weapon workbench with Finn Calder in the middle background; turquoise holographic weapon schematics and equipment racks behind them.
-  - **Action & Visual Anchors**: Quartermaster **Oliver Kade** (wavy brown side-swept hair, square black-rimmed glasses, rolled-up white shirt sleeves, fitted charcoal waistcoat, dark trousers) holds up the **Banana Blaster** in exasperation as mashed yellow banana drips from the jammed barrel. **Saffron** stands with hands on hips arguing back unapologetically. Trying to mediate between them, unlucky rookie **Finn Calder** flinches backward from Saffron's sweeping arm gesture and bangs the back of his head straight into a metal weapon rack, crouching down with teary eyes holding his head.
-- **Target Video Engine**: **MiniMax H3** (`--mode reference`).
+  - **Composition**: Medium Two-Shot at the modular weapon workbench with Finn Calder in the middle background; turquoise holographic weapon schematics of a sleek tactical pistol and equipment racks behind them.
+  - **Action & Visual Anchors**: Quartermaster **Oliver Kade** (wavy brown side-swept hair, square black-rimmed glasses, rolled-up white shirt sleeves, fitted charcoal waistcoat, dark trousers) holds up Saffron's **sleek matte-black compact tactical pistol** in exasperation as thin wisps of smoke rise from its jammed micro-grappling barrel after she fired the grappling wire indoors just to practice a dramatic entrance pose. **Saffron** stands with one hand on her hip and gestures dramatically with her black-gloved hand, arguing back unapologetically. In the center background between them, unlucky rookie **Finn Calder** is comically tangled in the recoiled silver micro-grappling wire and rubs his bumped head in pain after getting knocked into a weapon rack.
+- **Target Video Engine**: **MiniMax H3** (`--mode first_frame`).
 - **Dialogue**:
-  - **English (`prompt.txt`)**: `Oliver Kade speaking in English, saying clearly: "It is a calibrated plasma emitter, Saffron, NOT a fruit blender! Stop shoving unpeeled bananas into the barrel!" Agent Saffron speaking in English, saying clearly: "A legendary operative improvises on the battlefield, Patch!"`
-  - **HK Cantonese (`prompt_hk.txt`)**: `Oliver Kade speaking in natural Hong Kong Cantonese, saying clearly: "呢支係高精密等離子發射器嚟㗎 Saffron，唔係生果攪拌機呀！唔該你唔好再塞連皮香蕉入個槍管度啦！" Agent Saffron speaking in natural Hong Kong Cantonese, saying clearly: "傳奇特工喺戰場上梗係識得臨場發揮㗎啦，補丁仔！"`
+  - **English (`prompt.txt`)**: `Oliver Kade speaking in English, saying clearly: "This is a precision tactical sidearm, not a stage prop! Stop firing the grappling hook indoors just to strike a pose!" Agent Saffron speaking in English, saying clearly: "A true legend always makes a grand entrance!"`
+  - **HK Cantonese (`prompt_hk.txt`)**: `Oliver Kade speaking in natural Hong Kong Cantonese, saying clearly: "呢支係精密戰術手槍，唔係舞台道具呀！唔好為咗擺甫士喺室內亂射鉤爪啦！" Agent Saffron speaking in natural Hong Kong Cantonese, saying clearly: "傳奇特工出場，梗係要夠晒氣派㗎啦！"`
 
 #### **Ep2_Shot_04** — Act I: Oliver 暗中檢測 Victoria 機械義肢數據
 - **Location**: `HQ Quartermaster Lab`（總部軍需裝備研發室角落檢測台）
@@ -147,11 +147,11 @@
 - **Characters in Frame**: Dorian Marlowe, The Colossus, Agent Evelyn Carter, Agent Naomi Brooks, Agent Isabella Chen, Airi Fujimoto, Nia Vale
 - **16:9 Single-Frame Visual & Action Summary**:
   - **Composition**: Two-Layer Action Composition (foreground standoff, background tactical evacuation).
-  - **Action & Visual Anchors**: In the foreground, **Dorian Marlowe** brushes off his wrinkled suit and fires a high-voltage tungsten dart from his multi-function gadget pen—only for the dart to *plink* harmlessly off **The Colossus**'s golden chest plate without leaving a scratch, freezing Dorian's smug smile into pure horror. In the background, **Evelyn** and **Isabella** escort **Airi Fujimoto** and **Nia Vale** to safety while **Naomi** pulls a full-sized riot shield out of her small pink handbag to block falling rubble.
-- **Target Video Engine**: **MiniMax H3** (`--mode reference`).
+  - **Action & Visual Anchors**: In the foreground, **Dorian Marlowe** brushes off his wrinkled suit and fires a high-voltage tungsten dart from his multi-function gadget pen—only for the dart to *plink* harmlessly off **The Colossus**'s golden chest plate without leaving a scratch, freezing Dorian's smug smile into pure horror. In the background, **Evelyn** and **Isabella** escort **Airi Fujimoto** and **Nia Vale** to safety while **Naomi** takes a palm-sized **micro-EMP flash disc** out of her small pink crossbody handbag and tosses it to blind the security sensors.
+- **Target Video Engine**: **MiniMax H3** (`--mode first_frame`).
 - **Dialogue**:
-  - **English (`prompt.txt`)**: `Dorian Marlowe stammering in English, saying clearly: "Hold on... that tungsten dart was guaranteed to pierce heavy armor!" Agent Naomi deadpanning in English, saying clearly: "Cute pen, pretty boy. Want to borrow a real launcher from my handbag?"`
-  - **HK Cantonese (`prompt_hk.txt`)**: `Dorian Marlowe stammering in natural Hong Kong Cantonese, saying clearly: "等陣先……呢支鎢鋼飛鏢明明話連重型裝甲都射得穿㗎喎！" Agent Naomi deadpanning in natural Hong Kong Cantonese, saying clearly: "支筆幾得意喎靚仔，洗唔洗喺我個粉紅手袋借把真傢伙俾你用呀？"`
+  - **English (`prompt.txt`)**: `Dorian Marlowe stammering in English, saying clearly: "Hold on... that tungsten dart was guaranteed to pierce heavy armor!" Agent Naomi deadpanning in English, saying clearly: "Cute pen, pretty boy. Leave the real gadgets to us!"`
+  - **HK Cantonese (`prompt_hk.txt`)**: `Dorian Marlowe stammering in natural Hong Kong Cantonese, saying clearly: "等陣先……呢支鎢鋼飛鏢明明話連重型裝甲都射得穿㗎喎！" Agent Naomi deadpanning in natural Hong Kong Cantonese, saying clearly: "支筆幾得意喎靚仔，專業道具都係交返俾我哋啦！"`
 
 #### **Ep2_Shot_13** — Act III: 王牌第六人 Chloe Han 華麗跆拳道高踢硬接巨像！
 - **Location**: `Luxury Marble Corridor / High-Security Gala Venue (Main Vault Hall)`（晚宴主金庫大廳中央）
@@ -164,16 +164,16 @@
   - **English (`prompt.txt`)**: `Agent Chloe Han speaking calmly in English, saying clearly: "Mind your manners, brute. You nearly ruined the aroma of my tea."`
   - **HK Cantonese (`prompt_hk.txt`)**: `Agent Chloe Han speaking calmly in natural Hong Kong Cantonese, saying clearly: "大隻佬，斯文啲啦，你差啲震散晒我杯茶啲香氣喇。"`
 
-#### **Ep2_Shot_14** — Act III: Maya 與 Barnaby「一本正經換香蕉彈匣」錯有錯著轟落水晶吊燈
+#### **Ep2_Shot_14** — Act III: Saffron 戰術鉤爪手槍走火 ＆ Maya 與 Barnaby 錯有錯著拉冧水晶吊燈
 - **Location**: `Luxury Marble Corridor / High-Security Gala Venue (Main Vault Hall)`（晚宴主金庫大廳）
 - **Characters in Frame**: Agent Maya, Barnaby, Agent Saffron, The Colossus, Agent Finn Calder
 - **16:9 Single-Frame Visual & Action Summary**:
   - **Composition**: Vertical Action-Comedy Chain Reaction Shot.
-  - **Action & Visual Anchors**: **Saffron** aims her **Banana Blaster** at The Colossus, but the weapon sputters and jams. Beside her, **Maya** and **Barnaby** display their 100% earnest clueless teamwork: Barnaby hands Maya a fresh banana, and Maya—with the razor-sharp speed and solemn face of a veteran commando reloading a sniper rifle—slams the banana into the blaster's side cooling vent. The back-pressure causes the plasma vent to fire a beam straight up into the ceiling, snapping the main chain of a two-ton crystal chandelier! The giant chandelier crashes down to pin **The Colossus**, while a stray crystal ornament bounces across the floor and bonks unlucky **Finn Calder** right on the head as he tries to stand up.
-- **Target Video Engine**: **MiniMax H3** (`--mode reference`).
+  - **Action & Visual Anchors**: **Saffron** draws her **sleek matte-black compact tactical pistol** and strikes a dramatic pose to fire a stun dart at The Colossus, but accidentally has the selector switch set to the **micro-wire grappling hook**—firing the grappling hook straight up into the ceiling where it wraps around the main chain of a two-ton crystal chandelier! Thinking it is a high-level tactical maneuver, **Maya** and **Barnaby** earnestly grab the taut grappling wire alongside Saffron (while Maya solemnly holds a banana in her other hand like an optical sight) and yank downward with 100% deadpan seriousness—snapping the ceiling chain so the giant crystal chandelier crashes down to pin **The Colossus**, while a stray crystal ornament bounces across the floor and bonks unlucky **Finn Calder** right on the head.
+- **Target Video Engine**: **MiniMax H3** (`--mode first_frame`).
 - **Dialogue**:
-  - **English (`prompt.txt`)**: `Agent Maya nodding with deadpan pride and speaking in English, saying clearly: "Potassium reload complete. Direct hit." Agent Saffron blinking in shock and speaking in English, saying clearly: "Yes! Which was totally my plan all along!"`
-  - **HK Cantonese (`prompt_hk.txt`)**: `Agent Maya nodding with deadpan pride and speaking in natural Hong Kong Cantonese, saying clearly: "鉀元素彈匣填裝完畢，目標命中。" Agent Saffron blinking in shock and speaking in natural Hong Kong Cantonese, saying clearly: "冇錯！呢招完全喺我掌握之中呀！"`
+  - **English (`prompt.txt`)**: `Agent Maya nodding with deadpan pride and speaking in English, saying clearly: "Structural tension calibrated. Pull now!" Agent Saffron blinking in shock and speaking in English, saying clearly: "Yes! Which was totally my plan all along!"`
+  - **HK Cantonese (`prompt_hk.txt`)**: `Agent Maya nodding with deadpan pride and speaking in natural Hong Kong Cantonese, saying clearly: "張力角度校準完畢，用全力拉落嚟！" Agent Saffron blinking in shock and speaking in natural Hong Kong Cantonese, saying clearly: "冇錯！呢招完全喺我計算之中呀！"`
 
 #### **Ep2_Shot_15** — Act III: 月下暗影降臨：Victoria Parker「渡鴉」展翼現身
 - **Location**: `Luxury Marble Corridor / High-Security Gala Venue (Moonlit Arched Terrace)`（晚宴月光拱窗露台）
@@ -200,16 +200,16 @@
 
 ### Act IV: Aftermath, Debrief & Shadow Teaser (第四幕：任務善後、總部吐糟與暗線伏筆)
 
-#### **Ep2_Shot_17** — Act IV: 總部天價賠償單：剛毅指揮官 Griz 絕望扶額 ＆ Oliver 心痛
+#### **Ep2_Shot_17** — Act IV: 總部天價賠償單：剛毅指揮官 Griz 絕望扶額 ＆ Oliver 心痛戰術手槍
 - **Location**: `HQ Operations & Command Center`（特工總部指揮中心）
 - **Characters in Frame**: Commander Griz, Oliver Kade (Patch), Agent Finn Calder
 - **16:9 Single-Frame Visual & Action Summary**:
   - **Composition**: Medium Comedy Reaction Shot inside the cyan-lit war room.
-  - **Action & Visual Anchors**: Clean-shaven, buzz-cut **Commander Griz** holds an absurdly long paper repair invoice trailing onto the floor with one hand while pressing his other hand firmly against his forehead and temples with a soul-crushed sigh. Beside him, **Oliver Kade** adjusts his glasses in anguish while cradling the scorched, banana-stuffed **Banana Blaster**. In the background, unlucky **Finn Calder** stands with a bandage cross on his forehead and his arm in a sling, staring blankly into space.
-- **Target Video Engine**: **MiniMax H3** (`--mode reference`).
+  - **Action & Visual Anchors**: Clean-shaven, buzz-cut **Commander Griz** holds an absurdly long paper repair invoice trailing onto the floor with one hand while pressing his other hand firmly against his forehead and temples with a soul-crushed sigh. Beside him, **Oliver Kade** adjusts his glasses in anguish while cradling Saffron's scorched, wire-tangled **matte-black tactical pistol**. In the background, unlucky **Finn Calder** stands with a bandage cross on his forehead and his arm in a sling, staring blankly into space.
+- **Target Video Engine**: **MiniMax H3** (`--mode first_frame`).
 - **Dialogue**:
-  - **English (`prompt.txt`)**: `Commander Griz rubbing his forehead with a heavy sigh and speaking in English, saying clearly: "You secured the syndicate core... and billed us for a two-ton crystal chandelier." Oliver Kade groaning in English, saying clearly: "And someone baked a banana inside my plasma coil!"`
-  - **HK Cantonese (`prompt_hk.txt`)**: `Commander Griz rubbing his forehead with a heavy sigh and speaking in natural Hong Kong Cantonese, saying clearly: "核心係攞返嚟喇……但係你哋順手幫總部簽咗張兩噸重水晶吊燈嘅天價賠償單。" Oliver Kade groaning in natural Hong Kong Cantonese, saying clearly: "仲有邊個天才將條香蕉塞咗入我個等離子線圈度焗熟咗呀？！？"`
+  - **English (`prompt.txt`)**: `Commander Griz rubbing his forehead with a heavy sigh and speaking in English, saying clearly: "You secured the vault core... and billed us for a two-ton crystal chandelier!" Oliver Kade groaning in English, saying clearly: "And tore the micro-grappling winch right out of my tactical pistol!"`
+  - **HK Cantonese (`prompt_hk.txt`)**: `Commander Griz rubbing his forehead with a heavy sigh and speaking in natural Hong Kong Cantonese, saying clearly: "核心係攞返嚟喇，但係順手簽咗張兩噸水晶吊燈嘅天價賠償單！" Oliver Kade groaning in natural Hong Kong Cantonese, saying clearly: "仲將我支戰術手槍個微型鉤爪絞盤拉到散晒添呀！"`
 
 #### **Ep2_Shot_18** — Act IV: Maya 與 Barnaby 一本正經領功 ＆ Isabella 笑納賭金
 - **Location**: `HQ Operations & Command Center`（特工總部指揮中心）
@@ -251,8 +251,8 @@
 | Shot ID | Act | Core Visual & Action Focus (Commit `bc03316` Standard) | Target Engine | Mode / Credit Estimate |
 | :--- | :--- | :--- | :--- | :--- |
 | **Ep2_Shot_01** | Act I | Clean-shaven Griz rubbing temples + Maya & Barnaby earnestly inspecting a banana | **Google Flow** | `8s Tier (12 Credits)` / Slow Push-In |
-| **Ep2_Shot_02** | Act I | Specialist Trio banter + Naomi pulling giant launcher from pink bag + Isabella's betting book | **MiniMax H3** | `--mode reference` (~1 CU) |
-| **Ep2_Shot_03** | Act I | Oliver & Saffron arguing over banana-jammed blaster + Finn banging head in background | **MiniMax H3** | `--mode reference` (~1 CU) |
+| **Ep2_Shot_02** | Act I | Specialist Trio banter + Naomi holding compact lipstick micro-taser & mirror decoder from pink bag + Isabella's betting book | **MiniMax H3** | `--mode first_frame` (~1 CU) |
+| **Ep2_Shot_03** | Act I | Oliver & Saffron arguing over wire-tangled matte-black tactical pistol + Finn tangled in background | **MiniMax H3** | `--mode first_frame` (~1 CU) |
 | **Ep2_Shot_04** | Act I | Oliver hiding Victoria's cybernetic arm blueprint as Emily arrives with passes | **Google Flow** | `6s Tier (10 Credits)` / OTS Subtle Acting |
 | **Ep2_Shot_05** | Act I | Aoi, Elise & Emily in Military Intel Hub locking onto Raven's encrypted signal | **Google Flow** | `8s Tier (12 Credits)` / Cyber Lighting |
 | **Ep2_Shot_06** | Act II | Supermodel Airi & Nia Vale at gala red carpet distracting guards for Specialist Trio entry | **Google Flow** | `6s Tier (10 Credits)` / Tracking Shot |
@@ -261,12 +261,12 @@
 | **Ep2_Shot_09** | Act II | Laser hallway standoff: Maya earnestly aiming a peeled banana, making Dorian sweat & overthink | **MiniMax H3** | `--mode reference` (~1 CU) |
 | **Ep2_Shot_10** | Act II | Maya crouching to place banana peel (dodging laser & unlocking door) + Dorian & Saffron bowling into Finn | **MiniMax H3** | `--mode first_frame` (~1 CU, 12s action) |
 | **Ep2_Shot_11** | Act III | The Colossus (210 cm golden armor, smiling mask) smashing through vault door | **Google Flow** | `6s Tier (10 Credits)` / Low-Angle Smoke |
-| **Ep2_Shot_12** | Act III | Dorian's gadget pen dart bouncing off The Colossus + Specialist Trio evacuating Airi & Nia | **MiniMax H3** | `--mode reference` (~1 CU) |
+| **Ep2_Shot_12** | Act III | Dorian's gadget pen dart bouncing off The Colossus + Naomi tossing micro-EMP disc from pink bag while evacuating Airi & Nia | **MiniMax H3** | `--mode first_frame` (~1 CU) |
 | **Ep2_Shot_13** | Act III | Chloe Han (sheer stockings with jeweled garter) deflecting warhammer with Taekwondo high kick | **MiniMax H3** | `--mode first_frame` (~1 CU, fast combat) |
-| **Ep2_Shot_14** | Act III | Maya earnestly reloading blaster with a banana, shooting down crystal chandelier onto Colossus (bonking Finn) | **MiniMax H3** | `--mode reference` (~1 CU) |
+| **Ep2_Shot_14** | Act III | Saffron's tactical pistol grappling wire hooking ceiling chandelier + Maya & Barnaby earnestly pulling it down onto Colossus | **MiniMax H3** | `--mode first_frame` (~1 CU) |
 | **Ep2_Shot_15** | Act III | Victoria Parker (Raven) unfolding dark wings in moonlight wearing 10D light brown pantyhose | **Google Flow** | `8s Tier (12 Credits)` / Moonlight Backlight |
 | **Ep2_Shot_16** | Act III | Victoria's cybernetic arm clashing with Colossus's axe before vanishing into the night | **MiniMax H3** | `--mode first_frame` (~1 CU, clash sparks) |
-| **Ep2_Shot_17** | Act IV | Clean-shaven Griz holding floor-length repair bill & rubbing forehead + Oliver mourning blaster + bandaged Finn | **MiniMax H3** | `--mode reference` (~1 CU) |
+| **Ep2_Shot_17** | Act IV | Clean-shaven Griz holding floor-length repair bill & rubbing forehead + Oliver mourning wire-tangled tactical pistol + bandaged Finn | **MiniMax H3** | `--mode first_frame` (~1 CU) |
 | **Ep2_Shot_18** | Act IV | Maya & Barnaby earnest high-five with victory bananas + Isabella collecting bets + Dorian in awe | **MiniMax H3** | `--mode reference` (~1 CU) |
 | **Ep2_Shot_19** | Act IV | Aoi & Elise zooming in on clear monitor frame of Victoria's cybernetic arm & 10D pantyhose | **Google Flow** | `8s Tier (12 Credits)` / Screen Zoom |
 | **Ep2_Shot_20** | Act IV | Syndicate Mastermind Gideon Ward reviewing Colossus mask & Raven telemetry in amber-lit room | **Google Flow** | `8s Tier (12 Credits)` / Villain Teaser |
@@ -287,12 +287,12 @@
 - **`Ep2_Shot_02` (Save as `ep2_shots/2.png` or `2.jpg`)**
   - **Attach Reference Sheets (`bible/character_sheets/`)**: `Evelyn Cater.jpg`, `Naomi Brooks.jpg`, `Isabella Chen.jpg`, `Agent Saffron.jpg`
   - **16:9 Image Prompt**:
-    `Single-frame 16:9 widescreen 2D cel-shaded Japanese anime with crisp black ink outlines, no panels or grids, no text. Medium 3-shot inside the cyan-lit HQ Command Center. On the left, Agent Evelyn Carter (light brown wavy hair, white short-sleeve collared top, red mini skirt, black fishnet stockings, red high heels) crosses her arms with a teasing smirk toward Agent Saffron's silhouette in the foreground edge. In the center, Agent Naomi Brooks (warm bronze skin, voluminous dark curly hair, black turtleneck sweater, beige pleated mini skirt, black ankle boots) deadpans as she pulls a massive heavy tactical grapple-launcher out of her tiny pink handbag. On the right, Agent Isabella Chen (long black wavy hair with large red ribbon bow, ornate red-and-gold phoenix embroidered high-slit gown, gold-patterned sheer stockings, red high heels) smiles sweetly while holding open a small betting notebook.`
+    `Single-frame 16:9 widescreen 2D cel-shaded Japanese anime with crisp black ink outlines, no panels or grids, no text. Medium 3-shot inside the cyan-lit HQ Command Center. On the left, Agent Evelyn Carter (light brown wavy hair, white short-sleeve collared top, red mini skirt, black fishnet stockings, red high heels) crosses her arms with a teasing smirk toward Agent Saffron's silhouette in the foreground edge. In the center, Agent Naomi Brooks (warm bronze skin, voluminous dark curly hair, black turtleneck sweater, beige pleated mini skirt, black ankle boots, wearing her sleek small pink crossbody handbag neatly at her hip) deadpans as she holds up a compact palm-sized rose-gold lipstick micro-taser in one hand and a glowing compact-mirror signal decoder in the other (NO oversized weapons or large guns). On the right, Agent Isabella Chen (long black wavy hair with large red ribbon bow, ornate red-and-gold phoenix embroidered high-slit gown, gold-patterned sheer stockings, red high heels) smiles sweetly while holding open a small betting notebook.`
 
 - **`Ep2_Shot_03` (Save as `ep2_shots/3.png` or `3.jpg`)**
   - **Attach Reference Sheets (`bible/character_sheets/`)**: `Oliver Kade.png`, `Agent Saffron.jpg`, `Finn Calder.png`
   - **16:9 Image Prompt**:
-    `Single-frame 16:9 widescreen 2D cel-shaded Japanese anime with crisp black ink outlines, no split screen, no text. Inside the high-tech HQ Quartermaster Lab with turquoise holographic weapon schematics. On the left, Quartermaster Oliver Kade (late-20s male, wavy brown side-swept hair, square black-rimmed glasses, rolled-up white shirt sleeves, fitted charcoal waistcoat, dark trousers) holds up the yellow Banana Blaster pistol in exasperation as mashed yellow banana drips from its jammed barrel. On the right, Agent Saffron (black updo, black high-slit halter gown, sheer grey garter stockings, long black gloves) argues back unapologetically with hands on hips. In the center background between them, unlucky rookie Finn Calder (spiky orange hair, bright orange utility jacket) flinches backward and bumps the back of his head into a metal weapon rack with teary comic shock.`
+    `Single-frame 16:9 widescreen 2D cel-shaded Japanese anime with crisp black ink outlines, no split screen, no text. Inside the high-tech HQ Quartermaster Lab with turquoise holographic weapon schematics of a sleek black pistol. CRITICAL WEAPON OVERRIDE: Ignore the yellow banana gun on the right side of Agent Saffron's reference sheet; only use the sleek matte-black compact tactical pistol shown in her thigh holster on the left full-body turnaround, with NO bananas or yellow guns anywhere in the scene. On the left, Quartermaster Oliver Kade (late-20s male, wavy brown side-swept hair, square black-rimmed glasses, rolled-up white shirt sleeves, fitted charcoal waistcoat, dark trousers) holds up a sleek matte-black compact tactical pistol in exasperation as thin smoke rises from its barrel and a thin silver micro-grappling wire unspools from its muzzle. On the right, Agent Saffron (black updo, black high-slit halter gown, sheer grey garter stockings with empty thigh holster, long black gloves) argues back unapologetically with one hand on her hip and the other gesturing dramatically. In the center background between them, unlucky rookie Finn Calder (spiky orange hair, bright orange utility jacket) is comically tangled in the silver micro-grappling wire and rubs his bumped head in pain.`
 
 - **`Ep2_Shot_04` (Save as `ep2_shots/4.png` or `4.jpg`)**
   - **Attach Reference Sheets (`bible/character_sheets/`)**: `Oliver Kade.png`, `Emily Parker.jpg`
@@ -341,7 +341,7 @@
 - **`Ep2_Shot_12` (Save as `ep2_shots/12.png` or `12.jpg`)**
   - **Attach Reference Sheets (`bible/character_sheets/`)**: `Dorian Marlowe.png`, `The Colossus.jpg`, `Naomi Brooks.jpg`, `Evelyn Cater.jpg`, `Isabella Chen.jpg`, `Airi Fujimoto.png`, `Nia Vale.png`
   - **16:9 Image Prompt**:
-    `Single-frame 16:9 widescreen 2D cel-shaded Japanese anime with crisp black ink outlines, no split screen, no text. Two-layer action shot in the Gala Main Vault Hall. In the foreground, Dorian Marlowe (in his black double-breasted suit) aims his sleek gadget pen as a tiny electric dart bounces harmlessly with a small spark off the massive golden chest armor of The Colossus, freezing Dorian's face in comedic horror. In the background, Agent Naomi Brooks pulls a full-sized tactical riot shield out of her small pink handbag while Evelyn Carter and Isabella Chen escort supermodel Airi Fujimoto and Nia Vale toward the exit.`
+    `Single-frame 16:9 widescreen 2D cel-shaded Japanese anime with crisp black ink outlines, no split screen, no text. Two-layer action shot in the Gala Main Vault Hall. In the foreground, Dorian Marlowe (in his black double-breasted suit) aims his sleek gadget pen as a tiny electric dart bounces harmlessly with a small spark off the massive golden chest armor of The Colossus, freezing Dorian's face in comedic horror. In the background, Agent Naomi Brooks takes a palm-sized glowing blue micro-EMP disc from her small pink crossbody handbag while Evelyn Carter and Isabella Chen escort supermodel Airi Fujimoto and Nia Vale toward the exit.`
 
 - **`Ep2_Shot_13` (Save as `ep2_shots/13.png` or `13.jpg`)**
   - **Attach Reference Sheets (`bible/character_sheets/`)**: `Agent Chloe.jpg`, `The Colossus.jpg`, `Dorian Marlowe.png`
@@ -351,7 +351,7 @@
 - **`Ep2_Shot_14` (Save as `ep2_shots/14.png` or `14.jpg`)**
   - **Attach Reference Sheets (`bible/character_sheets/`)**: `Agent Maya.jpg`, `Agent Saffron.jpg`, `The Colossus.jpg`, `Finn Calder.png`
   - **16:9 Image Prompt**:
-    `Single-frame 16:9 widescreen 2D cel-shaded Japanese anime with crisp black ink outlines, no split screen, no text. Action-comedy chain reaction in the Gala Vault Hall. In the foreground, Agent Maya (with deadpan elite focus, wearing her reddish-brown sleeveless top, dark brown mini skirt, sheer pale brown pantyhose, and burgundy high heels) takes a fresh banana from Barnaby the orangutan and slams it like a rifle magazine into the side vent of Agent Saffron's Banana Blaster pistol; a bright plasma beam fires straight upward from the jammed gun into the ceiling, snapping the chain of a giant crystal chandelier that crashes down onto The Colossus in the background, while a stray crystal ball bonks unlucky orange-haired Finn Calder on the head.`
+    `Single-frame 16:9 widescreen 2D cel-shaded Japanese anime with crisp black ink outlines, no split screen, no text. Action-comedy chain reaction in the Gala Vault Hall. CRITICAL WEAPON OVERRIDE: Agent Saffron holds a sleek matte-black compact tactical pistol (NO yellow banana gun). In the foreground, Agent Saffron's matte-black tactical pistol has fired a thin silver micro-grappling wire straight upward into the ceiling where it wraps around the chain of a giant crystal chandelier; beside her, Agent Maya (with deadpan elite focus, wearing her reddish-brown sleeveless top, dark brown mini skirt, sheer pale brown pantyhose, and burgundy high heels, holding a banana in one hand like an optical rangefinder) and Barnaby the orangutan earnestly yank downward on the taut grappling wire—snapping the ceiling chain so the giant crystal chandelier crashes down onto The Colossus in the background, while a stray crystal ball bonks unlucky orange-haired Finn Calder on the head.`
 
 - **`Ep2_Shot_15` (Save as `ep2_shots/15.png` or `15.jpg`)**
   - **Attach Reference Sheets (`bible/character_sheets/`)**: `Victoria Parker.jpg`, `The Colossus.jpg`
@@ -368,7 +368,7 @@
 - **`Ep2_Shot_17` (Save as `ep2_shots/17.png` or `17.jpg`)**
   - **Attach Reference Sheets (`bible/character_sheets/`)**: `Commander Griz.jpg`, `Oliver Kade.png`, `Finn Calder.png`
   - **16:9 Image Prompt**:
-    `Single-frame 16:9 widescreen 2D cel-shaded Japanese anime with crisp black ink outlines, no split screen, no text. Medium comedy reaction shot inside the cyan-lit HQ Command Center. On the left, 190cm clean-shaven, buzz-cut Commander Griz (no mask, wearing his black tactical vest uniform) holds a comically long paper repair invoice trailing onto the floor with one hand while pressing his other hand flat against his forehead in soul-crushed exasperation. In the center, Quartermaster Oliver Kade (square glasses, white shirt with rolled sleeves, charcoal waistcoat) cradles his scorched, banana-jammed Banana Blaster in anguish. On the right, unlucky rookie Finn Calder stands blankly with a bandage cross on his forehead and his arm in a sling.`
+    `Single-frame 16:9 widescreen 2D cel-shaded Japanese anime with crisp black ink outlines, no split screen, no text. Medium comedy reaction shot inside the cyan-lit HQ Command Center. On the left, 190cm clean-shaven, buzz-cut Commander Griz (no mask, wearing his black tactical vest uniform) holds a comically long paper repair invoice trailing onto the floor with one hand while pressing his other hand flat against his forehead in soul-crushed exasperation. In the center, Quartermaster Oliver Kade (square glasses, white shirt with rolled sleeves, charcoal waistcoat) cradles a scorched matte-black compact tactical pistol tangled in silver micro-grappling wire in anguish. On the right, unlucky rookie Finn Calder stands blankly with a bandage cross on his forehead and his arm in a sling.`
 
 - **`Ep2_Shot_18` (Save as `ep2_shots/18.png` or `18.jpg`)**
   - **Attach Reference Sheets (`bible/character_sheets/`)**: `Agent Maya.jpg`, `Isabella Chen.jpg`, `Evelyn Cater.jpg`, `Naomi Brooks.jpg`, `Dorian Marlowe.png`

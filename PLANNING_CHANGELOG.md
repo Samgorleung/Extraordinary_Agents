@@ -17,6 +17,10 @@
 
 ## 2. Changelog (更新日誌)
 
+### [2026-11-10] - Naomi Handbag Gadget & Saffron Tactical Pistol Canon Refinement (Ep2 Shots 2 & 3 Update)
+- **Naomi Brooks (`bible/character_roster.md`, `ep2_shots/storyboard.md`, `prompt_2*.txt`)**: Replaced the unrealistic "giant grapple-launcher / full-sized riot shield pulled from a tiny pink handbag" with realistic, compact spy gadgets that fit inside her small pink crossbody handbag (rose-gold lipstick micro-taser, compact-mirror signal decoder, and palm-sized micro-EMP discs).
+- **Agent Saffron & Oliver Kade (`bible/character_roster.md`, `ep2_shots/storyboard.md`, `prompt_3*.txt`)**: Retired the one-off "Banana Blaster" joke weapon and standardized Saffron's weapon to the **sleek matte-black custom multi-mode tactical pistol** shown in her thigh garter holster on `Agent Saffron.jpg` (equipped with suppressed fire, stun darts, and a retractable micro-wire grappling hook). Updated `Ep2_Shot_03`, `Ep2_Shot_14`, and `Ep2_Shot_17` accordingly.
+
 ### [2026-11-10] - Episode 2 Act I Keyframes (1.png–5.png) & Video Prompts Added
 - Added and renamed Act I 16:9 keyframes in `ep2_shots/`: `1.png` (`Ep2_Shot_01`), `2.png` (`Ep2_Shot_02`), `3.png` (`Ep2_Shot_03`), `4.png` (`Ep2_Shot_04`), and `5.png` (`Ep2_Shot_05`).
 - Created English and HK Cantonese MiniMax H3 / Flow video prompt files (`prompt_1.txt`–`prompt_5.txt` and `prompt_1_hk.txt`–`prompt_5_hk.txt`) in `ep2_shots/`.

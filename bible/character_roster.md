@@ -10,8 +10,8 @@
 - **Arc & Bond with Barnaby**: Prior to Episode 1, Maya and Barnaby were complete strangers; losing her shoes during Episode 1's chaotic infiltration was their **origin story** that turned them into inseparable best friends. From Episode 2 onward, she and Barnaby operate on the exact same earnest, clueless wavelength as loyal partners-in-crime—doing absurd things together with deadpan gravity that somehow always save the day.
 
 ### Agent Saffron
-- **Visual & Outfit Anchor**: Adult woman with a sleek black updo, elegant black halter dress with a high side slit, sheer grey thigh-high garter stockings with thigh holster, long black opera gloves, black ankle-strap high heels. Wields the **Banana Blaster**.
-- **Personality & Running Gag**: Maya's senior partner. Overconfident, dramatic operative who desperately wants to look like an ultra-cool, legendary secret agent and constantly tries to outshine **Evelyn Carter** and **Dorian Marlowe**, but her flashy stunts always backfire into hilarious slapstick disasters (rope tangles, crashing ziplines, gadget misfires).
+- **Visual & Outfit Anchor**: Adult woman with a sleek black updo, elegant black halter dress with a high side slit, sheer grey thigh-high garter stockings with thigh holster, long black opera gloves, black ankle-strap high heels. Wields a **sleek matte-black compact tactical pistol** (equipped with suppressed rounds, stun darts, and a retractable micro-wire grappling hook) holstered on her right thigh garter strap.
+- **Personality & Running Gag**: Maya's senior partner. Overconfident, dramatic operative who desperately wants to look like an ultra-cool, legendary secret agent and constantly tries to outshine **Evelyn Carter** and **Dorian Marlowe**, but her flashy stunts and obsession with dramatic entrances always backfire into hilarious slapstick disasters (grappling-wire tangles, crashing ziplines, firing the wrong gadget mode mid-pose).
 
 ### Agent Chloe Han (韓克洛伊) & White Rabbit
 - **Visual & Outfit Anchor**: Adult woman with dark bob hair and a blue-and-white floral hair ornament, intricate blue-and-white floral evening gown with sheer flowing sleeves and high side slit, sheer skin-tone stockings with a jeweled thigh garter strap, silver-white floral ankle-strap high heels. Accompanied everywhere by her white rabbit wearing a blue ribbon bow.
@@ -26,8 +26,8 @@
 - **Personality & Role**: Confident, mature, slightly haughty specialist excelling in social engineering, high-society infiltration, and intelligence gathering. Loves teasing and looking down on Saffron's "elite agent" posturing.
 
 ### Agent Naomi Brooks (Codename: Violet / 紫羅蘭)
-- **Visual & Outfit Anchor**: Warm bronze skin, voluminous dark curly hair, black turtleneck sweater, beige pleated mini skirt, **bottomless pink tactical handbag**, black ankle boots.
-- **Personality & Role**: Independent, decisive, highly vigilant field agent; delivers deadpan snark and pulls impossibly large tactical gear out of her small pink handbag while remaining deeply protective of her teammates.
+- **Visual & Outfit Anchor**: Warm bronze skin, voluminous dark curly hair, black turtleneck sweater, beige pleated mini skirt, **sleek small pink crossbody handbag** (containing realistic, palm-sized concealed spy tools such as a metallic lipstick micro-taser, compact-mirror signal decoder, and micro-EMP discs), black ankle boots.
+- **Personality & Role**: Independent, decisive, highly vigilant field agent; delivers deadpan snark and deploys compact, palm-sized spy gadgets from her small pink handbag while remaining deeply protective of her teammates.
 
 ### Agent Isabella Chen (Codename: Phoenix / 鳳凰)
 - **Visual & Outfit Anchor**: East Asian features, long black wavy hair with a large red ribbon bow, ornate red-and-gold phoenix embroidered high-slit gown (or blue-and-white floral dress in Ep1), gold-patterned sheer stockings, red high heels.
@@ -61,7 +61,7 @@
 
 ### Oliver Kade (奧利佛・凱德 / Codename: Patch 補丁)
 - **Visual & Outfit Anchor**: Late-twenties adult male, warm brown wavy side-swept hair, square dark-rimmed glasses, white long-sleeve collared shirt with rolled-up sleeves, fitted charcoal waistcoat, dark tailored trousers, brown leather dress shoes.
-- **Personality & Relationships**: HQ Gadget & Weapons Quartermaster. Inventive, analytical, and highly precise tech genius who built and maintains Saffron's **Banana Blaster** and engineered/supports **Victoria Parker's cybernetic mechanical arm**. Constantly argues with and gets exasperated by Saffron's reckless equipment mishaps, yet remains deeply committed to keeping every agent alive through his gear.
+- **Personality & Relationships**: HQ Gadget & Weapons Quartermaster. Inventive, analytical, and highly precise tech genius who built and maintains Saffron's **custom multi-mode tactical pistol** and engineered/supports **Victoria Parker's cybernetic mechanical arm**. Constantly argues with and gets exasperated by Saffron's reckless equipment abuse (such as firing her grappling wire indoors just to strike a dramatic pose), yet remains deeply committed to keeping every agent alive through his gear.
 
 ---
 
