@@ -2,14 +2,14 @@
 
 ## 1. Core Field Agents & Comedy Crew (Commander Griz's Squad)
 
-### Agent Maya
+### Agent Maya Tachibana (橘 瑪雅 / 瑪雅・橘)
 - **Visual & Outfit Anchor**: Adult woman with wavy shoulder-length brown hair, earpiece headset, tailored reddish-brown ribbed sleeveless blouse, dark brown mini skirt with ID badge clipped at waist, sheer pale brown pantyhose, and burgundy/dark-red high heels (worn by default; may occasionally lose a shoe naturally in a slapstick scramble, though not forced into every scene).
 - **Persona & Running Gag (Earnest Airhead Who Fails Upwards / 一本正經做傻事卻錯有錯著)**:
   - **100% Serious Doing Silly Things**: Externally, Maya projects the poised posture, sharp gaze, and unwavering confidence of a top-tier elite operative—yet internally she is an endearing, pure-hearted airhead who does completely silly, clueless things with **100% deadpan seriousness**.
   - **Accidental Genius (錯有錯著立大功)**: Whenever Maya earnestly says something clueless (e.g., making a solemn observation about a ripening banana) or performs a silly action (e.g., crouching down with deadpan focus to pick up a dropped snack or fix her heel), enemies and rival agents like **Dorian Marlowe** wildly over-interpret her moves as brilliant tactical masterstrokes—causing her to accidentally dodge lethal traps, trigger hidden vault switches, and solve the mission while **Finn Calder** and **Saffron** watch in disbelief.
 - **Arc & Bond with Barnaby**: Prior to Episode 1, Maya and Barnaby were complete strangers; losing her shoes during Episode 1's chaotic infiltration was their **origin story** that turned them into inseparable best friends. From Episode 2 onward, she and Barnaby operate on the exact same earnest, clueless wavelength as loyal partners-in-crime—doing absurd things together with deadpan gravity that somehow always save the day.
 
-### Agent Saffron
+### Agent Saffron Sinclair (薩芙蓉・辛克萊)
 - **Visual & Outfit Anchor**: Adult woman with a sleek black updo, elegant black halter dress with a high side slit, sheer grey thigh-high garter stockings with thigh holster, long black opera gloves, black ankle-strap high heels. Wields a **sleek matte-black compact tactical pistol** (equipped with suppressed rounds, stun darts, and a retractable micro-wire grappling hook) holstered on her right thigh garter strap.
 - **Personality & Running Gag**: Maya's senior partner. Overconfident, dramatic operative who desperately wants to look like an ultra-cool, legendary secret agent and constantly tries to outshine **Evelyn Carter** and **Dorian Marlowe**, but her flashy stunts and obsession with dramatic entrances always backfire into hilarious slapstick disasters (grappling-wire tangles, crashing ziplines, firing the wrong gadget mode mid-pose).
 
@@ -41,10 +41,10 @@
 
 ## 2. HQ Command, Military Intelligence & Civilian Support
 
-### Commander Griz (葛瑞茲指揮官)
+### Commander Marcus "Griz" Grisham (馬庫斯・「葛瑞茲」・格里沙姆 / 葛瑞茲指揮官)
 - **Visual & Outfit Anchor**: Age 45, 190 cm, 102 kg, muscular grizzled build, buzz cut, clean-shaven/light-stubble stern face (NO mask), black tactical combat vest and uniform, tactical gloves, wristwatch.
 - **Dual Role & Running Gag**:
-  - **Serious Side**: Supreme Tactical Commander of the Special Operations Team (SOT). Decisive, protective leader ("I can accept mission failure, but I will never easily sacrifice a subordinate") who shrewdly uses Maya and Saffron's sheer unpredictability as a tactical weapon. Coordinates closely with Military Intelligence (Aoi & Elise) and knows partial classified truths about Victoria Parker's disappearance.
+  - **Serious Side**: Supreme Tactical Commander of the Special Operations Team (SOT). His callsign **"Griz"** comes from both his surname **Grisham** and his grizzled front-line reputation. Decisive, protective leader ("I can accept mission failure, but I will never easily sacrifice a subordinate") who shrewdly uses Maya and Saffron's sheer unpredictability as a tactical weapon. Coordinates closely with Military Intelligence (Aoi & Elise) and knows partial classified truths about Victoria Parker's disappearance.
   - **Comedy Side**: Perpetually left in deadpan, soul-crushed exasperation—rubbing his temples with a heavy sigh over the chaotic collateral damage left behind by Maya, Saffron, and Barnaby.
 
 ### Emily Parker (艾蜜莉・帕克)

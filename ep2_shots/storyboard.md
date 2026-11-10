@@ -3,9 +3,10 @@
 ## 1. Episode Overview (集數概覽)
 - **Title**: *Operation Golden Mask / The Gala Gambit* (金面具行動／晚宴博弈)
 - **Core Canon & Tone Alignment (Commit `bc03316` Standard)**:
-  - **Maya & Barnaby**: Maya projects the poised posture, sharp gaze, and unwavering confidence of a top-tier elite operative while doing completely silly, clueless things with **100% deadpan earnestness** alongside Barnaby—causing enemies and rival agents to wildly over-interpret her actions as masterstrokes while she accidentally saves the day ("failing upwards / 錯有錯著").
-  - **Commander Griz**: 190 cm, clean-shaven/light-stubble stern tactical commander (NO mask), perpetually rubbing his temples with a heavy sigh over the squad's collateral damage.
-  - **Chloe Han**: VIP Sixth Ranger / Martial Arts Ace in her blue-and-white floral evening gown, sheer skin-tone stockings with a jeweled thigh garter strap, and silver-white floral ankle-strap high heels, accompanied by her blue-ribbon white rabbit.
+  - **Maya Tachibana (橘 瑪雅) & Barnaby**: Maya projects the poised posture, sharp gaze, and unwavering confidence of a top-tier elite operative while doing completely silly, clueless things with **100% deadpan earnestness** alongside Barnaby—causing enemies and rival agents to wildly over-interpret her actions as masterstrokes while she accidentally saves the day ("failing upwards / 錯有錯著").
+  - **Saffron Sinclair (薩芙蓉・辛克萊)**: Overconfident, glamorous senior operative wielding her sleek matte-black custom multi-mode tactical pistol (with retractable micro-wire grappling hook), whose dramatic poses constantly backfire into slapstick.
+  - **Commander Marcus "Griz" Grisham (葛瑞茲指揮官)**: 190 cm, clean-shaven/light-stubble stern tactical commander (NO mask), perpetually rubbing his temples with a heavy sigh over the squad's collateral damage.
+  - **Chloe Han (韓克洛伊)**: VIP Sixth Ranger / Martial Arts Ace in her blue-and-white floral evening gown, sheer skin-tone stockings with a jeweled thigh garter strap, and silver-white floral ankle-strap high heels, accompanied by her blue-ribbon white rabbit.
   - **Episode 2 New Roster Debuts**: **Oliver Kade (Patch)**, **Finn Calder (Trigger)**, **Nia Vale**, **Dorian Marlowe (Mirror)**, and **Gideon Ward (The Broker)**.
 
 ---
