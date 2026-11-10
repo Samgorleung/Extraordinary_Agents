@@ -281,7 +281,7 @@
 ### Act I Keyframe Prompts (`Ep2_Shot_01` – `Ep2_Shot_05`)
 
 - **`Ep2_Shot_01` (Save as `ep2_shots/1.png` or `1.jpg`)**
-  - **Attach Reference Sheets (`bible/character_sheets/`)**: `Commander Griz.jpg`, `Maya Tachibana.png`, `Saffron Sinclair.png`, `Agent Chloe.jpg`, `Finn Calder.png`
+  - **Attach Reference Sheets (`bible/character_sheets/`)**: `Commander Griz.png`, `Maya Tachibana.png`, `Saffron Sinclair.png`, `Agent Chloe.jpg`, `Finn Calder.png`
   - **16:9 Image Prompt**:
     `Single-frame 16:9 widescreen cinematic 2D cel-shaded Japanese anime with crisp black ink outlines, no split screen, no collage, no text. Inside the Continental Union HQ Operations Command Center with a glowing cyan holographic tactical table. On the center-left, 190cm tall muscular Commander Griz (buzz cut, clean-shaven stern jaw, no mask, black tactical combat vest and gloves) leans one hand on the glass table while rubbing his temples with a heavy sigh. Next to him, Agent Maya (wavy shoulder-length brown hair with earpiece, reddish-brown ribbed sleeveless top, dark brown mini skirt with waist ID badge, sheer pale brown pantyhose, burgundy high heels) stands with ultra-poised elite posture and a deadpan serious gaze as she and Barnaby the large orange orangutan solemnly inspect the ripening spots on a yellow banana together. On the right, Agent Saffron (black updo, black high-slit halter gown, sheer grey thigh-high garter stockings with thigh holster, long black gloves, black heels) poses dramatically with hands on hips; Agent Chloe Han (dark bob with blue-and-white floral hair ornament, blue-and-white floral sheer-sleeve high-slit gown, sheer skin-tone stockings with jeweled thigh garter strap, silver-white floral heels) calmly sips tea with pinky extended beside her blue-ribbon white rabbit; rookie Finn Calder (spiky orange hair, bright orange utility jacket, dark gray cargo pants, combat boots) stands at nervous attention. Keep all legs and feet clearly separated on the floor.`
 
@@ -367,7 +367,7 @@
 ### Act IV Keyframe Prompts (`Ep2_Shot_17` – `Ep2_Shot_20`)
 
 - **`Ep2_Shot_17` (Save as `ep2_shots/17.png` or `17.jpg`)**
-  - **Attach Reference Sheets (`bible/character_sheets/`)**: `Commander Griz.jpg`, `Oliver Kade.png`, `Finn Calder.png`
+  - **Attach Reference Sheets (`bible/character_sheets/`)**: `Commander Griz.png`, `Oliver Kade.png`, `Finn Calder.png`
   - **16:9 Image Prompt**:
     `Single-frame 16:9 widescreen 2D cel-shaded Japanese anime with crisp black ink outlines, no split screen, no text. Medium comedy reaction shot inside the cyan-lit HQ Command Center. On the left, 190cm clean-shaven, buzz-cut Commander Griz (no mask, wearing his black tactical vest uniform) holds a comically long paper repair invoice trailing onto the floor with one hand while pressing his other hand flat against his forehead in soul-crushed exasperation. In the center, Quartermaster Oliver Kade (square glasses, white shirt with rolled sleeves, charcoal waistcoat) cradles a scorched matte-black compact tactical pistol tangled in silver micro-grappling wire in anguish. On the right, unlucky rookie Finn Calder stands blankly with a bandage cross on his forehead and his arm in a sling.`
 
