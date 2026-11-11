@@ -11,12 +11,30 @@
 - [DONE] **Step 2 (Full 20-Shot Storyboard & Script)**: Expanded `ep2_shots/storyboard.md` into the complete 20-shot script (`Ep2_Shot_01` – `Ep2_Shot_20`) with full visual anchors, bilingual dialogue (English & HK Cantonese), and Google Flow / MiniMax H3 dual-engine routing table.
 - [IN PROGRESS] **Step 3 (Single-Frame 16:9 Keyframe Generation)**:
   - [DONE] Act I Keyframes (`ep2_shots/1.png` to `ep2_shots/5.png` for `Ep2_Shot_01` – `Ep2_Shot_05`) generated, standardized, and committed.
-  - [IN PROGRESS] Act II Keyframes (`ep2_shots/6.png` [Red Carpet Rivals] & `ep2_shots/7.png` [Corridor Barrel Infiltration] generated and standardized; `Ep2_Shot_08` – `Ep2_Shot_10` pending).
+  - [DONE] Act II Keyframes (`ep2_shots/6.png` to `ep2_shots/10.png` for `Ep2_Shot_06` – `Ep2_Shot_10`) fully generated, standardized, and committed:
+    - `6.png`: Red Carpet Rivals (Dorian & Saffron, Chloe, Finn).
+    - `7.png`: Service Corridor Infiltration (Maya & Barnaby rolling router barrel, guards bowing, Finn peeking).
+    - `8.png`: VIP Champagne Balcony (Helena Voss & Gideon Ward toast, Isabella & Airi, Nia in background).
+    - `9.png`: Mezzanine Air Vent Standoff (Saffron & Dorian wedged in golden duct, Finn flattened by grille).
+    - `10.png`: Laser Corridor Vault Approach (Chloe Han poised stance, Maya & Barnaby behind barrel, Dorian & Saffron crashed on Finn).
   - [TO-DO] Act III – Act IV Keyframes (`Ep2_Shot_11` – `Ep2_Shot_20`).
 - [IN PROGRESS] **Step 4 (Dual-Engine Video Generation)**:
   - [DONE] Created English and HK Cantonese video prompt files for Act I (`ep2_shots/prompt_1.txt` – `prompt_5.txt` and `ep2_shots/prompt_1_hk.txt` – `prompt_5_hk.txt`).
+  - [DONE] Created English and HK Cantonese video prompt files for Act II (`ep2_shots/prompt_6.txt` – `prompt_10.txt` and `ep2_shots/prompt_6_hk.txt` – `prompt_10_hk.txt`).
+  - [DONE] Generated and saved all 5 Cantonese Act I videos (`Ep2_Shot_01_HK.mp4` – `Ep2_Shot_05_HK.mp4`) and 4 English Act I videos (`Ep2_Shot_01_EN`, `02_EN`, `04_EN`, `05_EN`).
+  - [IN PROGRESS] Launching MiniMax H3 video generation batch for Act II (`Ep2_Shot_06` – `Ep2_Shot_10`).
 
 ## 2. Changelog (更新日誌)
+
+### [2026-11-12] - Act II Keyframes Completed (8.png, 9.png, 10.png) & Video Prompts Prepared
+- **Keyframe Standardization & Renaming**:
+  - `Gala Balcony Toast Under Golden Light.png` ➔ `ep2_shots/8.png` (`Ep2_Shot_08`: VIP Champagne Balcony toast between Minister Helena Voss and Gideon Ward, with Isabella Chen, Airi Fujimoto, and Nia Vale).
+  - `Ventilation Grille Chaos in the Palace.png` ➔ `ep2_shots/9.png` (`Ep2_Shot_09`: Saffron Sinclair and Dorian Marlowe wedged headfirst in golden air duct, Finn Calder dizzy under grille).
+  - `Laser Corridor Showdown.png` ➔ `ep2_shots/10.png` (`Ep2_Shot_10`: Vault laser corridor with Agent Chloe Han, Maya & Barnaby behind defense barrel, Dorian & Saffron crashing on Finn).
+- **Prompt Files Generated**:
+  - Created bilingual video prompt files for all Act II shots (`prompt_6.txt`–`prompt_10.txt` in English and `prompt_6_hk.txt`–`prompt_10_hk.txt` in HK Cantonese) with `<Picture 1>` formatting and lip-sync dialogue under 30 characters.
+- **Video Generation**:
+  - Configured MiniMax H3 batch manifest for Act II Cantonese videos (`Ep2_Shot_06_HK` to `Ep2_Shot_10_HK`) plus pending `Ep2_Shot_03_EN`.
 
 ### [2026-11-11] - Character Sheet Visual Audit (Dorian, Gideon, Helena) & Act II Keyframes (6.png, 7.png)
 - **Dorian Marlowe**: Locked hair to `short tousled jet-black hair with side-swept bangs` (matches `Dorian Marlowe.png`); added explicit hair descriptor to every Dorian keyframe prompt in `ep2_shots/storyboard.md` (Shots 6, 9, 10, 12, 13, 18).
