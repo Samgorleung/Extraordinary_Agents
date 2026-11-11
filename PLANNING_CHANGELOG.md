@@ -11,11 +11,19 @@
 - [DONE] **Step 2 (Full 20-Shot Storyboard & Script)**: Expanded `ep2_shots/storyboard.md` into the complete 20-shot script (`Ep2_Shot_01` – `Ep2_Shot_20`) with full visual anchors, bilingual dialogue (English & HK Cantonese), and Google Flow / MiniMax H3 dual-engine routing table.
 - [IN PROGRESS] **Step 3 (Single-Frame 16:9 Keyframe Generation)**:
   - [DONE] Act I Keyframes (`ep2_shots/1.png` to `ep2_shots/5.png` for `Ep2_Shot_01` – `Ep2_Shot_05`) generated, standardized, and committed.
-  - [TO-DO] Act II – Act IV Keyframes (`Ep2_Shot_06` – `Ep2_Shot_20`).
+  - [IN PROGRESS] Act II Keyframes (`ep2_shots/6.png` [Red Carpet Rivals] & `ep2_shots/7.png` [Corridor Barrel Infiltration] generated and standardized; `Ep2_Shot_08` – `Ep2_Shot_10` pending).
+  - [TO-DO] Act III – Act IV Keyframes (`Ep2_Shot_11` – `Ep2_Shot_20`).
 - [IN PROGRESS] **Step 4 (Dual-Engine Video Generation)**:
   - [DONE] Created English and HK Cantonese video prompt files for Act I (`ep2_shots/prompt_1.txt` – `prompt_5.txt` and `ep2_shots/prompt_1_hk.txt` – `prompt_5_hk.txt`).
 
 ## 2. Changelog (更新日誌)
+
+### [2026-11-11] - Character Sheet Visual Audit (Dorian, Gideon, Helena) & Act II Keyframes (6.png, 7.png)
+- **Dorian Marlowe**: Locked hair to `short tousled jet-black hair with side-swept bangs` (matches `Dorian Marlowe.png`); added explicit hair descriptor to every Dorian keyframe prompt in `ep2_shots/storyboard.md` (Shots 6, 9, 10, 12, 13, 18).
+- **Gideon Ward**: Corrected to match `Gideon Ward.png` — age 39, 188 cm, messy swept-back dark brown hair, full beard, dark brown waxed-canvas field jacket over open gray shirt and black T-shirt, dark brown cargo trousers, brown field boots.
+- **Helena Voss**: Corrected hosiery to `sheer nude pantyhose with small black polka dots` (matches `Helena Voss.png`).
+- Added **Visual Descriptor Lock** rule to `AGENTS.md` Section 4.
+- Added and standardized Act II 16:9 keyframes in `ep2_shots/`: `6.png` (`Ep2_Shot_06`: Red Carpet Entrance with Dorian, Saffron, Chloe, Finn) and `7.png` (`Ep2_Shot_07`: Gala Service Corridor Wine Barrel with Maya, Barnaby, Guards, Finn). Aligned Act II script, routing, and prompts in `ep2_shots/storyboard.md`.
 
 ### [2026-11-10] - Canonical Full Names Locked (Maya Tachibana, Saffron Sinclair, Marcus "Griz" Grisham) + Weapon/Gadget Refinement
 - **Canonical Full Names Added (`bible/character_roster.md`, `ep2_shots/storyboard.md`)**:

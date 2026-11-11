@@ -45,6 +45,7 @@ C. 叫 ChatGPT 或另一個 Gemini 開工嘅標準開頭 Prompt:
 2. **Relationship Lock (關係鎖定)**：嚴禁擅自捏造或混淆親屬／血緣關係（例如：**Nia Vale 絕對唔係藤本葵 Aoi Fujimoto 嘅妹妹**，**Airi Fujimoto 藤本愛莉** 先係藤本葵嘅親妹妹；**Emily Parker** 先係 **Victoria Parker** 嘅親妹妹）。
 3. **No Template Text Bleeding (嚴禁排版參考圖文字滲漏)**：借用舊角色設定圖（如 Airi Fujimoto 或 Helena Voss）做排版參考（Layout Reference）時，嚴禁將參考圖嘅親屬關係、角色簡介或性格文字抄落新角色度；新角色設定表上嘅所有文字必須完全根據新角色本身嘅正史重寫。
 4. **Proposal vs. Canon (提案與正史分界)**：AI 新構思嘅角色背景或關係必須先標示為 `PROPOSED`（提案），經創作者確認後先至可以寫入 `bible/character_roster.md` 成為 Canon（正史）。
+5. **Visual Descriptor Lock (外貌描述鎖定)**：所有生圖／算片 Prompt 入面嘅角色外貌（髮色、髮型、服裝、絲襪、鞋履）必須逐字抄自 `bible/character_roster.md` 嘅 Visual & Outfit Anchor，而該 Anchor 必須以 `bible/character_sheets/` 設定圖為準；嚴禁 AI 憑記憶自創外貌（例如 Dorian Marlowe 係**黑色短髮**，唔係金髮）。
 
 ## 5. End-to-End Episode Production Pipeline & Antigravity Prompt-Dispatch Protocol (劇集生產 4 步流水線與主動派 Prompt 機制)
 
