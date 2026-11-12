@@ -22,7 +22,8 @@
   - [DONE] Created English and HK Cantonese video prompt files for Act I (`ep2_shots/prompt_1.txt` – `prompt_5.txt` and `ep2_shots/prompt_1_hk.txt` – `prompt_5_hk.txt`).
   - [DONE] Created English and HK Cantonese video prompt files for Act II (`ep2_shots/prompt_6.txt` – `prompt_10.txt` and `ep2_shots/prompt_6_hk.txt` – `prompt_10_hk.txt`).
   - [DONE] Generated and saved all 5 Cantonese Act I videos (`Ep2_Shot_01_HK.mp4` – `Ep2_Shot_05_HK.mp4`) and 4 English Act I videos (`Ep2_Shot_01_EN`, `02_EN`, `04_EN`, `05_EN`).
-  - [IN PROGRESS] Launching MiniMax H3 video generation batch for Act II (`Ep2_Shot_06` – `Ep2_Shot_10`).
+  - [DONE] Generated and saved all 5 Cantonese Act II videos (`Ep2_Shot_06_HK.mp4` – `Ep2_Shot_10_HK.mp4`) and 4 English Act II videos (`Ep2_Shot_06_EN`, `07_EN`, `08_EN`, `09_EN`).
+  - [IN PROGRESS] Rendering final 2 wrap-up videos on Colab A100 (`Ep2_Shot_10_EN.mp4` & `Ep2_Shot_03_EN.mp4`).
 
 ## 2. Changelog (更新日誌)
 
@@ -34,7 +35,9 @@
 - **Prompt Files Generated**:
   - Created bilingual video prompt files for all Act II shots (`prompt_6.txt`–`prompt_10.txt` in English and `prompt_6_hk.txt`–`prompt_10_hk.txt` in HK Cantonese) with `<Picture 1>` formatting and lip-sync dialogue under 30 characters.
 - **Video Generation**:
-  - Configured MiniMax H3 batch manifest for Act II Cantonese videos (`Ep2_Shot_06_HK` to `Ep2_Shot_10_HK`) plus pending `Ep2_Shot_03_EN`.
+  - Successfully generated and saved all 5 Cantonese Act II videos (`Ep2_Shot_06_HK.mp4` – `Ep2_Shot_10_HK.mp4`) in 8-step `first_frame` mode on Colab A100.
+  - Successfully generated and saved 4 English Act II videos (`Ep2_Shot_06_EN.mp4` – `Ep2_Shot_09_EN.mp4`).
+  - Active batch running for the final 2 videos: `Ep2_Shot_10_EN.mp4` (Laser Corridor English) and `Ep2_Shot_03_EN.mp4` (Quartermaster Lab English).
 
 ### [2026-11-11] - Character Sheet Visual Audit (Dorian, Gideon, Helena) & Act II Keyframes (6.png, 7.png)
 - **Dorian Marlowe**: Locked hair to `short tousled jet-black hair with side-swept bangs` (matches `Dorian Marlowe.png`); added explicit hair descriptor to every Dorian keyframe prompt in `ep2_shots/storyboard.md` (Shots 6, 9, 10, 12, 13, 18).
