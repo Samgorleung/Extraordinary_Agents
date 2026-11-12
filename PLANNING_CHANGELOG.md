@@ -21,9 +21,8 @@
 - [IN PROGRESS] **Step 4 (Dual-Engine Video Generation)**:
   - [DONE] Created English and HK Cantonese video prompt files for Act I (`ep2_shots/prompt_1.txt` – `prompt_5.txt` and `ep2_shots/prompt_1_hk.txt` – `prompt_5_hk.txt`).
   - [DONE] Created English and HK Cantonese video prompt files for Act II (`ep2_shots/prompt_6.txt` – `prompt_10.txt` and `ep2_shots/prompt_6_hk.txt` – `prompt_10_hk.txt`).
-  - [DONE] Generated and saved all 5 Cantonese Act I videos (`Ep2_Shot_01_HK.mp4` – `Ep2_Shot_05_HK.mp4`) and 4 English Act I videos (`Ep2_Shot_01_EN`, `02_EN`, `04_EN`, `05_EN`).
-  - [DONE] Generated and saved all 5 Cantonese Act II videos (`Ep2_Shot_06_HK.mp4` – `Ep2_Shot_10_HK.mp4`) and 4 English Act II videos (`Ep2_Shot_06_EN`, `07_EN`, `08_EN`, `09_EN`).
-  - [IN PROGRESS] Rendering final 2 wrap-up videos on Colab A100 (`Ep2_Shot_10_EN.mp4` & `Ep2_Shot_03_EN.mp4`).
+  - [DONE] Generated and saved all 10 Cantonese videos (`Ep2_Shot_01_HK.mp4` – `Ep2_Shot_10_HK.mp4`) and all 10 English videos (`Ep2_Shot_01_EN.mp4` – `Ep2_Shot_10_EN.mp4`) for Act I & Act II on Colab A100 (20/20 videos completed).
+  - [TO-DO] Act III & Act IV Video Generation (`Ep2_Shot_11` – `Ep2_Shot_20`).
 
 ## 2. Changelog (更新日誌)
 
@@ -36,8 +35,8 @@
   - Created bilingual video prompt files for all Act II shots (`prompt_6.txt`–`prompt_10.txt` in English and `prompt_6_hk.txt`–`prompt_10_hk.txt` in HK Cantonese) with `<Picture 1>` formatting and lip-sync dialogue under 30 characters.
 - **Video Generation**:
   - Successfully generated and saved all 5 Cantonese Act II videos (`Ep2_Shot_06_HK.mp4` – `Ep2_Shot_10_HK.mp4`) in 8-step `first_frame` mode on Colab A100.
-  - Successfully generated and saved 4 English Act II videos (`Ep2_Shot_06_EN.mp4` – `Ep2_Shot_09_EN.mp4`).
-  - Active batch running for the final 2 videos: `Ep2_Shot_10_EN.mp4` (Laser Corridor English) and `Ep2_Shot_03_EN.mp4` (Quartermaster Lab English).
+  - Successfully generated and saved all 5 English Act II videos (`Ep2_Shot_06_EN.mp4` – `Ep2_Shot_10_EN.mp4`).
+  - Completed pending Act I English video (`Ep2_Shot_03_EN.mp4`). All 20 bilingual videos for Act I & Act II are now 100% complete and saved locally. Colab session stopped with 504.5 CU balance remaining.
 
 ### [2026-11-11] - Character Sheet Visual Audit (Dorian, Gideon, Helena) & Act II Keyframes (6.png, 7.png)
 - **Dorian Marlowe**: Locked hair to `short tousled jet-black hair with side-swept bangs` (matches `Dorian Marlowe.png`); added explicit hair descriptor to every Dorian keyframe prompt in `ep2_shots/storyboard.md` (Shots 6, 9, 10, 12, 13, 18).
