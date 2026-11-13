@@ -38,6 +38,8 @@
   - Unified all keyframe and video prompts (`prompt_1`–`prompt_10`, EN & HK) to the modern high-budget anime style.
   - Updated `Ep2_Shot_08` and `Ep2_Shot_12` to replace civilians Airi & Nia with **Agent Naomi Brooks** and **Agent Evelyn Carter** alongside **Agent Isabella Chen**.
   - Updated `Ep2_Shot_10` action so Maya holds her pistol in her right hand with a warm smile and reaches her left hand backward for gear, only for silent Barnaby to hand her a banana.
+- **Updated Keyframe First-Frames (`ep2_shots/1.png`, `7.png`, `8.png`)**:
+  - Replaced `ep2_shots/1.png` (`Warm Smile, Steady Hold.png`), `ep2_shots/7.png` (`Maya and Barnaby’s Grand Hotel Arrival.png`), and `ep2_shots/8.png` (`Gala Balcony Toast at Dusk.png`) with upgraded modern 2020s anime keyframes aligned to the new character & style rules, completing the full prompt & keyframe upgrade.
 
 ### [2026-11-12] - Act II Keyframes Completed (8.png, 9.png, 10.png) & Video Prompts Prepared
 - **Keyframe Standardization & Renaming**:
