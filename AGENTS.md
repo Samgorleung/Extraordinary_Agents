@@ -59,6 +59,7 @@ Antigravity 除咗負責本地檔案管理同 Git 同步之外，喺完成每一
    - **Antigravity 職責**：可直接同創作者一齊擴充 `storyboard.md`，或生成一段指令叫連咗 GitHub 嘅 **Gemini Chat** 讀取最新 Repo 協助構思對白，定稿後由 Antigravity 寫入 `storyboard.md` 並 `git push`。
 3. **Step 3: Single-Frame 16:9 Keyframe Generation (單幅 16:9 劇集分鏡底圖) 👉 Antigravity 出 Prompt ➔ 貼去 ChatGPT / Gemini / Flow 生圖**
    - **流程**：劇本分鏡表拍板後，需要為每一鏡生成 16:9 獨立算片底圖。
+   - **Hybrid Image Pipeline**：Use Google Flow / Nano Banana to draft complex multi-character staging first, then use ChatGPT for a 1:1 Master Style Upgrade.
    - **Antigravity 職責**：根據 `prompts/style_guide.md` 嘅 `Rule Set 2 (單幅 16:9 劇集分鏡圖，嚴禁多格拼圖)`，逐鏡寫好英文生圖 Prompt，並明確提示創作者每一鏡需要附帶 `bible/character_sheets/` 入面邊幾張角色設定圖上傳俾 **ChatGPT / Gemini / Flow**；圖片放入 `epX_shots/` 後負責執齊檔名並 `git push`。
 4. **Step 4: Dual-Engine Video Generation (雙引擎算片：Google Flow vs. MiniMax H3) 👉 Antigravity 直接寫入算片 Prompts**
    - **流程**：按鏡頭性質分流算片：

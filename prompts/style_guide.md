@@ -2,7 +2,7 @@
 
 ## 1. Image Generation Rules: Two Distinct Formats (ChatGPT Image / Nano Banana)
 
-- **Base Visual Style (Applies to All Art)**: Clean 2D cel-shaded Japanese anime blended with detailed comic-style black ink outlines and high-contrast cinematic lighting. Non-photorealistic, no 3D CGI rendering or realistic photo skin textures.
+- **Base Visual Style (Applies to All Art)**: Modern high-budget 2020s anime key visual illustration (Ufotable and Makoto Shinkai cinematic lighting style), ultra-detailed digital painting, delicate thin lineart, soft multi-layered gradient shading, volumetric lighting, ray-traced floor reflections, and realistic glossy sheer pantyhose textures. Strictly NO 1990s flat cel-shading or thick comic ink outlines.
 - **Stateless World Rule**: Continental Union alternate-modern setting; NO real-world national flags, country names, or unintended watermark text.
 
 ### Rule Set 1: 角色三視圖設定表 (Character Turnaround Sheets — 存入 `bible/character_sheets/`)
@@ -22,7 +22,7 @@
 ### Rule Set 2: 單幅 16:9 劇集分鏡圖 (Single-Frame 16:9 Episode Storyboard Keyframes — 存入 `ep1_shots/` 或 `ep2_shots/`)
 - **Purpose**: Shot-by-shot keyframe images generated specifically as input frames for **Google Flow** and **MiniMax H3** video generation (or single-scene character concept previews).
 - **CRITICAL SINGLE-FRAME RULE**: Strictly generate **individual, single-frame 16:9 widescreen (1920×1080) full-bleed images** for each shot. **NEVER** combine multiple views, panels, inset callout boxes, character sheets, or split-screen grids into an episode keyframe.
-- **Close-Up Anti-3D Rule**: For close-up inserts of hands, feet, shoes, or props where faces are not visible, explicitly enforce: `strictly flat 2D anime cel-shading with visible black ink outlines, non-photorealistic, no 3D CGI rendering or realistic skin textures`.
+- **Close-Up Anti-3D Rule**: For close-up inserts of hands, feet, shoes, or props where faces are not visible, explicitly enforce: `modern 2020s anime key visual illustration with delicate thin lineart, non-photorealistic, no 3D CGI rendering or realistic skin textures`.
 - **Footwear & Limb Clarity**:
   - **Default Outfit Anchor**: By default, Agent Maya wears her burgundy/dark-red high heels with sheer pale brown pantyhose (do not include shoeless/tickling keywords as default prompt boilerplate; only include a natural shoe-loss mishap if a specific scene calls for it).
   - **AI Content Filter Balance**: To avoid false-positive safety blocks on image/video platforms, focus prompts on **action-comedy & earnest slapstick** (Maya doing silly things with deadpan elite poise, banana-peel slips, mixed-up gadgets, and chain-reaction collisions) rather than explicit foot-tickling/licking keywords.
@@ -38,3 +38,7 @@
   * HK Cantonese (use authentic spoken Cantonese characters 口語): `speaking in natural Hong Kong Cantonese, saying clearly: "..."`
   * Mandarin: `speaking in Mandarin Chinese, saying clearly: "..."`
   * Japanese: `speaking in Japanese, saying clearly: "..."`
+
+---
+
+**Hybrid Image Pipeline**: Use Google Flow / Nano Banana to draft complex multi-character staging first, then use ChatGPT for a 1:1 Master Style Upgrade.
