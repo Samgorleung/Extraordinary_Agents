@@ -26,6 +26,19 @@
 
 ## 2. Changelog (更新日誌)
 
+### [2026-11-13] - 2020s Anime Style Upgrade, Character Rules & Storyboard/Prompt Alignment
+- **Style Guide & Pipeline Upgrade (`prompts/style_guide.md`, `AGENTS.md`)**:
+  - Upgraded Base Visual Style from 1990s flat cel-shading to **Modern high-budget 2020s anime key visual illustration** (Ufotable/Makoto Shinkai cinematic lighting, delicate thin lineart, volumetric lighting, glossy fabric & sheer pantyhose textures).
+  - Documented the **Hybrid Image Pipeline** (Google Flow / Nano Banana staging draft ➔ ChatGPT 1:1 Master Style Upgrade).
+- **Character Canon Rules (`bible/character_roster.md`)**:
+  - Updated **Agent Maya Tachibana**'s signature demeanor to a warm, approachable, radiant and confident smile while earnestly doing silly things.
+  - Added **STRICT AUDIO RULE** for **Barnaby** (non-speaking orangutan; keeps mouth closed during dialogue).
+  - Added **CIVILIAN STATUS** lock for **Airi Fujimoto** and **Nia Vale** (non-combatant civilians excluded from tactical spy missions/vault battles).
+- **Storyboard & Video Prompts Alignment (`ep2_shots/storyboard.md`, `ep2_shots/prompt_*.txt`)**:
+  - Unified all keyframe and video prompts (`prompt_1`–`prompt_10`, EN & HK) to the modern high-budget anime style.
+  - Updated `Ep2_Shot_08` and `Ep2_Shot_12` to replace civilians Airi & Nia with **Agent Naomi Brooks** and **Agent Evelyn Carter** alongside **Agent Isabella Chen**.
+  - Updated `Ep2_Shot_10` action so Maya holds her pistol in her right hand with a warm smile and reaches her left hand backward for gear, only for silent Barnaby to hand her a banana.
+
 ### [2026-11-12] - Act II Keyframes Completed (8.png, 9.png, 10.png) & Video Prompts Prepared
 - **Keyframe Standardization & Renaming**:
   - `Gala Balcony Toast Under Golden Light.png` ➔ `ep2_shots/8.png` (`Ep2_Shot_08`: VIP Champagne Balcony toast between Minister Helena Voss and Gideon Ward, with Isabella Chen, Airi Fujimoto, and Nia Vale).
