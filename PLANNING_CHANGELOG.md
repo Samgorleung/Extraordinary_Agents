@@ -40,6 +40,13 @@
 
 ## 2. Changelog (更新日誌)
 
+### [2026-11-14] - Storyboard Canon & Prompt Synchronization Audit (`ep2_shots/storyboard.md`)
+- **Full Alignment with Final Keyframes (`1.png`–`20.png`) & Video Prompts (`prompt_1`–`prompt_20_hk`)**:
+  - `Ep2_Shot_01` (Section 1 Overview & Section 4 Keyframe Prompt): Replaced remaining `100% deadpan earnestness` / `deadpan serious gaze` with `a warm, confident, radiant smile and earnest focus`.
+  - `Ep2_Shot_02` (Section 2 & Section 3 Routing Table): Aligned Naomi's prop anchors cleanly to her rose-gold lipstick micro-taser and compact-mirror signal decoder held from her small pink crossbody handbag (`--mode first_frame`).
+  - `Ep2_Shot_03` (Section 2 Title, Anchors & Dialogue): Updated heading to「戰術鉤爪手槍罵戰」and aligned Oliver & Saffron's visual/dialogue anchors strictly to `3.png` and `prompt_3.txt` / `prompt_3_hk.txt`.
+  - `Ep2_Shot_17` & `Ep2_Shot_18` (Section 2 Anchors, Dialogue & Section 3 Routing Table): Aligned Griz's floor-length repair bill, Oliver cradling the smoking matte-black tactical pistol, Finn's right-side framing, and unified `--mode first_frame (~1 CU)` routing for `Ep2_Shot_02`, `Ep2_Shot_17`, and `Ep2_Shot_18`.
+
 ### [2026-11-14] - Episode 2 Production Completed (Act IV Videos 17–20 HK & EN Done; 40/40 Complete)
 - **MiniMax H3 Video Generation (Colab A100)**:
   - Generated and saved all 8 bilingual `.mp4` videos for Act IV (`Ep2_Shot_17_HK/EN` – `Ep2_Shot_20_HK/EN`) using `ep2_shots/17.png`–`20.png` in `first_frame` mode.
