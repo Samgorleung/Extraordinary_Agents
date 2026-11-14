@@ -30,10 +30,15 @@
   - [DONE] Created English and HK Cantonese video prompt files for Act II (`ep2_shots/prompt_6.txt` – `prompt_10.txt` and `ep2_shots/prompt_6_hk.txt` – `prompt_10_hk.txt`).
   - [DONE] Created English and HK Cantonese video prompt files for Act III (`ep2_shots/prompt_11.txt` – `prompt_16.txt` and `ep2_shots/prompt_11_hk.txt` – `prompt_16_hk.txt`).
   - [DONE] Generated and saved all 10 Cantonese videos (`Ep2_Shot_01_HK.mp4` – `Ep2_Shot_10_HK.mp4`) and all 10 English videos (`Ep2_Shot_01_EN.mp4` – `Ep2_Shot_10_EN.mp4`) for Act I & Act II on Colab A100 (20/20 videos completed).
-  - [IN PROGRESS] Act III Video Generation (`Ep2_Shot_11` – `Ep2_Shot_16`, 12 bilingual videos).
+  - [DONE] Generated and saved all 6 Cantonese videos (`Ep2_Shot_11_HK.mp4` – `Ep2_Shot_16_HK.mp4`) and all 6 English videos (`Ep2_Shot_11_EN.mp4` – `Ep2_Shot_16_EN.mp4`) for Act III on Colab A100 (12/12 videos completed; 32/32 cumulative for Acts I–III).
   - [TO-DO] Act IV Video Generation (`Ep2_Shot_17` – `Ep2_Shot_20`).
 
 ## 2. Changelog (更新日誌)
+
+### [2026-11-14] - Act III Bilingual Video Generation Completed (Shots 11–16 HK & EN)
+- **MiniMax H3 Video Generation (Colab A100)**:
+  - Generated and saved all 12 bilingual `.mp4` videos for Act III (`Ep2_Shot_11_HK/EN` – `Ep2_Shot_16_HK/EN`) using `ep2_shots/11.png`–`16.png` in `first_frame` mode (`32/40` Episode 2 videos now complete across Acts I–III).
+  - Colab A100 runtime automatically disconnected upon completion (`0 active assignments`, `459.23 CU` remaining).
 
 ### [2026-11-14] - Act III Keyframes (11.png–16.png) Standardized & Bilingual Prompts Created
 - **Keyframe Standardization & Renaming (`ep2_shots/`)**:
