@@ -6,7 +6,7 @@
 - Core comedy setup established: Maya loses her shoes and meets Barnaby the orangutan during a chaotic infiltration; Saffron's overconfident superspy stunts backfire; Chloe Han steps in as the VIP Sixth-Ranger ace to clear the room with high-kick martial arts.
 - Resulting Arc: Maya and Barnaby become inseparable best friends and partners from Episode 2 onward.
 
-### Episode 2 Planning (In Progress — Step 4: Final Act IV Video Generation)
+### Episode 2 Planning (Completed — 20/20 Keyframes & 40/40 Bilingual Videos)
 - [DONE] **Step 1 (Character Roster & Turnaround Sheets)**: All 20 canonical characters locked in `bible/character_roster.md` and `bible/character_sheets/` (including Episode 2 debuts: `Oliver Kade.png`, `Finn Calder.png`, `Gideon Ward.png`, `Nia Vale.png`, and `Dorian Marlowe.png`).
 - [DONE] **Step 2 (Full 20-Shot Storyboard & Script)**: Expanded `ep2_shots/storyboard.md` into the complete 20-shot script (`Ep2_Shot_01` – `Ep2_Shot_20`) with full visual anchors, bilingual dialogue (English & HK Cantonese), and Google Flow / MiniMax H3 dual-engine routing table.
 - [DONE] **Step 3 (Single-Frame 16:9 Keyframe Generation — 20/20 Completed)**:
@@ -29,16 +29,22 @@
     - `18.png`: Command Centre Celebration — Maya smiling & high-fiving silent Barnaby with bananas, Isabella collecting cash from Evelyn & Naomi, Dorian in awe.
     - `19.png`: Military Intel Comms Hub — Elise pointing at monitor freeze-frame of Raven while Aoi clenches her fists.
     - `20.png`: Syndicate Mastermind Gideon Ward at amber-lit desk with Colossus's scuffed golden mask and Chloe/Raven telemetry.
-- [IN PROGRESS] **Step 4 (Dual-Engine Video Generation)**:
+- [DONE] **Step 4 (Dual-Engine Video Generation — 40/40 Completed)**:
   - [DONE] Created English and HK Cantonese video prompt files for Act I (`ep2_shots/prompt_1.txt` – `prompt_5.txt` and `ep2_shots/prompt_1_hk.txt` – `prompt_5_hk.txt`).
   - [DONE] Created English and HK Cantonese video prompt files for Act II (`ep2_shots/prompt_6.txt` – `prompt_10.txt` and `ep2_shots/prompt_6_hk.txt` – `prompt_10_hk.txt`).
   - [DONE] Created English and HK Cantonese video prompt files for Act III (`ep2_shots/prompt_11.txt` – `prompt_16.txt` and `ep2_shots/prompt_11_hk.txt` – `prompt_16_hk.txt`).
   - [DONE] Created English and HK Cantonese video prompt files for Act IV (`ep2_shots/prompt_17.txt` – `prompt_20.txt` and `ep2_shots/prompt_17_hk.txt` – `prompt_20_hk.txt`).
   - [DONE] Generated and saved all 10 Cantonese videos (`Ep2_Shot_01_HK.mp4` – `Ep2_Shot_10_HK.mp4`) and all 10 English videos (`Ep2_Shot_01_EN.mp4` – `Ep2_Shot_10_EN.mp4`) for Act I & Act II on Colab A100 (20/20 videos completed).
   - [DONE] Generated and saved all 6 Cantonese videos (`Ep2_Shot_11_HK.mp4` – `Ep2_Shot_16_HK.mp4`) and all 6 English videos (`Ep2_Shot_11_EN.mp4` – `Ep2_Shot_16_EN.mp4`) for Act III on Colab A100 (12/12 videos completed; 32/32 cumulative for Acts I–III).
-  - [IN PROGRESS] Act IV Video Generation (`Ep2_Shot_17` – `Ep2_Shot_20`, 8 bilingual videos).
+  - [DONE] Generated and saved all 4 Cantonese videos (`Ep2_Shot_17_HK.mp4` – `Ep2_Shot_20_HK.mp4`) and all 4 English videos (`Ep2_Shot_17_EN.mp4` – `Ep2_Shot_20_EN.mp4`) for Act IV on Colab A100 (8/8 videos completed; **40/40 Episode 2 videos 100% completed**).
 
 ## 2. Changelog (更新日誌)
+
+### [2026-11-14] - Episode 2 Production Completed (Act IV Videos 17–20 HK & EN Done; 40/40 Complete)
+- **MiniMax H3 Video Generation (Colab A100)**:
+  - Generated and saved all 8 bilingual `.mp4` videos for Act IV (`Ep2_Shot_17_HK/EN` – `Ep2_Shot_20_HK/EN`) using `ep2_shots/17.png`–`20.png` in `first_frame` mode.
+  - Verified all 40 Episode 2 videos (`Ep2_Shot_01_HK/EN` – `Ep2_Shot_20_HK/EN`) across Acts I–IV are complete locally.
+  - Colab A100 runtime automatically disconnected upon completion (`0 active assignments`, `446.72 CU` remaining).
 
 ### [2026-11-14] - Act IV Keyframes (17.png–20.png) Standardized & Bilingual Prompts Created
 - **Keyframe Standardization & Renaming (`ep2_shots/`)**:
