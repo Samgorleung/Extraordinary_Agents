@@ -6,10 +6,10 @@
 - Core comedy setup established: Maya loses her shoes and meets Barnaby the orangutan during a chaotic infiltration; Saffron's overconfident superspy stunts backfire; Chloe Han steps in as the VIP Sixth-Ranger ace to clear the room with high-kick martial arts.
 - Resulting Arc: Maya and Barnaby become inseparable best friends and partners from Episode 2 onward.
 
-### Episode 2 Planning (In Progress — Step 3: Keyframe Generation)
+### Episode 2 Planning (In Progress — Step 4: Final Act IV Video Generation)
 - [DONE] **Step 1 (Character Roster & Turnaround Sheets)**: All 20 canonical characters locked in `bible/character_roster.md` and `bible/character_sheets/` (including Episode 2 debuts: `Oliver Kade.png`, `Finn Calder.png`, `Gideon Ward.png`, `Nia Vale.png`, and `Dorian Marlowe.png`).
 - [DONE] **Step 2 (Full 20-Shot Storyboard & Script)**: Expanded `ep2_shots/storyboard.md` into the complete 20-shot script (`Ep2_Shot_01` – `Ep2_Shot_20`) with full visual anchors, bilingual dialogue (English & HK Cantonese), and Google Flow / MiniMax H3 dual-engine routing table.
-- [IN PROGRESS] **Step 3 (Single-Frame 16:9 Keyframe Generation)**:
+- [DONE] **Step 3 (Single-Frame 16:9 Keyframe Generation — 20/20 Completed)**:
   - [DONE] Act I Keyframes (`ep2_shots/1.png` to `ep2_shots/5.png` for `Ep2_Shot_01` – `Ep2_Shot_05`) generated, standardized, and committed.
   - [DONE] Act II Keyframes (`ep2_shots/6.png` to `ep2_shots/10.png` for `Ep2_Shot_06` – `Ep2_Shot_10`) fully generated, standardized, and committed:
     - `6.png`: Red Carpet Rivals (Dorian & Saffron, Chloe, Finn).
@@ -24,16 +24,31 @@
     - `14.png`: Chandelier Chaos — Saffron's tactical pistol wire, Maya's warm smile + banana sight & silent Barnaby pulling chandelier down onto Colossus, Finn bonked.
     - `15.png`: Moonlit Winged Assault — Victoria Parker (Raven) descending with dark wings & 10D light brown pantyhose before full moon.
     - `16.png`: Cybernetic Winged Heroine Deflects Colossal Axe — Raven's cybernetic right arm clashing with Colossus's axe as Maya & Finn rush in.
-  - [TO-DO] Act IV Keyframes (`Ep2_Shot_17` – `Ep2_Shot_20`).
+  - [DONE] Act IV Keyframes (`ep2_shots/17.png` to `ep2_shots/20.png` for `Ep2_Shot_17` – `Ep2_Shot_20`) generated via Hybrid Image Pipeline, standardized, and committed:
+    - `17.png`: Post-Mission Repair Bill Blues — Griz holding floor-length invoice, Oliver cradling wire-tangled tactical pistol, bandaged Finn.
+    - `18.png`: Command Centre Celebration — Maya smiling & high-fiving silent Barnaby with bananas, Isabella collecting cash from Evelyn & Naomi, Dorian in awe.
+    - `19.png`: Military Intel Comms Hub — Elise pointing at monitor freeze-frame of Raven while Aoi clenches her fists.
+    - `20.png`: Syndicate Mastermind Gideon Ward at amber-lit desk with Colossus's scuffed golden mask and Chloe/Raven telemetry.
 - [IN PROGRESS] **Step 4 (Dual-Engine Video Generation)**:
   - [DONE] Created English and HK Cantonese video prompt files for Act I (`ep2_shots/prompt_1.txt` – `prompt_5.txt` and `ep2_shots/prompt_1_hk.txt` – `prompt_5_hk.txt`).
   - [DONE] Created English and HK Cantonese video prompt files for Act II (`ep2_shots/prompt_6.txt` – `prompt_10.txt` and `ep2_shots/prompt_6_hk.txt` – `prompt_10_hk.txt`).
   - [DONE] Created English and HK Cantonese video prompt files for Act III (`ep2_shots/prompt_11.txt` – `prompt_16.txt` and `ep2_shots/prompt_11_hk.txt` – `prompt_16_hk.txt`).
+  - [DONE] Created English and HK Cantonese video prompt files for Act IV (`ep2_shots/prompt_17.txt` – `prompt_20.txt` and `ep2_shots/prompt_17_hk.txt` – `prompt_20_hk.txt`).
   - [DONE] Generated and saved all 10 Cantonese videos (`Ep2_Shot_01_HK.mp4` – `Ep2_Shot_10_HK.mp4`) and all 10 English videos (`Ep2_Shot_01_EN.mp4` – `Ep2_Shot_10_EN.mp4`) for Act I & Act II on Colab A100 (20/20 videos completed).
   - [DONE] Generated and saved all 6 Cantonese videos (`Ep2_Shot_11_HK.mp4` – `Ep2_Shot_16_HK.mp4`) and all 6 English videos (`Ep2_Shot_11_EN.mp4` – `Ep2_Shot_16_EN.mp4`) for Act III on Colab A100 (12/12 videos completed; 32/32 cumulative for Acts I–III).
-  - [TO-DO] Act IV Video Generation (`Ep2_Shot_17` – `Ep2_Shot_20`).
+  - [IN PROGRESS] Act IV Video Generation (`Ep2_Shot_17` – `Ep2_Shot_20`, 8 bilingual videos).
 
 ## 2. Changelog (更新日誌)
+
+### [2026-11-14] - Act IV Keyframes (17.png–20.png) Standardized & Bilingual Prompts Created
+- **Keyframe Standardization & Renaming (`ep2_shots/`)**:
+  - `Post-Mission Repair Bill Blues.png` ➔ `ep2_shots/17.png` (`Ep2_Shot_17`)
+  - `Futuristic Command Centre Celebration.png` ➔ `ep2_shots/18.png` (`Ep2_Shot_18`)
+  - `Command Centre_ Wings on the Screen.png` ➔ `ep2_shots/19.png` (`Ep2_Shot_19`)
+  - `Mastermind’s Amber Command Room.png` ➔ `ep2_shots/20.png` (`Ep2_Shot_20`)
+  - All 20 Episode 2 keyframes (`1.png`–`20.png`) are now 100% complete (`Step 3 [DONE]`).
+- **Video Prompts Created**:
+  - Created all 8 bilingual video prompts for Act IV (`prompt_17.txt`–`prompt_20.txt` and `prompt_17_hk.txt`–`prompt_20_hk.txt`) aligned to the spatial framing of `17.png`–`20.png`, Maya's warm confident smile, and silent Barnaby.
 
 ### [2026-11-14] - Act III Bilingual Video Generation Completed (Shots 11–16 HK & EN)
 - **MiniMax H3 Video Generation (Colab A100)**:
