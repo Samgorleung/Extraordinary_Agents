@@ -17,14 +17,36 @@
     - `8.png`: VIP Champagne Balcony (Helena Voss & Gideon Ward toast, Isabella & Airi, Nia in background).
     - `9.png`: Mezzanine Air Vent Standoff (Saffron & Dorian wedged in golden duct, Finn flattened by grille).
     - `10.png`: Laser Corridor Vault Approach (Chloe Han poised stance, Maya & Barnaby behind barrel, Dorian & Saffron crashed on Finn).
-  - [TO-DO] Act III – Act IV Keyframes (`Ep2_Shot_11` – `Ep2_Shot_20`).
+  - [DONE] Act III Keyframes (`ep2_shots/11.png` to `ep2_shots/16.png` for `Ep2_Shot_11` – `Ep2_Shot_16`) generated via Hybrid Image Pipeline, standardized, and committed:
+    - `11.png`: The Colossus Storms the Golden Vault.
+    - `12.png`: Cathedral Showdown — Dorian's gadget pen bouncing off Colossus + Naomi deploying micro-EMP disc from pink bag alongside Evelyn & Isabella.
+    - `13.png`: Ballroom Clash — Agent Chloe Han's flying Taekwondo floral high kick deflecting Colossus's warhammer.
+    - `14.png`: Chandelier Chaos — Saffron's tactical pistol wire, Maya's warm smile + banana sight & silent Barnaby pulling chandelier down onto Colossus, Finn bonked.
+    - `15.png`: Moonlit Winged Assault — Victoria Parker (Raven) descending with dark wings & 10D light brown pantyhose before full moon.
+    - `16.png`: Cybernetic Winged Heroine Deflects Colossal Axe — Raven's cybernetic right arm clashing with Colossus's axe as Maya & Finn rush in.
+  - [TO-DO] Act IV Keyframes (`Ep2_Shot_17` – `Ep2_Shot_20`).
 - [IN PROGRESS] **Step 4 (Dual-Engine Video Generation)**:
   - [DONE] Created English and HK Cantonese video prompt files for Act I (`ep2_shots/prompt_1.txt` – `prompt_5.txt` and `ep2_shots/prompt_1_hk.txt` – `prompt_5_hk.txt`).
   - [DONE] Created English and HK Cantonese video prompt files for Act II (`ep2_shots/prompt_6.txt` – `prompt_10.txt` and `ep2_shots/prompt_6_hk.txt` – `prompt_10_hk.txt`).
+  - [DONE] Created English and HK Cantonese video prompt files for Act III (`ep2_shots/prompt_11.txt` – `prompt_16.txt` and `ep2_shots/prompt_11_hk.txt` – `prompt_16_hk.txt`).
   - [DONE] Generated and saved all 10 Cantonese videos (`Ep2_Shot_01_HK.mp4` – `Ep2_Shot_10_HK.mp4`) and all 10 English videos (`Ep2_Shot_01_EN.mp4` – `Ep2_Shot_10_EN.mp4`) for Act I & Act II on Colab A100 (20/20 videos completed).
-  - [TO-DO] Act III & Act IV Video Generation (`Ep2_Shot_11` – `Ep2_Shot_20`).
+  - [IN PROGRESS] Act III Video Generation (`Ep2_Shot_11` – `Ep2_Shot_16`, 12 bilingual videos).
+  - [TO-DO] Act IV Video Generation (`Ep2_Shot_17` – `Ep2_Shot_20`).
 
 ## 2. Changelog (更新日誌)
+
+### [2026-11-14] - Act III Keyframes (11.png–16.png) Standardized & Bilingual Prompts Created
+- **Keyframe Standardization & Renaming (`ep2_shots/`)**:
+  - `The Colossus Storms the Golden Vault.png` ➔ `ep2_shots/11.png` (`Ep2_Shot_11`)
+  - `Cathedral Showdown_ Sparks and Steel.png` ➔ `ep2_shots/12.png` (`Ep2_Shot_12`)
+  - `Ballroom Clash_ The Flying Floral Kick.png` ➔ `ep2_shots/13.png` (`Ep2_Shot_13`)
+  - `Chandelier Chaos in the Grand Ballroom.png` ➔ `ep2_shots/14.png` (`Ep2_Shot_14`)
+  - `Moonlit Winged Assault in the Ruined Hall.png` ➔ `ep2_shots/15.png` (`Ep2_Shot_15`)
+  - `Cybernetic Winged Heroine Deflects Colossal Axe.png` ➔ `ep2_shots/16.png` (`Ep2_Shot_16`)
+- **Video Prompts Created**:
+  - Created all 12 bilingual video prompts for Act III (`prompt_11.txt`–`prompt_16.txt` and `prompt_11_hk.txt`–`prompt_16_hk.txt`) aligned to the modern high-budget anime style, spatial framing of `11.png`–`16.png`, Maya's warm confident smile, and silent Barnaby.
+- **Storyboard Alignment (`ep2_shots/storyboard.md`)**:
+  - Updated `Ep2_Shot_14` descriptors from deadpan focus/pride to Maya's warm, confident, radiant smile.
 
 ### [2026-11-14] - Regenerated 10 Updated Videos (Shots 01, 03, 07, 08, 10 — HK & EN)
 - **MiniMax H3 Video Regeneration (Colab A100)**:
