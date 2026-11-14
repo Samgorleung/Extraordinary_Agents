@@ -26,6 +26,11 @@
 
 ## 2. Changelog (更新日誌)
 
+### [2026-11-14] - Regenerated 10 Updated Videos (Shots 01, 03, 07, 08, 10 — HK & EN)
+- **MiniMax H3 Video Regeneration (Colab A100)**:
+  - Regenerated and overwrote all 10 bilingual `.mp4` videos for Shots **01, 03, 07, 08, and 10** (`Ep2_Shot_01_HK/EN`, `03_HK/EN`, `07_HK/EN`, `08_HK/EN`, `10_HK/EN`) using the updated `1.png`, `7.png`, `8.png` keyframes and upgraded prompts (Maya's warm confident smile, silent Barnaby, Naomi replacing civilians in Shot 08, clean tactical pistol in Shot 03, and pistol-banana handoff in Shot 10).
+  - Colab A100 runtime automatically disconnected upon completion (`0 active assignments`, `478.2 CU` remaining).
+
 ### [2026-11-13] - 2020s Anime Style Upgrade, Character Rules & Storyboard/Prompt Alignment
 - **Style Guide & Pipeline Upgrade (`prompts/style_guide.md`, `AGENTS.md`)**:
   - Upgraded Base Visual Style from 1990s flat cel-shading to **Modern high-budget 2020s anime key visual illustration** (Ufotable/Makoto Shinkai cinematic lighting, delicate thin lineart, volumetric lighting, glossy fabric & sheer pantyhose textures).
