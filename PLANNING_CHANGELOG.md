@@ -6,7 +6,7 @@
 - Core comedy setup established: Maya loses her shoes and meets Barnaby the orangutan during a chaotic infiltration; Saffron's overconfident superspy stunts backfire; Chloe Han steps in as the VIP Sixth-Ranger ace to clear the room with high-kick martial arts.
 - Resulting Arc: Maya and Barnaby become inseparable best friends and partners from Episode 2 onward.
 
-### Episode 2 Planning (Retakes, Shot 13B Bridge & Hybrid Master Assembly In Progress)
+### Episode 2 Planning (Completed — 42/42 Bilingual H3 Clips, 5 Flow Assets & Bilingual Hybrid Masters)
 - [DONE] **Step 1 (Character Roster & Turnaround Sheets)**: All 20 canonical characters locked in `bible/character_roster.md` and `bible/character_sheets/` (including Episode 2 debuts: `Oliver Kade.png`, `Finn Calder.png`, `Gideon Ward.png`, `Nia Vale.png`, and `Dorian Marlowe.png`).
 - [DONE] **Step 2 (Full 20-Shot Storyboard & Script + Shot 13B Bridge)**: Expanded `ep2_shots/storyboard.md` into the complete 20-shot script (`Ep2_Shot_01` – `Ep2_Shot_20`) plus `Ep2_Shot_13B` Taekwondo combo bridge with full visual anchors, bilingual dialogue (English & HK Cantonese), and Hybrid Flow/MiniMax H3 routing table.
 - [DONE] **Step 3 (Single-Frame 16:9 Keyframe Generation — 20/20 Completed)**:
@@ -38,9 +38,19 @@
   - [DONE] Generated and saved all 6 Cantonese videos (`Ep2_Shot_11_HK.mp4` – `Ep2_Shot_16_HK.mp4`) and all 6 English videos (`Ep2_Shot_11_EN.mp4` – `Ep2_Shot_16_EN.mp4`) for Act III on Colab A100 (12/12 videos completed; 32/32 cumulative for Acts I–III).
   - [DONE] Generated and saved all 4 Cantonese videos (`Ep2_Shot_17_HK.mp4` – `Ep2_Shot_20_HK.mp4`) and all 4 English videos (`Ep2_Shot_17_EN.mp4` – `Ep2_Shot_20_EN.mp4`) for Act IV on Colab A100 (8/8 videos completed; **40/40 Episode 2 videos 100% completed**).
   - [DONE] Integrated 5 Google Flow videos (`Flow_Shot_11.mp4`, `Flow_Shot_15.mp4`, `Flow_Shot_20.mp4`, `Flow_Bridge_09_10.mp4`, `Flow_Bridge_15_16.mp4`) into `ep2_shots/flow/` and added `ep2_shots/assemble_ep2.sh` for 138% Punch-In + Flow Hybrid Master assembly.
-  - [TODO] Regenerate MiniMax H3 clips for Shots 10, 14, and 18 (HK & EN) with non-speaking Barnaby prompt refinements + generate `Ep2_Shot_13B` Taekwondo combo bridge (`prompt_13b.txt`), then build `Episode_2_Hybrid_Master_HK.mp4` and `Episode_2_Hybrid_Master_EN.mp4`.
+  - [DONE] Regenerated MiniMax H3 clips for Shots 10, 14, and 18 (`Ep2_Shot_10_HK/EN.mp4`, `Ep2_Shot_14_HK/EN.mp4`, `Ep2_Shot_18_HK/EN.mp4`) with non-speaking Barnaby prompt refinements + generated `Ep2_Shot_13B` Taekwondo combo bridge (`Ep2_Shot_13B_HK.mp4` & `Ep2_Shot_13B_EN.mp4`), and built both Hybrid Masters via `ep2_shots/assemble_ep2.sh ALL`: `Episode_2_Hybrid_Master_HK.mp4` (`161 MB`, `194.13s`) and `Episode_2_Hybrid_Master_EN.mp4` (`174 MB`, `197.86s`).
 
 ## 2. Changelog (更新日誌)
+
+### [2026-11-15] - Episode 2 Retakes, Shot 13B Bridge & Bilingual Hybrid Masters Completed
+- **MiniMax H3 Retakes & Bridge Generation (Colab A100)**:
+  - Regenerated and saved `Ep2_Shot_10_HK/EN.mp4`, `Ep2_Shot_14_HK/EN.mp4`, and `Ep2_Shot_18_HK/EN.mp4` using the Barnaby non-speaking prompt refinements in `first_frame` mode (`1344x768`).
+  - Generated `Ep2_Shot_13B_HK.mp4` (`ep2_shots/13.png` + `prompt_13b.txt`) and duplicated to `Ep2_Shot_13B_EN.mp4` as the shared non-dialogue Taekwondo 3-hit combo bridge.
+  - Colab A100 runtime stopped cleanly upon completion (`0 active assignments`, `425.73 CU` remaining).
+- **Bilingual Hybrid Master Assembly (`ep2_shots/assemble_ep2.sh`)**:
+  - Installed `ffmpeg` & `ffprobe` in WSL and assembled both full-episode masters combining 138% H3 punch-ins, silence trimming, 3 Google Flow overrides (`Flow_Shot_11/15/20.mp4`), and 2 Google Flow transitions (`Flow_Bridge_09_10.mp4`, `Flow_Bridge_15_16.mp4`):
+    - `Episode_2_Hybrid_Master_HK.mp4` (`161M`, `194.127667s`)
+    - `Episode_2_Hybrid_Master_EN.mp4` (`174M`, `197.857667s`)
 
 ### [2026-11-15] - Barnaby Non-Speaking Retake Prompts, Shot 13B Action Bridge & Flow Hybrid Assembler Setup
 - **Prompt Refinements (`ep2_shots/prompt_10*.txt`, `prompt_14*.txt`, `prompt_18*.txt`)**:
