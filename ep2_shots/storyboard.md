@@ -124,10 +124,10 @@
 - **16:9 Single-Frame Visual & Action Summary**:
   - **Composition**: Dynamic Widescreen Ensemble Standoff; polished marble floor crisscrossed by intense glowing crimson laser beams against dark metallic and marble walls.
   - **Action & Visual Anchors**: In the foreground on the right, **Agent Chloe Han** (dark bob hair with blue-and-white floral ornament, blue-and-white floral sheer-sleeve high-slit gown, **sheer skin-tone stockings with a jeweled thigh garter strap**, silver-white floral ankle-strap high heels) calmly unclips a comms earring with a composed smile, stepping into a poised Taekwondo combat stance while her blue-ribbon white rabbit sits safely behind the laser line. In the center, **Maya Tachibana** and **Barnaby** arrive rolling the wine barrel into defensive position: Maya holds her black pistol in her right hand with a warm, confident smile and reaches her empty left hand backward to ask silent Barnaby for gear, while Barnaby keeps his mouth closed and earnestly places a banana into her left hand. Behind them, **Dorian Marlowe** (**short tousled jet-black hair with side-swept bangs**, rumpled black double-breasted suit) and **Saffron Sinclair** drop down from the ventilation shaft into an undignified heap on top of **Finn Calder**, just as the heavy vault doors begin to shudder violently from within!
-- **Target Video Engine**: **MiniMax H3** (`--mode first_frame`).
+- **Target Video Engine**: **MiniMax H3** (`--mode first_frame`; preceded by Google Flow Start-to-End Bridge `ep2_shots/flow/Flow_Bridge_09_10.mp4`).
 - **Dialogue**:
-  - **English (`prompt.txt`)**: `Agent Chloe Han smiling calmly and speaking in English, saying clearly: "Stand back, everyone. Heavy footsteps are approaching from behind the vault doors." Agent Maya holding up a banana with warm, confident smile and earnest focus and speaking in English, saying clearly: "Infrared array neutralized. Defense barrel deployed."`
-  - **HK Cantonese (`prompt_hk.txt`)**: `Agent Chloe Han smiling calmly and speaking in natural Hong Kong Cantonese, saying clearly: "大家企開少少，金庫門後有沉重嘅腳步聲行緊過嚟。" Agent Maya holding up a banana with warm, confident smile and earnest focus and speaking in natural Hong Kong Cantonese, saying clearly: "紅外線掃描完畢，防禦酒桶就位。"`
+  - **English (`prompt_10.txt`)**: `Agent Chloe Han touching her earring and speaking in clear English, saying clearly: "Stand back, everyone. Heavy footsteps are approaching from behind the vault doors." Agent Maya smiling warmly behind the oak barrel and speaking in clear English, saying clearly: "Infrared array neutralized. Defense barrel deployed!"` (Prompt places `a quiet orange ape hands a yellow banana into her left hand` at the end to keep Barnaby non-speaking.)
+  - **HK Cantonese (`prompt_10_hk.txt`)**: `Agent Chloe Han touching her earring and speaking in natural Hong Kong Cantonese, saying clearly: "大家企開少少，金庫門後有沉重嘅腳步聲行緊過嚟。" Agent Maya smiling warmly behind the oak barrel and speaking in natural Hong Kong Cantonese, saying clearly: "紅外線掃描完畢，防禦酒桶已經就位！"` (Prompt places `a quiet orange ape hands a yellow banana into her left hand` at the end to keep Barnaby non-speaking.)
 
 ---
 
@@ -165,16 +165,27 @@
   - **English (`prompt.txt`)**: `Agent Chloe Han speaking calmly in English, saying clearly: "Mind your manners, brute. You nearly ruined the aroma of my tea."`
   - **HK Cantonese (`prompt_hk.txt`)**: `Agent Chloe Han speaking calmly in natural Hong Kong Cantonese, saying clearly: "大隻佬，斯文啲啦，你差啲震散晒我杯茶啲香氣喇。"`
 
+#### **Ep2_Shot_13B** — Act III (Action Bridge): Chloe 空中三連踢將黃金巨像逼退至水晶吊燈正下方
+- **Location**: `Luxury Marble Corridor / High-Security Gala Venue (Main Vault Hall)`（晚宴主金庫大廳中央）
+- **Characters in Frame**: Agent Chloe Han, The Colossus
+- **Starting Keyframe & Prompt**: `ep2_shots/13.png` + `ep2_shots/prompt_13b.txt`
+- **16:9 Single-Frame Visual & Action Summary**:
+  - **Composition**: Fast-paced modern high-budget 2020s anime martial arts combat shot continuing immediately from `13.png`.
+  - **Action & Visual Anchors**: Immediately after deflecting the warhammer, **Agent Chloe Han** (blue-and-white floral gown, sheer stockings with jeweled garter strap, silver-white floral heels) spins rapidly in mid-air and unleashes a blistering three-hit Taekwondo high-kick combo—a spinning hook kick, a rapid side kick, and a devastating axe kick—slamming repeatedly into **The Colossus**'s golden chest armor in bursts of bright sparks and driving the staggering juggernaut backward directly underneath the giant crystal chandelier to set up `Ep2_Shot_14`.
+- **Target Video Engine**: **MiniMax H3** (`--mode first_frame`, shared non-dialogue action clip for both HK & EN).
+- **Dialogue / Audio**:
+  - **English & HK Cantonese (`prompt_13b.txt`)**: `no spoken dialogue, only rapid martial arts whooshes, heavy metallic kick impacts, and armor clanging sound effects.`
+
 #### **Ep2_Shot_14** — Act III: Saffron 戰術鉤爪手槍走火 ＆ Maya 與 Barnaby 錯有錯著拉冧水晶吊燈
 - **Location**: `Luxury Marble Corridor / High-Security Gala Venue (Main Vault Hall)`（晚宴主金庫大廳）
 - **Characters in Frame**: Agent Maya, Barnaby, Agent Saffron, The Colossus, Agent Finn Calder
 - **16:9 Single-Frame Visual & Action Summary**:
   - **Composition**: Vertical Action-Comedy Chain Reaction Shot.
-  - **Action & Visual Anchors**: **Saffron** draws her **sleek matte-black compact tactical pistol** and strikes a dramatic pose to fire a stun dart at The Colossus, but accidentally has the selector switch set to the **micro-wire grappling hook**—firing the grappling hook straight up into the ceiling where it wraps around the main chain of a two-ton crystal chandelier! Thinking it is a high-level tactical maneuver, **Maya** and **Barnaby** earnestly grab the taut grappling wire alongside Saffron (while Maya solemnly holds a banana in her other hand like an optical sight) and yank downward with 100% warm, confident smile and earnest focus—snapping the ceiling chain so the giant crystal chandelier crashes down to pin **The Colossus**, while a stray crystal ornament bounces across the floor and bonks unlucky **Finn Calder** right on the head.
+  - **Action & Visual Anchors**: **Saffron** draws her **sleek matte-black compact tactical pistol** and strikes a dramatic pose to fire a stun dart at The Colossus, but accidentally has the selector switch set to the **micro-wire grappling hook**—firing the grappling hook straight up into the ceiling where it wraps around the main chain of a two-ton crystal chandelier! Thinking it is a high-level tactical maneuver, **Maya** (center-left foreground, holding a yellow banana like an optical sight with a warm, confident smile) and **Barnaby** (non-speaking orange ape helping pull the silver wire on the right) yank downward on the taut wire—snapping the ceiling chain so the giant crystal chandelier crashes down onto **The Colossus** on the right.
 - **Target Video Engine**: **MiniMax H3** (`--mode first_frame`).
 - **Dialogue**:
-  - **English (`prompt.txt`)**: `Agent Maya flashing a warm, confident smile and speaking in English, saying clearly: "Structural tension calibrated. Pull now!" Agent Saffron blinking in shock and speaking in English, saying clearly: "Yes! Which was totally my plan all along!"`
-  - **HK Cantonese (`prompt_hk.txt`)**: `Agent Maya flashing a warm, confident smile and speaking in natural Hong Kong Cantonese, saying clearly: "張力角度校準完畢，用全力拉落嚟！" Agent Saffron blinking in shock and speaking in natural Hong Kong Cantonese, saying clearly: "冇錯！呢招完全喺我計算之中呀！"`
+  - **English (`prompt_14.txt`)**: `Agent Maya flashing a warm, confident smile and speaking earnestly in English, saying clearly: "Structural tension calibrated. Pull now!" Agent Saffron holding up her black tactical pistol in shock and replying in English, saying clearly: "Yes! Which was totally my plan all along!"` (Prompt keeps Barnaby concise at the end as `an orange ape helps pull the silver wire` to keep him non-speaking.)
+  - **HK Cantonese (`prompt_14_hk.txt`)**: `Agent Maya flashing a warm, confident smile and speaking earnestly in natural Hong Kong Cantonese, saying clearly: "張力角度校準完畢，用全力拉落嚟！" Agent Saffron holding up her black tactical pistol in shock and replying in natural Hong Kong Cantonese, saying clearly: "冇錯！呢招完全喺我計算之中呀！"` (Prompt keeps Barnaby concise at the end as `an orange ape helps pull the silver wire` to keep him non-speaking.)
 
 #### **Ep2_Shot_15** — Act III: 月下暗影降臨：Victoria Parker「渡鴉」展翼現身
 - **Location**: `Luxury Marble Corridor / High-Security Gala Venue (Moonlit Arched Terrace)`（晚宴月光拱窗露台）
@@ -220,8 +231,8 @@
   - **Action & Visual Anchors**: On the left, **Agent Maya** (in her neat uniform, sheer pale brown pantyhose, and burgundy high heels) maintains her poised, ultra-professional smile as she shares a solemn, earnest high-five with **Barnaby** and presents him with a fresh bunch of bananas like a medal of honor. In the center, **Isabella Chen** happily collects a thick stack of bills from **Evelyn** and **Naomi**. On the right, **Dorian Marlowe** stands in his rumpled double-breasted suit and crooked tie, staring at Maya in lingering awe—still 100% convinced she is an untouchable tactical mastermind.
 - **Target Video Engine**: **MiniMax H3** (`--mode first_frame`).
 - **Dialogue**:
-  - **English (`prompt.txt`)**: `Agent Maya speaking with earnest, deadpan pride in English, saying clearly: "Another flawless tactical execution, Partner. Have a victory banana." Dorian Marlowe staring at her in awe and speaking in English, saying clearly: "Even now, she hides her true genius behind a banana... terrifying."`
-  - **HK Cantonese (`prompt_hk.txt`)**: `Agent Maya speaking with earnest, deadpan pride in natural Hong Kong Cantonese, saying clearly: "又一次無懈可擊嘅戰術執行，拍檔，食條勝利香蕉獎勵下先。" Dorian Marlowe staring at her in awe and speaking in natural Hong Kong Cantonese, saying clearly: "去到呢一刻，佢依然用一條蕉嚟隱藏自己深不可測嘅實力……呢個女人真係太恐怖喇。"`
+  - **English (`prompt_18.txt`)**: `Agent Maya flashing a warm, confident smile and speaking in English, saying clearly: "Another flawless tactical execution, Partner. Have a victory banana." Dorian Marlowe staring in awe and speaking in English, saying clearly: "Even now, she hides her true genius behind a banana... terrifying."` (Prompt keeps Barnaby off-focus in text so H3 does not assign him lip-sync.)
+  - **HK Cantonese (`prompt_18_hk.txt`)**: `Agent Maya flashing a warm, confident smile and speaking in natural Hong Kong Cantonese, saying clearly: "又一次無懈可擊嘅戰術執行，拍檔，食條勝利香蕉獎勵下先。" Dorian Marlowe staring in awe and speaking in natural Hong Kong Cantonese, saying clearly: "去到呢一刻，佢依然用一條蕉嚟隱藏自己深不可測嘅實力……真係太恐怖喇。"` (Prompt keeps Barnaby off-focus in text so H3 does not assign him lip-sync.)
 
 #### **Ep2_Shot_19** — Act IV: 軍情處定格畫面：確認渡鴉生還！
 - **Location**: `Military Intelligence Comms & Decryption Hub`（軍情處情報及解密中心）
@@ -260,17 +271,20 @@
 | **Ep2_Shot_07** | Act II | Service corridor: Maya & Barnaby rolling wine barrel with router, guards bowing in sweat + Finn peeking | **MiniMax H3** | `--mode first_frame` (~1 CU) |
 | **Ep2_Shot_08** | Act II | VIP balcony: Helena Voss & Gideon Ward toasting secretly + Isabella, Naomi & Evelyn intercepting signal | **Google Flow** | `6s Tier (10 Credits)` / Ambient Lighting |
 | **Ep2_Shot_09** | Act II | Mezzanine air duct: Saffron & Dorian (black hair) wedged in narrow golden vent + Finn bonked by grille | **MiniMax H3** | `--mode first_frame` (~1 CU) |
-| **Ep2_Shot_10** | Act II | Laser corridor standoff: Chloe poised for combat + Maya holding pistol & handed banana by silent Barnaby + Dorian & Saffron dropping onto Finn | **MiniMax H3** | `--mode first_frame` (~1 CU) |
-| **Ep2_Shot_11** | Act III | The Colossus (210 cm golden armor, smiling mask) smashing through vault door | **Google Flow** | `6s Tier (10 Credits)` / Low-Angle Smoke |
+| **Flow_Bridge_09_10** | Act II | Start-to-End Flow transition bridge connecting Mezzanine Air Vent (`09`) to Laser Corridor (`10`) | **Google Flow** | `ep2_shots/flow/Flow_Bridge_09_10.mp4` |
+| **Ep2_Shot_10** | Act II | Laser corridor standoff: Chloe poised for combat + Maya holding pistol & handed banana by quiet orange ape + Dorian & Saffron dropping onto Finn | **MiniMax H3** | `--mode first_frame` (~1 CU) |
+| **Ep2_Shot_11** | Act III | The Colossus (210 cm golden armor, smiling mask) smashing through vault door | **Hybrid (Flow Video + H3 Audio)** | `ep2_shots/flow/Flow_Shot_11.mp4` override + H3 SFX |
 | **Ep2_Shot_12** | Act III | Dorian's gadget pen dart bouncing off The Colossus + Naomi tossing micro-EMP disc from pink bag alongside Evelyn & Isabella | **MiniMax H3** | `--mode first_frame` (~1 CU) |
 | **Ep2_Shot_13** | Act III | Chloe Han (sheer stockings with jeweled garter) deflecting warhammer with Taekwondo high kick | **MiniMax H3** | `--mode first_frame` (~1 CU, fast combat) |
-| **Ep2_Shot_14** | Act III | Saffron's tactical pistol grappling wire hooking ceiling chandelier + Maya & Barnaby earnestly pulling it down onto Colossus | **MiniMax H3** | `--mode first_frame` (~1 CU) |
-| **Ep2_Shot_15** | Act III | Victoria Parker (Raven) unfolding dark wings in moonlight wearing 10D light brown pantyhose | **Google Flow** | `8s Tier (12 Credits)` / Moonlight Backlight |
+| **Ep2_Shot_13B** | Act III | Action Bridge (`13.png` + `prompt_13b.txt`): Chloe 3-hit Taekwondo high-kick combo driving Colossus under the chandelier (non-dialogue) | **MiniMax H3** | `--mode first_frame` (~1 CU, shared HK/EN) |
+| **Ep2_Shot_14** | Act III | Saffron's tactical pistol grappling wire hooking ceiling chandelier + Maya (banana sight) & orange ape pulling it down onto Colossus | **MiniMax H3** | `--mode first_frame` (~1 CU) |
+| **Ep2_Shot_15** | Act III | Victoria Parker (Raven) unfolding dark wings in moonlight wearing 10D light brown pantyhose | **Hybrid (Flow Video + H3 Audio)** | `ep2_shots/flow/Flow_Shot_15.mp4` override + H3 SFX |
+| **Flow_Bridge_15_16** | Act III | Start-to-End Flow transition bridge from Victoria's moonlit wing descent (`15`) into battleaxe clash (`16`) | **Google Flow** | `ep2_shots/flow/Flow_Bridge_15_16.mp4` |
 | **Ep2_Shot_16** | Act III | Victoria's cybernetic arm clashing with Colossus's axe before vanishing into the night | **MiniMax H3** | `--mode first_frame` (~1 CU, clash sparks) |
 | **Ep2_Shot_17** | Act IV | Clean-shaven Griz holding floor-length repair bill + Oliver cradling wire-tangled tactical pistol + bandaged Finn | **MiniMax H3** | `--mode first_frame` (~1 CU) |
-| **Ep2_Shot_18** | Act IV | Maya & Barnaby earnest high-five with victory bananas + Isabella collecting bets + Dorian in awe | **MiniMax H3** | `--mode first_frame` (~1 CU) |
-| **Ep2_Shot_19** | Act IV | Aoi & Elise zooming in on clear monitor frame of Victoria's cybernetic arm & 10D pantyhose | **Google Flow** | `8s Tier (12 Credits)` / Screen Zoom |
-| **Ep2_Shot_20** | Act IV | Syndicate Mastermind Gideon Ward reviewing Colossus mask & Raven telemetry in amber-lit room | **Google Flow** | `8s Tier (12 Credits)` / Villain Teaser |
+| **Ep2_Shot_18** | Act IV | Maya warm smile celebration + Isabella collecting cash bets + Dorian in awe (Barnaby kept silent) | **MiniMax H3** | `--mode first_frame` (~1 CU) |
+| **Ep2_Shot_19** | Act IV | Aoi & Elise zooming in on clear monitor frame of Victoria's cybernetic arm & 10D pantyhose | **Google Flow / H3** | `--mode first_frame` (~1 CU) |
+| **Ep2_Shot_20** | Act IV | Syndicate Mastermind Gideon Ward reviewing Colossus mask & Raven telemetry in amber-lit room | **Hybrid (Flow Video + H3 Audio)** | `ep2_shots/flow/Flow_Shot_20.mp4` override + H3 dialogue |
 
 ---
 

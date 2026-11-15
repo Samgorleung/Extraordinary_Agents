@@ -6,9 +6,9 @@
 - Core comedy setup established: Maya loses her shoes and meets Barnaby the orangutan during a chaotic infiltration; Saffron's overconfident superspy stunts backfire; Chloe Han steps in as the VIP Sixth-Ranger ace to clear the room with high-kick martial arts.
 - Resulting Arc: Maya and Barnaby become inseparable best friends and partners from Episode 2 onward.
 
-### Episode 2 Planning (Completed — 20/20 Keyframes & 40/40 Bilingual Videos)
+### Episode 2 Planning (Retakes, Shot 13B Bridge & Hybrid Master Assembly In Progress)
 - [DONE] **Step 1 (Character Roster & Turnaround Sheets)**: All 20 canonical characters locked in `bible/character_roster.md` and `bible/character_sheets/` (including Episode 2 debuts: `Oliver Kade.png`, `Finn Calder.png`, `Gideon Ward.png`, `Nia Vale.png`, and `Dorian Marlowe.png`).
-- [DONE] **Step 2 (Full 20-Shot Storyboard & Script)**: Expanded `ep2_shots/storyboard.md` into the complete 20-shot script (`Ep2_Shot_01` – `Ep2_Shot_20`) with full visual anchors, bilingual dialogue (English & HK Cantonese), and Google Flow / MiniMax H3 dual-engine routing table.
+- [DONE] **Step 2 (Full 20-Shot Storyboard & Script + Shot 13B Bridge)**: Expanded `ep2_shots/storyboard.md` into the complete 20-shot script (`Ep2_Shot_01` – `Ep2_Shot_20`) plus `Ep2_Shot_13B` Taekwondo combo bridge with full visual anchors, bilingual dialogue (English & HK Cantonese), and Hybrid Flow/MiniMax H3 routing table.
 - [DONE] **Step 3 (Single-Frame 16:9 Keyframe Generation — 20/20 Completed)**:
   - [DONE] Act I Keyframes (`ep2_shots/1.png` to `ep2_shots/5.png` for `Ep2_Shot_01` – `Ep2_Shot_05`) generated, standardized, and committed.
   - [DONE] Act II Keyframes (`ep2_shots/6.png` to `ep2_shots/10.png` for `Ep2_Shot_06` – `Ep2_Shot_10`) fully generated, standardized, and committed:
@@ -37,8 +37,20 @@
   - [DONE] Generated and saved all 10 Cantonese videos (`Ep2_Shot_01_HK.mp4` – `Ep2_Shot_10_HK.mp4`) and all 10 English videos (`Ep2_Shot_01_EN.mp4` – `Ep2_Shot_10_EN.mp4`) for Act I & Act II on Colab A100 (20/20 videos completed).
   - [DONE] Generated and saved all 6 Cantonese videos (`Ep2_Shot_11_HK.mp4` – `Ep2_Shot_16_HK.mp4`) and all 6 English videos (`Ep2_Shot_11_EN.mp4` – `Ep2_Shot_16_EN.mp4`) for Act III on Colab A100 (12/12 videos completed; 32/32 cumulative for Acts I–III).
   - [DONE] Generated and saved all 4 Cantonese videos (`Ep2_Shot_17_HK.mp4` – `Ep2_Shot_20_HK.mp4`) and all 4 English videos (`Ep2_Shot_17_EN.mp4` – `Ep2_Shot_20_EN.mp4`) for Act IV on Colab A100 (8/8 videos completed; **40/40 Episode 2 videos 100% completed**).
+  - [DONE] Integrated 5 Google Flow videos (`Flow_Shot_11.mp4`, `Flow_Shot_15.mp4`, `Flow_Shot_20.mp4`, `Flow_Bridge_09_10.mp4`, `Flow_Bridge_15_16.mp4`) into `ep2_shots/flow/` and added `ep2_shots/assemble_ep2.sh` for 138% Punch-In + Flow Hybrid Master assembly.
+  - [TODO] Regenerate MiniMax H3 clips for Shots 10, 14, and 18 (HK & EN) with non-speaking Barnaby prompt refinements + generate `Ep2_Shot_13B` Taekwondo combo bridge (`prompt_13b.txt`), then build `Episode_2_Hybrid_Master_HK.mp4` and `Episode_2_Hybrid_Master_EN.mp4`.
 
 ## 2. Changelog (更新日誌)
+
+### [2026-11-15] - Barnaby Non-Speaking Retake Prompts, Shot 13B Action Bridge & Flow Hybrid Assembler Setup
+- **Prompt Refinements (`ep2_shots/prompt_10*.txt`, `prompt_14*.txt`, `prompt_18*.txt`)**:
+  - Restructured spatial and subject phrasing to prevent MiniMax H3 from assigning spoken lip-sync to Barnaby (keeping `a quiet orange ape` / `an orange ape` brief and separated from dialogue speakers).
+- **New Action Bridge (`Ep2_Shot_13B` / `ep2_shots/prompt_13b.txt`)**:
+  - Added a non-dialogue Taekwondo 3-hit combo bridge starting from `ep2_shots/13.png` where Chloe Han drives The Colossus backward directly beneath the giant crystal chandelier to connect seamlessly into `Ep2_Shot_14`.
+- **Google Flow & Hybrid Assembly (`ep2_shots/flow/`, `ep2_shots/assemble_ep2.sh`, `.gitignore`)**:
+  - Moved the 5 Google Flow overrides/bridges (`Flow_Shot_11.mp4`, `Flow_Shot_15.mp4`, `Flow_Shot_20.mp4`, `Flow_Bridge_09_10.mp4`, `Flow_Bridge_15_16.mp4`) into `ep2_shots/flow/`.
+  - Added `ep2_shots/assemble_ep2.sh` (FFmpeg 138% punch-in + silence trimming + Flow override audio muxing + Flow Start-to-End bridge insertion) and updated `.gitignore` to ignore `ep2_edited_clips/`.
+  - Synced `ep2_shots/storyboard.md` Section 2 & Section 3 routing table with `Ep2_Shot_13B`, Flow bridges/overrides, and updated prompt dialogue.
 
 ### [2026-11-14] - Storyboard Canon & Prompt Synchronization Audit (`ep2_shots/storyboard.md`)
 - **Full Alignment with Final Keyframes (`1.png`–`20.png`) & Video Prompts (`prompt_1`–`prompt_20_hk`)**:
