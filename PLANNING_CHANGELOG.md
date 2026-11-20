@@ -39,9 +39,20 @@
   - [DONE] Generated and saved all 4 Cantonese videos (`Ep2_Shot_17_HK.mp4` – `Ep2_Shot_20_HK.mp4`) and all 4 English videos (`Ep2_Shot_17_EN.mp4` – `Ep2_Shot_20_EN.mp4`) for Act IV on Colab A100 (8/8 videos completed; **40/40 Episode 2 videos 100% completed**).
   - [DONE] Integrated 5 Google Flow videos (`Flow_Shot_11.mp4`, `Flow_Shot_15.mp4`, `Flow_Shot_20.mp4`, `Flow_Bridge_09_10.mp4`, `Flow_Bridge_15_16.mp4`) into `ep2_shots/flow/` and added `ep2_shots/assemble_ep2.sh` for 138% Punch-In + Flow Hybrid Master assembly.
   - [DONE] Regenerated MiniMax H3 clips for Shots 10, 14, and 18 (`Ep2_Shot_10_HK/EN.mp4`, `Ep2_Shot_14_HK/EN.mp4`, `Ep2_Shot_18_HK/EN.mp4`) with non-speaking Barnaby prompt refinements + generated `Ep2_Shot_13B` Taekwondo combo bridge (`Ep2_Shot_13B_HK.mp4` & `Ep2_Shot_13B_EN.mp4`), and built initial Hybrid Masters (`194.13s` HK / `197.86s` EN).
-  - [DONE] **Episode 2 Director's Cut Assembly**: Integrated all 10 Google Flow Omni 1.2 bridges & overrides (`Flow_Bridge_05_06.mp4`, `Flow_Bridge_09_10.mp4`, `Flow_Bridge_13_14.mp4`, `Flow_Bridge_14_15.mp4`, split `Flow_Bridge_15_16.mp4` + `Flow_Bridge_16_17.mp4`, replaced `Flow_Shot_11.mp4`, trimmed `Flow_Shot_15.mp4`, shared `Flow_Shot_19B.mp4`, `Flow_Shot_20.mp4`), applied `08 -> 07` causal Act II reorder and `Shot 16 (HK)` clean video swap (`Ep2_Shot_16_EN.mp4` video + `Ep2_Shot_16_HK.mp4` audio), and assembled 27-segment Director's Cut Masters via `ep2_shots/assemble_ep2.sh ALL`: `Episode_2_Hybrid_Master_HK.mp4` (`173M`, `206.463s`) and `Episode_2_Hybrid_Master_EN.mp4` (`183M`, `210.193s`).
+  - [DONE] **Episode 2 Director's Cut Assembly**: Integrated all 10 Google Flow Omni 1.2 bridges & overrides (`Flow_Bridge_05_06.mp4`, `Flow_Bridge_09_10.mp4`, `Flow_Bridge_13_14.mp4`, `Flow_Bridge_14_15.mp4`, split `Flow_Bridge_15_16.mp4` + `Flow_Bridge_16_17.mp4`, replaced `Flow_Shot_11.mp4`, trimmed `Flow_Shot_15.mp4`, shared `Flow_Shot_19B.mp4`, `Flow_Shot_20.mp4`), applied `08 -> 07` causal Act II reorder, `Shot 16 (HK)` clean video swap (`Ep2_Shot_16_EN.mp4` video + `Ep2_Shot_16_HK.mp4` audio), trailing-silence-only `get_smart_duration` (`-42dB/d=0.60/+0.75s`) with `MAX_DUR=12.25` and `Shot 20` slow-mo stretch (`8.09s -> 12.25s`), and assembled final 27-segment Director's Cut Masters via `ep2_shots/assemble_ep2.sh ALL`: `Episode_2_Hybrid_Master_HK.mp4` (`221M`, `272.849s`) and `Episode_2_Hybrid_Master_EN.mp4` (`230M`, `272.849s`).
 
 ## 2. Changelog (更新日誌)
+
+### [2026-11-20] - Fix Dialogue Over-Cutting & Rebuild Bilingual Director's Cut Masters
+- **Root Cause & Audio Scan**: Voice-band (`300–3400 Hz`) envelope scans across all 36 H3 dialogue clips confirmed active speech up to `10.5s–12.0s` (including Shots 05, 13, 16, and 20) while ambient SFX kept tracks above `-42dB`, so previous `MAX_DUR` caps (`4.2s–9.5s`) and mid-clip silence detection clipped final words.
+- **Assembler Fix (`ep2_shots/assemble_ep2.sh`)**:
+  - Updated `get_smart_duration` to use `silencedetect=noise=-42dB:d=0.60` and cut (`silence_start + 0.75s`) **only** when silence persists to clip end (`in_sil == 1` or `tot - e <= 0.25`), never on mid-sentence pauses.
+  - Raised `MAX_DUR` to `12.25s` across all dialogue shots (`01`–`10`, `12`–`14`, `16`–`20`) while keeping non-dialogue Flow entries (`11`, `15`, `19B`) unchanged.
+  - Added smooth `setpts` video stretch in CASE 1 when H3 dialogue exceeds Flow video length (`Flow_Shot_20.mp4`: `8.085s -> 12.25s`) so Gideon Ward's full monologue plays cleanly.
+- **Rebuilt Final Director's Cut Masters (27 segments each, `1344×768` @ `24fps`, `aac 48kHz stereo`)**:
+  - `Episode_2_Hybrid_Master_HK.mp4` (`221M`, `231,702,973` bytes, `272.849s`)
+  - `Episode_2_Hybrid_Master_EN.mp4` (`230M`, `240,929,364` bytes, `272.849s`)
+- **Docs Sync**: Updated `ep2_shots/storyboard.md` (`Ep2_Shot_13` `12.25s` full dialogue and `Ep2_Shot_20` slow-mo stretch).
 
 ### [2026-11-20] - Episode 2 Director's Cut: 10 Flow Omni 1.2 Clips, Split Victoria 7s Finisher, Shot 19B & Causal Act II Reorder
 - **Flow Material Processing & De-Duplication (`ep2_shots/flow/`, `ep2_shots/flow/archive/`)**:

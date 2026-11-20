@@ -22,31 +22,31 @@ mkdir -p "$OUT_DIR" "$FLOW_DIR"
 
 # Shot Routing Table: "SHOT_NUM|T_SPLIT|FOCUS_ZONE|MAX_DUR|IS_NON_DIALOGUE"
 # - Act II causal reorder: 08 (balcony intel) before 07 (Maya & Barnaby corridor).
-# - Shot 13 shortened to 4.2s; 13B retired in favor of Flow_Bridge_13_14.mp4.
-# - Shot 19B added between 19 and 20 (Emily moonlit reflection).
+# - All dialogue shots raised to MAX_DUR=12.25 so trailing words are never over-cut.
+# - 13B retired in favor of Flow_Bridge_13_14.mp4; 19B added between 19 and 20.
 SHOT_CONFIGS=(
-  "01|4.3|CENTER|9.5|0"       # Griz (L) -> Punch-in Maya & Barnaby (Center)
-  "02|4.2|RIGHT|9.5|0"        # Evelyn (L) -> Punch-in Isabella betting book (Right)
-  "03|4.5|RIGHT|9.5|0"        # Oliver (L) -> Punch-in Saffron arguing (Right)
-  "04|4.3|LEFT|9.2|0"         # Emily (R) -> Punch-in Oliver hiding screen (Left)
-  "05|3.5|RIGHT|8.0|0"        # Wide Hub -> Punch-in Aoi typing at monitor (Right)
-  "06|4.2|CENTER|9.2|0"       # Red carpet wide -> Punch-in Dorian & Saffron elbowing (Center)
-  "08|4.2|LEFT|9.2|0"         # Balcony wide -> Punch-in Helena & Gideon toast (Left)
-  "07|4.5|RIGHT|9.2|0"        # Maya & Barnaby barrel -> Punch-in bowing guards (Right)
-  "09|4.2|CENTER|9.2|0"       # Mezzanine -> Punch-in Dorian & Saffron wedged in vent (Center)
-  "10|4.3|CENTER|9.5|0"       # Chloe foreground -> Punch-in Maya & Barnaby banana handoff (Center)
-  "11|2.2|CENTER|8.1|1"       # [Flow Override: Flow_Shot_11.mp4] Colossus + Naomi/Evelyn/Isabella
-  "12|4.4|LOW_LEFT|9.5|0"     # Dorian pen dart -> Punch-in Naomi pink bag EMP (Bottom-Left)
-  "13|2.4|CENTER|4.2|0"       # Chloe mid-air Taekwondo kick dialogue -> Flow_Bridge_13_14
-  # "13B|2.2|CENTER|5.5|1"    # [Retired] Superseded by Flow Omni 1.2 Flow_Bridge_13_14.mp4
-  "14|4.2|CENTER_LEFT|9.2|0"  # Maya banana sight & ape pulling wire -> Saffron (Center-Left)
-  "15|2.5|CENTER|2.0|1"       # [Flow Override: Flow_Shot_15.mp4] 2.0s moonlit slow-mo hero pause
-  "16|2.2|CENTER|6.8|0"       # Victoria cybernetic arm vs axe (HK uses clean EN video + HK audio)
-  "17|4.5|CENTER|9.5|0"       # Griz repair bill (L) -> Punch-in Oliver & pistol (Center)
-  "18|4.3|RIGHT|9.5|0"        # Maya & Barnaby celebration -> Punch-in Dorian in awe (Right)
-  "19|4.2|LEFT|9.0|0"         # Elise pointing at screen (C) -> Punch-in Aoi clenching fists (Left)
-  "19B|2.5|CENTER|5.0|1"      # [Flow Shared: Flow_Shot_19B.mp4] Emily moonlit HQ reflection
-  "20|3.8|CENTER|8.5|0"       # [Flow Override: Flow_Shot_20.mp4] Gideon Ward behind desk
+  "01|4.3|CENTER|12.25|0"       # Griz (L) -> Punch-in Maya & Barnaby (Center)
+  "02|4.2|RIGHT|12.25|0"        # Evelyn (L) -> Punch-in Isabella betting book (Right)
+  "03|4.5|RIGHT|12.25|0"        # Oliver (L) -> Punch-in Saffron arguing (Right)
+  "04|4.3|LEFT|12.25|0"         # Emily (R) -> Punch-in Oliver hiding screen (Left)
+  "05|3.5|RIGHT|12.25|0"        # Wide Hub -> Punch-in Aoi typing at monitor (Right)
+  "06|4.2|CENTER|12.25|0"       # Red carpet wide -> Punch-in Dorian & Saffron elbowing (Center)
+  "08|4.2|LEFT|12.25|0"         # Balcony wide -> Punch-in Helena & Gideon toast (Left)
+  "07|4.5|RIGHT|12.25|0"        # Maya & Barnaby barrel -> Punch-in bowing guards (Right)
+  "09|4.2|CENTER|12.25|0"       # Mezzanine -> Punch-in Dorian & Saffron wedged in vent (Center)
+  "10|4.3|CENTER|12.25|0"       # Chloe foreground -> Punch-in Maya & Barnaby banana handoff (Center)
+  "11|2.2|CENTER|8.1|1"         # [Flow Override: Flow_Shot_11.mp4] Colossus + Naomi/Evelyn/Isabella
+  "12|4.4|LOW_LEFT|12.25|0"     # Dorian pen dart -> Punch-in Naomi pink bag EMP (Bottom-Left)
+  "13|2.4|CENTER|12.25|0"       # Chloe mid-air Taekwondo kick full dialogue -> Flow_Bridge_13_14
+  # "13B|2.2|CENTER|5.5|1"      # [Retired] Superseded by Flow Omni 1.2 Flow_Bridge_13_14.mp4
+  "14|4.2|CENTER_LEFT|12.25|0"  # Maya banana sight & ape pulling wire -> Saffron (Center-Left)
+  "15|2.5|CENTER|2.0|1"         # [Flow Override: Flow_Shot_15.mp4] 2.0s moonlit slow-mo hero pause
+  "16|2.2|CENTER|12.25|0"       # Victoria cybernetic arm vs axe (HK uses clean EN video + HK audio)
+  "17|4.5|CENTER|12.25|0"       # Griz repair bill (L) -> Punch-in Oliver & pistol (Center)
+  "18|4.3|RIGHT|12.25|0"        # Maya & Barnaby celebration -> Punch-in Dorian in awe (Right)
+  "19|4.2|LEFT|12.25|0"         # Elise pointing at screen (C) -> Punch-in Aoi clenching fists (Left)
+  "19B|2.5|CENTER|5.0|1"        # [Flow Shared: Flow_Shot_19B.mp4] Emily moonlit HQ reflection
+  "20|3.8|CENTER|12.25|0"       # [Flow Override: Flow_Shot_20.mp4] Gideon Ward slow-mo match to 12.25s dialogue
 )
 
 find_h3_clip() {
@@ -96,18 +96,30 @@ get_smart_duration() {
     return 0
   fi
 
-  local last_silence
-  last_silence=$(ffmpeg -nostdin -hide_banner -i "$infile" -af "silencedetect=noise=-36dB:d=0.55" -f null - 2>&1 | \
-    awk '/silence_start:/ {print $5}' | tail -n 1 || true)
+  local total_dur
+  total_dur=$(get_media_duration "$infile")
 
-  if [[ -n "$last_silence" ]]; then
-    awk -v s="$last_silence" -v m="$max_dur" 'BEGIN {
-      if (s > 5.2 && (s + 0.45) < m) printf "%.2f", s + 0.45;
-      else printf "%.2f", m;
-    }'
-  else
-    echo "$max_dur"
-  fi
+  ffmpeg -nostdin -hide_banner -i "$infile" -af "silencedetect=noise=-42dB:d=0.60" -f null - 2>&1 | \
+    awk -v tot="$total_dur" -v m="$max_dur" '
+      /silence_start:/ {
+        for (i=1; i<=NF; i++) if ($i == "silence_start:") s = $(i+1)+0;
+        in_sil = 1;
+      }
+      /silence_end:/ {
+        for (i=1; i<=NF; i++) if ($i == "silence_end:") e = $(i+1)+0;
+        in_sil = 0;
+      }
+      END {
+        limit = (tot < m) ? tot : m;
+        if (s > 0 && (in_sil == 1 || (tot - e) <= 0.25)) {
+          cand = s + 0.75;
+          if (cand < limit) printf "%.2f", cand;
+          else printf "%.2f", limit;
+        } else {
+          printf "%.2f", limit;
+        }
+      }
+    '
 }
 
 process_flow_bridge() {
@@ -163,16 +175,31 @@ process_language() {
     if [[ -n "$flow_file" ]]; then
       local f_dur
       f_dur=$(get_media_duration "$flow_file")
-      local fade_start
-      fade_start=$(awk -v d="$f_dur" 'BEGIN {printf "%.2f", (d > 0.35) ? d - 0.18 : 0}')
 
       if [[ -n "$h3_file" ]] && has_audio_stream "$h3_file"; then
-        echo "[Shot ${shot_num} ${lang}] ★ GOOGLE FLOW OVERRIDE: $(basename "$flow_file") (${f_dur}s) + $(basename "$h3_file") audio"
+        local target_dur="$f_dur"
+        local pts_filter=""
+        if [[ "$is_non_dlg" == "0" ]]; then
+          local audio_dur
+          audio_dur=$(get_smart_duration "$h3_file" "$max_dur" "$is_non_dlg")
+          local needs_stretch
+          needs_stretch=$(awk -v a="$audio_dur" -v f="$f_dur" 'BEGIN {print (a > f + 0.05) ? 1 : 0}')
+          if [[ "$needs_stretch" == "1" ]]; then
+            target_dur="$audio_dur"
+            local pts_factor
+            pts_factor=$(awk -v t="$target_dur" -v f="$f_dur" 'BEGIN {printf "%.6f", t / f}')
+            pts_filter="setpts=${pts_factor}*PTS,"
+          fi
+        fi
+
+        local fade_start
+        fade_start=$(awk -v d="$target_dur" 'BEGIN {printf "%.2f", (d > 0.35) ? d - 0.18 : 0}')
+        echo "[Shot ${shot_num} ${lang}] ★ GOOGLE FLOW OVERRIDE: $(basename "$flow_file") (${f_dur}s -> ${target_dur}s) + $(basename "$h3_file") audio"
         ffmpeg -nostdin -y -hide_banner -loglevel error \
-          -i "$flow_file" -i "$h3_file" -t "$f_dur" \
+          -i "$flow_file" -i "$h3_file" -t "$target_dur" \
           -filter_complex "\
-            [0:v]fps=24,scale=1344:768:flags=lanczos,setsar=1,fade=t=in:st=0:d=0.12,fade=t=out:st=${fade_start}:d=0.18[vout];\
-            [1:a]apad,atrim=0:${f_dur},asetpts=PTS-STARTPTS,afade=t=in:st=0:d=0.10,afade=t=out:st=${fade_start}:d=0.18[aout]" \
+            [0:v]${pts_filter}fps=24,scale=1344:768:flags=lanczos,setsar=1,fade=t=in:st=0:d=0.12,fade=t=out:st=${fade_start}:d=0.18[vout];\
+            [1:a]apad,atrim=0:${target_dur},asetpts=PTS-STARTPTS,afade=t=in:st=0:d=0.10,afade=t=out:st=${fade_start}:d=0.18[aout]" \
           -map "[vout]" -map "[aout]" \
           -c:v libx264 -preset fast -crf 18 -pix_fmt yuv420p -video_track_timescale 12288 \
           -c:a aac -b:a 192k -ar 48000 -ac 2 \

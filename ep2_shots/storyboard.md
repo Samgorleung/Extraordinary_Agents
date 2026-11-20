@@ -163,7 +163,7 @@
 - **16:9 Single-Frame Visual & Action Summary**:
   - **Composition**: Dynamic Martial Arts Impact Shot with crisp 2D anime speed lines and golden-silver clash sparks.
   - **Action & Visual Anchors**: As **The Colossus** swings his massive warhammer down toward a stunned **Dorian Marlowe**, **Agent Chloe Han** gently hands her teacup to her blue-ribbon white rabbit and leaps gracefully into the air. Wearing her blue-and-white floral evening gown with high side slit, **sheer skin-tone stockings with a jeweled thigh garter strap**, and **silver-white floral ankle-strap high heels**, Chloe delivers a lightning-fast, devastating **Taekwondo high kick** straight into the side of the warhammer—deflecting the giant weapon into the marble floor in a shower of sparks and stealing all of Dorian's spotlight!
-- **Target Video Engine**: **MiniMax H3** (`--mode first_frame`, fast martial arts impact; Director's Cut trims to `4.2s` before `ep2_shots/flow/Flow_Bridge_13_14.mp4`).
+- **Target Video Engine**: **MiniMax H3** (`--mode first_frame`, fast martial arts impact; Director's Cut preserves full `12.25s` Chloe dialogue before `ep2_shots/flow/Flow_Bridge_13_14.mp4`).
 - **Dialogue**:
   - **English (`prompt.txt`)**: `Agent Chloe Han speaking calmly in English, saying clearly: "Mind your manners, brute. You nearly ruined the aroma of my tea."`
   - **HK Cantonese (`prompt_hk.txt`)**: `Agent Chloe Han speaking calmly in natural Hong Kong Cantonese, saying clearly: "大隻佬，斯文啲啦，你差啲震散晒我杯茶啲香氣喇。"`
@@ -265,7 +265,7 @@
 - **16:9 Single-Frame Visual & Action Summary**:
   - **Composition**: Moody Amber-Lit Villain Reveal Shot; dark industrial command room illuminated by warm amber-red holographic displays.
   - **Action & Visual Anchors**: 39-year-old syndicate mastermind **Gideon Ward (Codename: The Broker)** (messy swept-back dark brown hair, neat full beard, intense gray eyes, dark brown waxed-canvas field jacket over an open gray shirt and black T-shirt) sits with fingers steepled at a dark command desk. On the desk rests **The Colossus**'s golden smiling mask bearing a scuff mark from Chloe's heel, while amber holo-screens display telemetry of Chloe Han's kick and Victoria Parker (Raven)'s dark wing signature. Gideon smiles coldly, setting the stage for Episode 3.
-- **Target Video Engine**: **Google Flow** (`8s Tier = 12 Credits`, moody amber hologram glow & slow push-in).
+- **Target Video Engine**: **Hybrid (Google Flow Video + MiniMax H3 Audio)** (`ep2_shots/flow/Flow_Shot_20.mp4` smoothly stretched via `setpts` from `8.09s` to `12.25s` to match Gideon Ward's full bilingual monologue).
 - **Dialogue**:
   - **English (`prompt.txt`)**: `Gideon Ward speaking in a calm, gravelly voice in English, saying clearly: "So Project Raven still flies... and Commander Griz has an unpredictable squad on the board. Phase Two begins now."`
   - **HK Cantonese (`prompt_hk.txt`)**: `Gideon Ward speaking in a calm, gravelly voice in natural Hong Kong Cantonese, saying clearly: "原來『渡鴉計劃』仲識得飛……而且 Griz 手下班人仲咁出人意表添。第二階段，正式開始。"`
@@ -290,7 +290,7 @@
 | **Ep2_Shot_10** | Act II | Laser corridor standoff: Chloe poised for combat + Maya holding pistol & handed banana by quiet orange ape + Dorian & Saffron dropping onto Finn | **MiniMax H3** | `--mode first_frame` (~1 CU) |
 | **Ep2_Shot_11** | Act III | Normal-scale The Colossus (`11A.png`) smashing vault door + Naomi EMP, Evelyn & Isabella opening fire (derived from `Flow_Bridge_11_12`) | **Hybrid (Flow Video + H3 Audio)** | `ep2_shots/flow/Flow_Shot_11.mp4` (`8.04s`) + H3 SFX |
 | **Ep2_Shot_12** | Act III | Dorian's gadget pen dart bouncing off The Colossus + Naomi tossing micro-EMP disc from pink bag alongside Evelyn & Isabella | **MiniMax H3** | `--mode first_frame` (~1 CU) |
-| **Ep2_Shot_13** | Act III | Chloe Han (sheer stockings with jeweled garter) deflecting warhammer with Taekwondo high kick (`MAX_DUR` `4.2s`) | **MiniMax H3** | `--mode first_frame` (`4.2s` cut) |
+| **Ep2_Shot_13** | Act III | Chloe Han (sheer stockings with jeweled garter) deflecting warhammer with Taekwondo high kick (`MAX_DUR` `12.25s` full dialogue) | **MiniMax H3** | `--mode first_frame` (`12.25s` full dialogue) |
 | **Flow_Bridge_13_14** | Act III | Chloe mid-air Taekwondo combo driving Colossus under the crystal chandelier (supersedes H3 `13B`) | **Google Flow Omni 1.2** | `ep2_shots/flow/Flow_Bridge_13_14.mp4` (`5.03s`) |
 | **Ep2_Shot_14** | Act III | Saffron's tactical pistol grappling wire hooking ceiling chandelier + Maya (banana sight) & orange ape pulling it down onto Colossus | **MiniMax H3** | `--mode first_frame` (~1 CU) |
 | **Flow_Bridge_14_15** | Act III | Colossus charging through shattered arched terrace glass under the full moon | **Google Flow Omni 1.2** | `ep2_shots/flow/Flow_Bridge_14_15.mp4` (`5.03s`) |
@@ -302,7 +302,7 @@
 | **Ep2_Shot_18** | Act IV | Maya warm smile celebration + Isabella collecting cash bets + Dorian in awe (Barnaby kept silent) | **MiniMax H3** | `--mode first_frame` (~1 CU) |
 | **Ep2_Shot_19** | Act IV | Aoi & Elise zooming in on clear monitor frame of Victoria's cybernetic arm & 10D pantyhose | **MiniMax H3** | `--mode first_frame` (~1 CU) |
 | **Ep2_Shot_19B** | Act IV | Emotional beat: Emily Parker alone by moonlit HQ corridor window holding locket in silent reflection | **Google Flow Omni 1.2** | `ep2_shots/flow/Flow_Shot_19B.mp4` (`5.03s`, shared HK/EN) |
-| **Ep2_Shot_20** | Act IV | Syndicate Mastermind Gideon Ward reviewing Colossus mask & Raven telemetry in amber-lit room | **Hybrid (Flow Video + H3 Audio)** | `ep2_shots/flow/Flow_Shot_20.mp4` (`8.09s`) + H3 dialogue |
+| **Ep2_Shot_20** | Act IV | Syndicate Mastermind Gideon Ward reviewing Colossus mask & Raven telemetry in amber-lit room | **Hybrid (Flow Video + H3 Audio)** | `ep2_shots/flow/Flow_Shot_20.mp4` (`8.09s -> 12.25s` slow-mo stretch) + H3 dialogue |
 
 ---
 
