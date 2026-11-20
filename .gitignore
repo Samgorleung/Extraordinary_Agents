@@ -2,5 +2,6 @@
 *.mov
 work_*/
 ep2_edited_clips/
+ep2_shots/flow/archive/
 .DS_Store
 Thumbs.db

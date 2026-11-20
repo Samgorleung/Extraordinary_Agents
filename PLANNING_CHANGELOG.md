@@ -6,7 +6,7 @@
 - Core comedy setup established: Maya loses her shoes and meets Barnaby the orangutan during a chaotic infiltration; Saffron's overconfident superspy stunts backfire; Chloe Han steps in as the VIP Sixth-Ranger ace to clear the room with high-kick martial arts.
 - Resulting Arc: Maya and Barnaby become inseparable best friends and partners from Episode 2 onward.
 
-### Episode 2 Planning (Completed — 42/42 Bilingual H3 Clips, 5 Flow Assets & Bilingual Hybrid Masters)
+### Episode 2 Planning (Completed — Director's Cut: 10 Flow Omni 1.2 Clips + Bilingual Hybrid Masters)
 - [DONE] **Step 1 (Character Roster & Turnaround Sheets)**: All 20 canonical characters locked in `bible/character_roster.md` and `bible/character_sheets/` (including Episode 2 debuts: `Oliver Kade.png`, `Finn Calder.png`, `Gideon Ward.png`, `Nia Vale.png`, and `Dorian Marlowe.png`).
 - [DONE] **Step 2 (Full 20-Shot Storyboard & Script + Shot 13B Bridge)**: Expanded `ep2_shots/storyboard.md` into the complete 20-shot script (`Ep2_Shot_01` – `Ep2_Shot_20`) plus `Ep2_Shot_13B` Taekwondo combo bridge with full visual anchors, bilingual dialogue (English & HK Cantonese), and Hybrid Flow/MiniMax H3 routing table.
 - [DONE] **Step 3 (Single-Frame 16:9 Keyframe Generation — 20/20 Completed)**:
@@ -38,9 +38,22 @@
   - [DONE] Generated and saved all 6 Cantonese videos (`Ep2_Shot_11_HK.mp4` – `Ep2_Shot_16_HK.mp4`) and all 6 English videos (`Ep2_Shot_11_EN.mp4` – `Ep2_Shot_16_EN.mp4`) for Act III on Colab A100 (12/12 videos completed; 32/32 cumulative for Acts I–III).
   - [DONE] Generated and saved all 4 Cantonese videos (`Ep2_Shot_17_HK.mp4` – `Ep2_Shot_20_HK.mp4`) and all 4 English videos (`Ep2_Shot_17_EN.mp4` – `Ep2_Shot_20_EN.mp4`) for Act IV on Colab A100 (8/8 videos completed; **40/40 Episode 2 videos 100% completed**).
   - [DONE] Integrated 5 Google Flow videos (`Flow_Shot_11.mp4`, `Flow_Shot_15.mp4`, `Flow_Shot_20.mp4`, `Flow_Bridge_09_10.mp4`, `Flow_Bridge_15_16.mp4`) into `ep2_shots/flow/` and added `ep2_shots/assemble_ep2.sh` for 138% Punch-In + Flow Hybrid Master assembly.
-  - [DONE] Regenerated MiniMax H3 clips for Shots 10, 14, and 18 (`Ep2_Shot_10_HK/EN.mp4`, `Ep2_Shot_14_HK/EN.mp4`, `Ep2_Shot_18_HK/EN.mp4`) with non-speaking Barnaby prompt refinements + generated `Ep2_Shot_13B` Taekwondo combo bridge (`Ep2_Shot_13B_HK.mp4` & `Ep2_Shot_13B_EN.mp4`), and built both Hybrid Masters via `ep2_shots/assemble_ep2.sh ALL`: `Episode_2_Hybrid_Master_HK.mp4` (`161 MB`, `194.13s`) and `Episode_2_Hybrid_Master_EN.mp4` (`174 MB`, `197.86s`).
+  - [DONE] Regenerated MiniMax H3 clips for Shots 10, 14, and 18 (`Ep2_Shot_10_HK/EN.mp4`, `Ep2_Shot_14_HK/EN.mp4`, `Ep2_Shot_18_HK/EN.mp4`) with non-speaking Barnaby prompt refinements + generated `Ep2_Shot_13B` Taekwondo combo bridge (`Ep2_Shot_13B_HK.mp4` & `Ep2_Shot_13B_EN.mp4`), and built initial Hybrid Masters (`194.13s` HK / `197.86s` EN).
+  - [DONE] **Episode 2 Director's Cut Assembly**: Integrated all 10 Google Flow Omni 1.2 bridges & overrides (`Flow_Bridge_05_06.mp4`, `Flow_Bridge_09_10.mp4`, `Flow_Bridge_13_14.mp4`, `Flow_Bridge_14_15.mp4`, split `Flow_Bridge_15_16.mp4` + `Flow_Bridge_16_17.mp4`, replaced `Flow_Shot_11.mp4`, trimmed `Flow_Shot_15.mp4`, shared `Flow_Shot_19B.mp4`, `Flow_Shot_20.mp4`), applied `08 -> 07` causal Act II reorder and `Shot 16 (HK)` clean video swap (`Ep2_Shot_16_EN.mp4` video + `Ep2_Shot_16_HK.mp4` audio), and assembled 27-segment Director's Cut Masters via `ep2_shots/assemble_ep2.sh ALL`: `Episode_2_Hybrid_Master_HK.mp4` (`173M`, `206.463s`) and `Episode_2_Hybrid_Master_EN.mp4` (`183M`, `210.193s`).
 
 ## 2. Changelog (更新日誌)
+
+### [2026-11-20] - Episode 2 Director's Cut: 10 Flow Omni 1.2 Clips, Split Victoria 7s Finisher, Shot 19B & Causal Act II Reorder
+- **Flow Material Processing & De-Duplication (`ep2_shots/flow/`, `ep2_shots/flow/archive/`)**:
+  - Split `Flow_Bridge_15_16.mp4` (`13.035s` archived as `Flow_Bridge_15_16_full13s.mp4`) frame-accurately at `T_PUNCH = 5.15s`: `Flow_Bridge_15_16.mp4` (`5.167s`, moonlit dive & axe catch) before `Ep2_Shot_16`, and `Flow_Bridge_16_17.mp4` (`7.884s`, cyan shockwave iron fist -> laser sword slash -> rotary gatling gun finisher) after `Ep2_Shot_16`.
+  - Replaced legacy oversized 15m `Flow_Shot_11.mp4` (archived as `Flow_Shot_11_old_giant.mp4`) with normal-scale `Flow_Bridge_11_12.mp4` (`11A.png` + Naomi EMP, Evelyn & Isabella; full `8.043s` verified active through end) to prevent duplicate vault-breach cuts.
+  - Trimmed `Flow_Shot_15.mp4` to `3.80s–5.80s` (`2.000s` moonlit slow-mo hero close-up) to eliminate repeating the wide entry shown in `Flow_Bridge_14_15.mp4`.
+- **Assembler Upgrades (`ep2_shots/assemble_ep2.sh`) & Master Output**:
+  - Fixed path resolution via `SCRIPT_DIR` / `REPO_ROOT`, added SAR/audio-pad/timescale normalization (`setsar=1`, `apad`, `-video_track_timescale 12288`), and printed a 27-segment manifest per build.
+  - Applied Act II causal reorder (`06 -> 08 -> 07 -> 09 -> 10`), shortened `Shot 13` to `4.2s` before `Flow_Bridge_13_14.mp4` (superseding H3 `13B`), inserted `Ep2_Shot_19B` (`Flow_Shot_19B.mp4`, Emily moonlit reflection), and fixed `Shot 16 (HK)` visual drift by muxing `Ep2_Shot_16_EN.mp4` video with `Ep2_Shot_16_HK.mp4` Cantonese audio.
+  - Built both 27-segment Director's Cut Masters: `Episode_2_Hybrid_Master_HK.mp4` (`173M`, `206.463s`) and `Episode_2_Hybrid_Master_EN.mp4` (`183M`, `210.193s`).
+- **Canon & Git Hygiene (`ep2_shots/flow/FLOW_PROMPTS_LOG.md`, `ep2_shots/storyboard.md`, `.gitignore`)**:
+  - Created `FLOW_PROMPTS_LOG.md`, synced `storyboard.md` (preserving Shot 16 Victoria/Colossus/Maya/Finn canon), added `ep2_shots/flow/archive/` to `.gitignore`, and tracked `ep2_shots/11A.png`.
 
 ### [2026-11-15] - Episode 2 Retakes, Shot 13B Bridge & Bilingual Hybrid Masters Completed
 - **MiniMax H3 Retakes & Bridge Generation (Colab A100)**:

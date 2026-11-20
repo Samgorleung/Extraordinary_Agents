@@ -74,38 +74,40 @@
 
 ### Act II: High-Society Gala Infiltration & Rival Interference (第二幕：高級晚宴潛入與政務部特工亂入)
 
+> **Director's Cut Transition**: Preceded by `ep2_shots/flow/Flow_Bridge_05_06.mp4` (`4.03s`, golden gala transition into the red-carpet entrance) and reordered causally so the VIP Balcony intel intercept (`Ep2_Shot_08`) happens **before** Maya & Barnaby's service-corridor infiltration (`Ep2_Shot_07`).
+
 #### **Ep2_Shot_06** — Act II: 晚宴正門紅毯：Dorian 爭相擺甫士 vs. Saffron 搶鏡頭
 - **Location**: `Luxury Marble Corridor / High-Security Gala Venue (Grand Entrance)`（高級晚宴會場紅地毯正門階梯）
 - **Characters in Frame**: Dorian Marlowe (Mirror), Agent Saffron Sinclair, Agent Chloe Han, Agent Finn Calder
 - **16:9 Single-Frame Visual & Action Summary**:
   - **Composition**: Cinematic Wide Angle Shot with warm golden chandeliers and blinding paparazzi camera flashes.
   - **Action & Visual Anchors**: Center foreground on the grand red carpet, **Dorian Marlowe** (186 cm, **short tousled jet-black hair with side-swept bangs**, navy-blue double-breasted suit with gold buttons, holding a champagne coupe) and **Saffron Sinclair** (sleek black updo, black halter high-slit evening gown, sheer grey thigh-high garter stockings with thigh holster, long black gloves, black ankle-strap heels) aggressively elbow each other out of the way to hog the camera spotlight, both striking overly dramatic narcissistic poses. On the right, **Chloe Han** (dark bob with blue-and-white floral ornament, blue-and-white floral high-slit gown with sheer sleeves, sheer skin-tone stockings with jeweled thigh garter, silver-white floral heels) walks past with a serene, amused smile. In the left background, rookie **Finn Calder** (short spiky orange hair, bright orange utility jacket) struggles under three heavy equipment cases, completely blinded by camera flashes.
-- **Target Video Engine**: **Google Flow** (`6s Tier = 10 Credits`, camera flash atmosphere & red carpet tracking).
+- **Target Video Engine**: **MiniMax H3** (`--mode first_frame`; preceded by `ep2_shots/flow/Flow_Bridge_05_06.mp4`).
 - **Dialogue**:
   - **English (`prompt.txt`)**: `Dorian Marlowe smirking and speaking in English, saying clearly: "Step aside, Saffron. The press knows true diplomatic elegance when they see it." Agent Saffron elbowing him and speaking in English, saying clearly: "In your dreams, Mirror! Tonight's spotlight belongs to a legendary operative!"`
   - **HK Cantonese (`prompt_hk.txt`)**: `Dorian Marlowe smirking and speaking in natural Hong Kong Cantonese, saying clearly: "借過少少啦 Saffron，班記者好清楚邊個先係優雅嘅化身。" Agent Saffron elbowing him and speaking in natural Hong Kong Cantonese, saying clearly: "你慢慢等下啦，今晚全場焦點一定係我呢個傳奇特工！"`
 
-#### **Ep2_Shot_07** — Act II: 會場服務走廊：Maya 與 Barnaby「一本正經推紅酒桶」嚇退巡邏守衛
-- **Location**: `Luxury Marble Corridor (Gala Service Corridor)`（晚宴奢華雲石服務走廊）
-- **Characters in Frame**: Agent Maya Tachibana, Barnaby the Orangutan, Two Armed Security Guards, Agent Finn Calder (peeking from pillar)
-- **16:9 Single-Frame Visual & Action Summary**:
-  - **Composition**: Medium-Wide Corridor Composition; golden wall sconces, polished marble floor, and floral pedestals.
-  - **Action & Visual Anchors**: In the center, **Agent Maya Tachibana** (shoulder-length wavy brown hair with earpiece, reddish-brown ribbed sleeveless blouse, dark brown mini skirt with waist ID badge, sheer pale brown pantyhose, burgundy high heels) stands with ultra-elite warm, confident smile and earnest focus beside **Barnaby** (large orangutan wearing a small black clip-on bow tie); together they are solemnly rolling a massive vintage oak wine barrel with a glowing cyan security router duct-taped to its side. On the right, two heavily armed gala security guards in black suits and sunglasses bow low in cold sweat, completely misinterpreting Maya's deadly serious stare as a terrifying master-assassin threat and respectfully clearing the way. On the left behind a marble column, rookie **Finn Calder** (orange spiky hair, orange jacket) peeks out with his jaw dropped in utter disbelief.
-- **Target Video Engine**: **MiniMax H3** (`--mode first_frame`).
-- **Dialogue**:
-  - **English (`prompt.txt`)**: `Agent Maya nodding with warm, confident smile and earnest focus and speaking in English, saying clearly: "The acoustic balance of this barrel ensures stealth. Proceed smoothly, Barnaby." Security Guard stammering in English, saying clearly: "Y-Yes ma'am! Right this way, ma'am!"`
-  - **HK Cantonese (`prompt_hk.txt`)**: `Agent Maya nodding with warm, confident smile and earnest focus and speaking in natural Hong Kong Cantonese, saying clearly: "呢個酒桶嘅重量同聲學平衡非常完美，我哋繼續推進，Barnaby。" Security Guard stammering in natural Hong Kong Cantonese, saying clearly: "係……係！兩位長官請便，我哋乜都睇唔到！"`
-
-#### **Ep2_Shot_08** — Act II: 貴賓香檳露台：Helena Voss 與 Gideon Ward 密談 ＆ 專家三人組（Isabella、Naomi、Evelyn）刺探
+#### **Ep2_Shot_08** — Act II (Causal Reorder: Before Shot 07): 貴賓香檳露台：Helena Voss 與 Gideon Ward 密談 ＆ 專家三人組（Isabella、Naomi、Evelyn）刺探
 - **Location**: `Luxury Marble Corridor / High-Security Gala Venue (VIP Champagne Balcony)`（晚宴二樓貴賓香檳露台）
 - **Characters in Frame**: Minister Helena Voss, Gideon Ward (The Broker), Agent Isabella Chen, Agent Naomi Brooks, Agent Evelyn Carter
 - **16:9 Single-Frame Visual & Action Summary**:
   - **Composition**: Deep-Focus Multi-Layer Composition; warm amber chandeliers contrasting with cool dusk shadows through tall arched windows.
   - **Action & Visual Anchors**: On the left, Political Affairs Minister **Helena Voss** (sophisticated brown updo, gold hoop earrings, tailored dark double-breasted coat-dress, **sheer nude pantyhose with small black polka dots**, white pointed heels) and syndicate mastermind **Gideon Ward** (39yo, messy swept-back dark brown hair, neat full beard, dark brown waxed-canvas field jacket over gray shirt and black T-shirt) exchange a calculating, guarded toast over wine. On the right, **Agent Isabella Chen** (long wavy black hair with red ribbon bow, red-and-gold phoenix cheongsam gown, gold-patterned sheer stockings, red heels), **Agent Naomi Brooks** (voluminous dark curly hair, black turtleneck, beige pleated mini skirt, small pink crossbody handbag), and **Agent Evelyn Carter** (light brown wavy hair, white collared top, red mini skirt, black fishnet stockings, red heels) approach gracefully with composed smiles to intercept Gideon's encrypted signal.
-- **Target Video Engine**: **Google Flow** (`6s Tier = 10 Credits`, slow push-in & ambient lighting).
+- **Target Video Engine**: **MiniMax H3** (`--mode first_frame`).
 - **Dialogue**:
   - **English (`prompt.txt`)**: `Minister Helena Voss speaking in English, saying clearly: "I trust tonight's exchange will remain entirely private, Mr. Ward." Gideon Ward smiling calmly and speaking in English, saying clearly: "Discretion is our greatest asset, Minister."`
   - **HK Cantonese (`prompt_hk.txt`)**: `Minister Helena Voss speaking in natural Hong Kong Cantonese, saying clearly: "我希望今晚嘅交收，唔會有任何第三者知情，Ward 先生。" Gideon Ward smiling calmly and speaking in natural Hong Kong Cantonese, saying clearly: "守口如瓶向來係我哋最值錢嘅資產，部長。"`
+
+#### **Ep2_Shot_07** — Act II (Causal Reorder: After Shot 08): 會場服務走廊：Maya 與 Barnaby「一本正經推紅酒桶」嚇退巡邏守衛
+- **Location**: `Luxury Marble Corridor (Gala Service Corridor)`（晚宴奢華雲石服務走廊）
+- **Characters in Frame**: Agent Maya Tachibana, Barnaby the Orangutan, Two Armed Security Guards, Agent Finn Calder (peeking from pillar)
+- **16:9 Single-Frame Visual & Action Summary**:
+  - **Composition**: Medium-Wide Corridor Composition; golden wall sconces, polished marble floor, and floral pedestals.
+  - **Action & Visual Anchors**: In the center, **Agent Maya Tachibana** (shoulder-length wavy brown hair with earpiece, reddish-brown sleeveless top, dark brown mini skirt with waist ID badge, sheer pale brown pantyhose, burgundy high heels) stands with ultra-elite warm, confident smile and earnest focus beside **Barnaby** (large orangutan wearing a small black clip-on bow tie); together they are solemnly rolling a massive vintage oak wine barrel with a glowing cyan security router duct-taped to its side. On the right, two heavily armed gala security guards in black suits and sunglasses bow low in cold sweat, completely misinterpreting Maya's deadly serious stare as a terrifying master-assassin threat and respectfully clearing the way. On the left behind a marble column, rookie **Finn Calder** (orange spiky hair, orange jacket) peeks out with his jaw dropped in utter disbelief.
+- **Target Video Engine**: **MiniMax H3** (`--mode first_frame`).
+- **Dialogue**:
+  - **English (`prompt.txt`)**: `Agent Maya nodding with warm, confident smile and earnest focus and speaking in English, saying clearly: "The acoustic balance of this barrel ensures stealth. Proceed smoothly, Barnaby." Security Guard stammering in English, saying clearly: "Y-Yes ma'am! Right this way, ma'am!"`
+  - **HK Cantonese (`prompt_hk.txt`)**: `Agent Maya nodding with warm, confident smile and earnest focus and speaking in natural Hong Kong Cantonese, saying clearly: "呢個酒桶嘅重量同聲學平衡非常完美，我哋繼續推進，Barnaby。" Security Guard stammering in natural Hong Kong Cantonese, saying clearly: "係……係！兩位長官請便，我哋乜都睇唔到！"`
 
 #### **Ep2_Shot_09** — Act II: 二樓雕花通風口：Saffron 與 Dorian 爭位搶先卡死通風管
 - **Location**: `Luxury Marble Corridor / Upper Mezzanine Balcony near Golden Ventilation Shaft`（晚宴二樓夾層雕花通風口）
@@ -133,13 +135,14 @@
 
 ### Act III: The Colossus Crashes the Party (第三幕：巨像襲擊與雙線交鋒)
 
-#### **Ep2_Shot_11** — Act III: 黃金巨像破門強襲
+#### **Ep2_Shot_11** — Act III: 黃金巨像破門強襲 ＆ 專家三人組（Naomi、Evelyn、Isabella）迎擊開戰
 - **Location**: `Luxury Marble Corridor / High-Security Gala Venue (Main Vault Hall)`（晚宴主金庫大廳）
-- **Characters in Frame**: The Colossus
+- **Characters in Frame**: The Colossus, Agent Naomi Brooks, Agent Evelyn Carter, Agent Isabella Chen
+- **Reference Keyframe & Flow Clip**: `ep2_shots/11A.png` + `ep2_shots/flow/Flow_Shot_11.mp4` (`8.04s`, derived from Omni 1.2 `Flow_Bridge_11_12`; replaces legacy oversized 15m Colossus)
 - **16:9 Single-Frame Visual & Action Summary**:
-  - **Composition**: Low-Angle Epic Establishing Shot; billowing smoke, shattered marble debris, and sparks flying across the vault entrance.
-  - **Action & Visual Anchors**: Towering 210 cm, 165 kg juggernaut **The Colossus** smashes through the reinforced vault door, clad head-to-toe in heavy golden armor and an eerie smiling metal mask, wielding a giant battleaxe in one hand and a massive warhammer in the other.
-- **Target Video Engine**: **Google Flow** (`6s Tier = 10 Credits`, slow-motion debris & menacing golden armor reflections).
+  - **Composition**: Low-Angle Epic Establishing Shot transitioning seamlessly into Specialist Trio engagement; billowing smoke, shattered marble debris, and sparks flying across the golden vault entrance.
+  - **Action & Visual Anchors**: Properly scaled towering 210 cm juggernaut **The Colossus** strides through the blasted vault doorway clad in heavy golden armor and an eerie smiling metal mask, wielding a giant battleaxe and massive warhammer. As he advances, **Naomi Brooks** charges a glowing blue EMP sphere from her pink handbag while **Evelyn Carter** (white top, red mini skirt, black fishnets) and **Isabella Chen** (red-and-gold phoenix gown) open covering fire—flowing directly into `Ep2_Shot_12`.
+- **Target Video Engine**: **Hybrid (Google Flow Omni 1.2 Video + MiniMax H3 Audio)** (`ep2_shots/flow/Flow_Shot_11.mp4` + `Ep2_Shot_11` vault-breach SFX).
 - **Dialogue**:
   - **English & HK Cantonese (`prompt.txt` / `prompt_hk.txt`)**: `no spoken dialogue, only heavy metallic footsteps, explosion rubble sounds, and deep menacing mechanical breathing.`
 
@@ -160,21 +163,21 @@
 - **16:9 Single-Frame Visual & Action Summary**:
   - **Composition**: Dynamic Martial Arts Impact Shot with crisp 2D anime speed lines and golden-silver clash sparks.
   - **Action & Visual Anchors**: As **The Colossus** swings his massive warhammer down toward a stunned **Dorian Marlowe**, **Agent Chloe Han** gently hands her teacup to her blue-ribbon white rabbit and leaps gracefully into the air. Wearing her blue-and-white floral evening gown with high side slit, **sheer skin-tone stockings with a jeweled thigh garter strap**, and **silver-white floral ankle-strap high heels**, Chloe delivers a lightning-fast, devastating **Taekwondo high kick** straight into the side of the warhammer—deflecting the giant weapon into the marble floor in a shower of sparks and stealing all of Dorian's spotlight!
-- **Target Video Engine**: **MiniMax H3** (`--mode first_frame`, fast martial arts impact).
+- **Target Video Engine**: **MiniMax H3** (`--mode first_frame`, fast martial arts impact; Director's Cut trims to `4.2s` before `ep2_shots/flow/Flow_Bridge_13_14.mp4`).
 - **Dialogue**:
   - **English (`prompt.txt`)**: `Agent Chloe Han speaking calmly in English, saying clearly: "Mind your manners, brute. You nearly ruined the aroma of my tea."`
   - **HK Cantonese (`prompt_hk.txt`)**: `Agent Chloe Han speaking calmly in natural Hong Kong Cantonese, saying clearly: "大隻佬，斯文啲啦，你差啲震散晒我杯茶啲香氣喇。"`
 
-#### **Ep2_Shot_13B** — Act III (Action Bridge): Chloe 空中三連踢將黃金巨像逼退至水晶吊燈正下方
+#### **Ep2_Shot_13B [ARCHIVED / SUPERSEDED BY `Flow_Bridge_13_14.mp4`]** — Act III (Action Bridge): Chloe 空中連踢將黃金巨像逼退至水晶吊燈正下方
 - **Location**: `Luxury Marble Corridor / High-Security Gala Venue (Main Vault Hall)`（晚宴主金庫大廳中央）
 - **Characters in Frame**: Agent Chloe Han, The Colossus
-- **Starting Keyframe & Prompt**: `ep2_shots/13.png` + `ep2_shots/prompt_13b.txt`
+- **Director's Cut Note**: Legacy H3 `Ep2_Shot_13B_*.mp4` (`13.png` + `prompt_13b.txt`) has been superseded in `assemble_ep2.sh` by Google Flow Omni 1.2 bridge **`ep2_shots/flow/Flow_Bridge_13_14.mp4`** (`5.03s`).
 - **16:9 Single-Frame Visual & Action Summary**:
-  - **Composition**: Fast-paced modern high-budget 2020s anime martial arts combat shot continuing immediately from `13.png`.
-  - **Action & Visual Anchors**: Immediately after deflecting the warhammer, **Agent Chloe Han** (blue-and-white floral gown, sheer stockings with jeweled garter strap, silver-white floral heels) spins rapidly in mid-air and unleashes a blistering three-hit Taekwondo high-kick combo—a spinning hook kick, a rapid side kick, and a devastating axe kick—slamming repeatedly into **The Colossus**'s golden chest armor in bursts of bright sparks and driving the staggering juggernaut backward directly underneath the giant crystal chandelier to set up `Ep2_Shot_14`.
-- **Target Video Engine**: **MiniMax H3** (`--mode first_frame`, shared non-dialogue action clip for both HK & EN).
+  - **Composition**: Fast-paced modern high-budget 2020s anime martial arts combat shot continuing immediately from `Ep2_Shot_13`.
+  - **Action & Visual Anchors**: Immediately after deflecting the warhammer, **Agent Chloe Han** (blue-and-white floral gown, sheer stockings with jeweled garter strap, silver-white floral heels) unleashes a blistering mid-air Taekwondo kick combo—driving **The Colossus** backward directly underneath the giant crystal chandelier to set up `Ep2_Shot_14`.
+- **Target Video Engine**: **Google Flow Omni 1.2** (`ep2_shots/flow/Flow_Bridge_13_14.mp4`, shared non-dialogue action bridge).
 - **Dialogue / Audio**:
-  - **English & HK Cantonese (`prompt_13b.txt`)**: `no spoken dialogue, only rapid martial arts whooshes, heavy metallic kick impacts, and armor clanging sound effects.`
+  - **English & HK Cantonese**: `no spoken dialogue, only rapid martial arts whooshes, heavy metallic kick impacts, and armor clanging sound effects.`
 
 #### **Ep2_Shot_14** — Act III: Saffron 戰術鉤爪手槍走火 ＆ Maya 與 Barnaby 錯有錯著拉冧水晶吊燈
 - **Location**: `Luxury Marble Corridor / High-Security Gala Venue (Main Vault Hall)`（晚宴主金庫大廳）
@@ -193,17 +196,17 @@
 - **16:9 Single-Frame Visual & Action Summary**:
   - **Composition**: Epic Backlit Moonlight Silhouette through shattered tall arched windows.
   - **Action & Visual Anchors**: As **The Colossus** shatters the chandelier rubble and raises his golden battleaxe in fury, giant **dark mechanical/feathered wings** unfurl across the full moon. Former elite officer **Victoria Parker (Codename: Raven)** descends from the night sky—wearing her red-and-black tactical outfit, black mini skirt, **10D light brown ultra-sheer pantyhose (10 Denier Light Brown Pantyhose)** with subtle silk sheen, and silver **cybernetic mechanical arm**—landing between the squad and the juggernaut.
-- **Target Video Engine**: **Google Flow** (`8s Tier = 12 Credits`, moonlight backlight & wing unfolding transition).
+- **Target Video Engine**: **Hybrid (Google Flow Video + MiniMax H3 Audio)** (preceded by `Flow_Bridge_14_15.mp4` (`5.03s`, Colossus shattering arched glass); `Flow_Shot_15.mp4` trimmed to `3.8s–5.8s` (`2.00s` moonlit hero pause) to avoid repeating the entry, then followed by `Flow_Bridge_15_16.mp4` (`0.00s–5.15s`, dive & axe catch)).
 - **Dialogue**:
   - **English & HK Cantonese (`prompt.txt` / `prompt_hk.txt`)**: `no spoken dialogue, only dramatic wind rushing, metallic wing unfolding sound effects, and tense orchestral sting.`
 
-#### **Ep2_Shot_16** — Act III: 機械義肢硬撼黃金戰斧 ＆ 渡鴉瞬身消失
+#### **Ep2_Shot_16** — Act III: 機械義肢硬撼黃金戰斧 ➔ 7 秒變形終結技轟飛巨像
 - **Location**: `Luxury Marble Corridor / High-Security Gala Venue (Moonlit Arched Terrace)`（晚宴月光拱窗露台）
 - **Characters in Frame**: Victoria Parker (Raven), The Colossus, Agent Maya, Agent Finn Calder (background)
 - **16:9 Single-Frame Visual & Action Summary**:
   - **Composition**: High-Impact Clash Medium Close-Up with blue and gold shockwave sparks.
-  - **Action & Visual Anchors**: **Victoria Parker**'s glowing silver **cybernetic mechanical arm** clashes head-on against **The Colossus**'s golden battleaxe, unleashing a shockwave that forces the giant enforcer back off the terrace ledge. Before **Maya** and **Finn Calder** can reach the balcony—and just as the gala security camera locks onto her—Victoria casts a brief, resolute glance back over her shoulder and vanishes into the night sky with a single sweep of her dark wings.
-- **Target Video Engine**: **MiniMax H3** (`--mode first_frame`).
+  - **Action & Visual Anchors**: **Victoria Parker**'s glowing silver **cybernetic mechanical arm** clashes head-on against **The Colossus**'s golden battleaxe (`Flow_Bridge_15_16.mp4` leads directly into Victoria's dialogue), with **Maya** and **Finn Calder** rushing in behind her (no Emily). Immediately after Victoria delivers her warning, **`ep2_shots/flow/Flow_Bridge_16_17.mp4`** (`5.15s–end`, `7.88s` Omni 1.2 finisher) unleashes her cyan shockwave iron-fist punch to blast the axe aside, ignites a glowing cyan laser sword for a slashing combo, and transforms her weapon into a heavy rotary gatling gun that blasts The Colossus back off the terrace before transitioning to `Ep2_Shot_17`.
+- **Target Video Engine**: **MiniMax H3** (`--mode first_frame`; **Director's Cut HK fix** uses clean `Ep2_Shot_16_EN.mp4` video + `Ep2_Shot_16_HK.mp4` Cantonese audio, followed by `ep2_shots/flow/Flow_Bridge_16_17.mp4`).
 - **Dialogue**:
   - **English (`prompt.txt`)**: `Victoria Parker speaking in a low, resolute voice in English, saying clearly: "Tell the Broker that Raven is hunting him now."`
   - **HK Cantonese (`prompt_hk.txt`)**: `Victoria Parker speaking in a low, resolute voice in natural Hong Kong Cantonese, saying clearly: "返去同『經紀人』講，而家輪到隻渡鴉轉頭獵殺佢喇。"`
@@ -245,6 +248,17 @@
   - **English (`prompt.txt`)**: `Elise Mori gasping in English, saying clearly: "Aoi... look at the prosthetic signature. There's zero doubt!" Aoi Fujimoto speaking softly but firmly in English, saying clearly: "I knew you were alive, Victoria. Wait for me."`
   - **HK Cantonese (`prompt_hk.txt`)**: `Elise Mori gasping in natural Hong Kong Cantonese, saying clearly: "Aoi……你睇下隻機械義肢嘅訊號特徵，百分百係佢呀！" Aoi Fujimoto speaking softly but firmly in natural Hong Kong Cantonese, saying clearly: "我就知你仲未死嘅，Victoria……等我呀。"`
 
+#### **Ep2_Shot_19B** — Act IV (Emotional Beat): 月夜窗前獨思：Emily Parker 凝望滿月牽掛姊姊
+- **Location**: `HQ Operations & Command Center (Moonlit Corridor Window)`（總部夜間玻璃長廊）
+- **Characters in Frame**: Emily Parker
+- **Source Clip**: `ep2_shots/flow/Flow_Shot_19B.mp4` (`5.03s`, Google Flow Omni 1.2 shared non-dialogue beat)
+- **16:9 Single-Frame Visual & Action Summary**:
+  - **Composition**: Intimate Medium Close-Up beside tall floor-to-ceiling HQ windows overlooking the illuminated night metropolis under the full moon.
+  - **Action & Visual Anchors**: Victoria's younger sister **Emily Parker** (long wavy brown hair, emerald green eyes, red blazer over collared shirt) stands quietly alone by the glass corridor, holding her silver locket pendant gently in her hand as she gazes out at the night skyline and full moon in silent reflection before the scene cuts to Gideon Ward's command room.
+- **Target Video Engine**: **Google Flow Omni 1.2** (`ep2_shots/flow/Flow_Shot_19B.mp4`, shared non-dialogue beat for HK & EN).
+- **Dialogue / Audio**:
+  - **English & HK Cantonese**: `no spoken dialogue, subtle quiet nocturnal ambience.`
+
 #### **Ep2_Shot_20** — Act IV: 幕後首腦 Gideon Ward 審視數據：第三集伏筆
 - **Location**: `Covert Syndicate Operations Room (Night)`（犯罪集團秘密行動指揮室）
 - **Characters in Frame**: Gideon Ward (The Broker)
@@ -266,25 +280,29 @@
 | **Ep2_Shot_02** | Act I | Specialist Trio banter + Naomi holding compact rose-gold lipstick micro-taser & mirror decoder from pink bag + Isabella's betting book | **MiniMax H3** | `--mode first_frame` (~1 CU) |
 | **Ep2_Shot_03** | Act I | Oliver & Saffron arguing over wire-tangled matte-black tactical pistol + Finn tangled in background | **MiniMax H3** | `--mode first_frame` (~1 CU) |
 | **Ep2_Shot_04** | Act I | Oliver hiding Victoria's cybernetic arm blueprint as Emily arrives with passes | **Google Flow** | `6s Tier (10 Credits)` / OTS Subtle Acting |
-| **Ep2_Shot_05** | Act I | Aoi, Elise & Emily in Military Intel Hub locking onto Raven's encrypted signal | **Google Flow** | `8s Tier (12 Credits)` / Cyber Lighting |
-| **Ep2_Shot_06** | Act II | Grand red-carpet entrance: Dorian (black hair) & Saffron elbowing for spotlight + Chloe graceful walk-by + Finn carrying cases | **Google Flow** | `6s Tier (10 Credits)` / Tracking Shot |
-| **Ep2_Shot_07** | Act II | Service corridor: Maya & Barnaby rolling wine barrel with router, guards bowing in sweat + Finn peeking | **MiniMax H3** | `--mode first_frame` (~1 CU) |
-| **Ep2_Shot_08** | Act II | VIP balcony: Helena Voss & Gideon Ward toasting secretly + Isabella, Naomi & Evelyn intercepting signal | **Google Flow** | `6s Tier (10 Credits)` / Ambient Lighting |
+| **Ep2_Shot_05** | Act I | Aoi, Elise & Emily in Military Intel Hub locking onto Raven's encrypted signal | **MiniMax H3** | `--mode first_frame` (~1 CU) |
+| **Flow_Bridge_05_06** | Act I→II | Golden gala sparkle transition from HQ Intel Hub (`05`) to Gala Red Carpet (`06`) | **Google Flow Omni 1.2** | `ep2_shots/flow/Flow_Bridge_05_06.mp4` (`4.03s`) |
+| **Ep2_Shot_06** | Act II | Grand red-carpet entrance: Dorian (black hair) & Saffron elbowing for spotlight + Chloe graceful walk-by + Finn carrying cases | **MiniMax H3** | `--mode first_frame` (~1 CU) |
+| **Ep2_Shot_08** | Act II | **Causal Reorder**: VIP balcony Helena Voss & Gideon Ward secret toast + Isabella, Naomi & Evelyn intercepting signal (before Shot 07) | **MiniMax H3** | `--mode first_frame` (~1 CU) |
+| **Ep2_Shot_07** | Act II | **Causal Reorder**: Service corridor Maya & Barnaby rolling wine barrel with router, guards bowing in sweat + Finn peeking (after Shot 08) | **MiniMax H3** | `--mode first_frame` (~1 CU) |
 | **Ep2_Shot_09** | Act II | Mezzanine air duct: Saffron & Dorian (black hair) wedged in narrow golden vent + Finn bonked by grille | **MiniMax H3** | `--mode first_frame` (~1 CU) |
-| **Flow_Bridge_09_10** | Act II | Start-to-End Flow transition bridge connecting Mezzanine Air Vent (`09`) to Laser Corridor (`10`) | **Google Flow** | `ep2_shots/flow/Flow_Bridge_09_10.mp4` |
+| **Flow_Bridge_09_10** | Act II | Start-to-End Flow transition bridge connecting Mezzanine Air Vent (`09`) to Laser Corridor (`10`) | **Google Flow** | `ep2_shots/flow/Flow_Bridge_09_10.mp4` (`10.10s`) |
 | **Ep2_Shot_10** | Act II | Laser corridor standoff: Chloe poised for combat + Maya holding pistol & handed banana by quiet orange ape + Dorian & Saffron dropping onto Finn | **MiniMax H3** | `--mode first_frame` (~1 CU) |
-| **Ep2_Shot_11** | Act III | The Colossus (210 cm golden armor, smiling mask) smashing through vault door | **Hybrid (Flow Video + H3 Audio)** | `ep2_shots/flow/Flow_Shot_11.mp4` override + H3 SFX |
+| **Ep2_Shot_11** | Act III | Normal-scale The Colossus (`11A.png`) smashing vault door + Naomi EMP, Evelyn & Isabella opening fire (derived from `Flow_Bridge_11_12`) | **Hybrid (Flow Video + H3 Audio)** | `ep2_shots/flow/Flow_Shot_11.mp4` (`8.04s`) + H3 SFX |
 | **Ep2_Shot_12** | Act III | Dorian's gadget pen dart bouncing off The Colossus + Naomi tossing micro-EMP disc from pink bag alongside Evelyn & Isabella | **MiniMax H3** | `--mode first_frame` (~1 CU) |
-| **Ep2_Shot_13** | Act III | Chloe Han (sheer stockings with jeweled garter) deflecting warhammer with Taekwondo high kick | **MiniMax H3** | `--mode first_frame` (~1 CU, fast combat) |
-| **Ep2_Shot_13B** | Act III | Action Bridge (`13.png` + `prompt_13b.txt`): Chloe 3-hit Taekwondo high-kick combo driving Colossus under the chandelier (non-dialogue) | **MiniMax H3** | `--mode first_frame` (~1 CU, shared HK/EN) |
+| **Ep2_Shot_13** | Act III | Chloe Han (sheer stockings with jeweled garter) deflecting warhammer with Taekwondo high kick (`MAX_DUR` `4.2s`) | **MiniMax H3** | `--mode first_frame` (`4.2s` cut) |
+| **Flow_Bridge_13_14** | Act III | Chloe mid-air Taekwondo combo driving Colossus under the crystal chandelier (supersedes H3 `13B`) | **Google Flow Omni 1.2** | `ep2_shots/flow/Flow_Bridge_13_14.mp4` (`5.03s`) |
 | **Ep2_Shot_14** | Act III | Saffron's tactical pistol grappling wire hooking ceiling chandelier + Maya (banana sight) & orange ape pulling it down onto Colossus | **MiniMax H3** | `--mode first_frame` (~1 CU) |
-| **Ep2_Shot_15** | Act III | Victoria Parker (Raven) unfolding dark wings in moonlight wearing 10D light brown pantyhose | **Hybrid (Flow Video + H3 Audio)** | `ep2_shots/flow/Flow_Shot_15.mp4` override + H3 SFX |
-| **Flow_Bridge_15_16** | Act III | Start-to-End Flow transition bridge from Victoria's moonlit wing descent (`15`) into battleaxe clash (`16`) | **Google Flow** | `ep2_shots/flow/Flow_Bridge_15_16.mp4` |
-| **Ep2_Shot_16** | Act III | Victoria's cybernetic arm clashing with Colossus's axe before vanishing into the night | **MiniMax H3** | `--mode first_frame` (~1 CU, clash sparks) |
+| **Flow_Bridge_14_15** | Act III | Colossus charging through shattered arched terrace glass under the full moon | **Google Flow Omni 1.2** | `ep2_shots/flow/Flow_Bridge_14_15.mp4` (`5.03s`) |
+| **Ep2_Shot_15** | Act III | Victoria Parker (Raven) moonlit slow-mo hero close-up pause (`3.8s–5.8s` trim avoids repeating entry) | **Hybrid (Flow Video + H3 Audio)** | `ep2_shots/flow/Flow_Shot_15.mp4` (`2.00s`) + H3 SFX |
+| **Flow_Bridge_15_16** | Act III | Split Part 1 (`0.00s–5.15s`): Victoria moonlit dive & cybernetic palm catching Colossus's battleaxe | **Google Flow Omni 1.2** | `ep2_shots/flow/Flow_Bridge_15_16.mp4` (`5.17s`) |
+| **Ep2_Shot_16** | Act III | Victoria's cybernetic arm clashing with Colossus's axe (HK swaps in clean `Ep2_Shot_16_EN.mp4` video + `16_HK` audio; Maya & Finn behind) | **MiniMax H3** | `--mode first_frame` (HK clean video swap) |
+| **Flow_Bridge_16_17** | Act III | Split Part 2 (`5.15s–end`): Victoria cyan shockwave fist -> laser sword slash -> rotary gatling gun finisher | **Google Flow Omni 1.2** | `ep2_shots/flow/Flow_Bridge_16_17.mp4` (`7.88s`) |
 | **Ep2_Shot_17** | Act IV | Clean-shaven Griz holding floor-length repair bill + Oliver cradling wire-tangled tactical pistol + bandaged Finn | **MiniMax H3** | `--mode first_frame` (~1 CU) |
 | **Ep2_Shot_18** | Act IV | Maya warm smile celebration + Isabella collecting cash bets + Dorian in awe (Barnaby kept silent) | **MiniMax H3** | `--mode first_frame` (~1 CU) |
-| **Ep2_Shot_19** | Act IV | Aoi & Elise zooming in on clear monitor frame of Victoria's cybernetic arm & 10D pantyhose | **Google Flow / H3** | `--mode first_frame` (~1 CU) |
-| **Ep2_Shot_20** | Act IV | Syndicate Mastermind Gideon Ward reviewing Colossus mask & Raven telemetry in amber-lit room | **Hybrid (Flow Video + H3 Audio)** | `ep2_shots/flow/Flow_Shot_20.mp4` override + H3 dialogue |
+| **Ep2_Shot_19** | Act IV | Aoi & Elise zooming in on clear monitor frame of Victoria's cybernetic arm & 10D pantyhose | **MiniMax H3** | `--mode first_frame` (~1 CU) |
+| **Ep2_Shot_19B** | Act IV | Emotional beat: Emily Parker alone by moonlit HQ corridor window holding locket in silent reflection | **Google Flow Omni 1.2** | `ep2_shots/flow/Flow_Shot_19B.mp4` (`5.03s`, shared HK/EN) |
+| **Ep2_Shot_20** | Act IV | Syndicate Mastermind Gideon Ward reviewing Colossus mask & Raven telemetry in amber-lit room | **Hybrid (Flow Video + H3 Audio)** | `ep2_shots/flow/Flow_Shot_20.mp4` (`8.09s`) + H3 dialogue |
 
 ---
 
