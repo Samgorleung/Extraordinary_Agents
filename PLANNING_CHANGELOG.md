@@ -2,9 +2,11 @@
 
 ## 1. Active Production Roadmap (目前計劃與待辦事項)
 
-### Episode 1 Status: Completed / Archiving
-- Core comedy setup established: Maya loses her shoes and meets Barnaby the orangutan during a chaotic infiltration; Saffron's overconfident superspy stunts backfire; Chloe Han steps in as the VIP Sixth-Ranger ace to clear the room with high-kick martial arts.
-- Resulting Arc: Maya and Barnaby become inseparable best friends and partners from Episode 2 onward.
+### Episode 1 Remaster: Operation Barefoot Banana (In Progress — Step 2 Completed: 15-Shot Storyboard, Prompts, Flow Plan & Assembler Ready)
+- [DONE] **Legacy Archive & Audit (`ep1_shots/Archive/LEGACY_EP1_AUDIT.md`)**: Probed all 24 legacy `.mp4` clips (`1280x720` + 2 H3 `1344x768` epilogues) and consolidated all 25 legacy `.txt` prompt scripts (commit `2a24670`).
+- [DONE] **Step 2 (15-Shot Remaster Storyboard, Video Prompts & Hybrid Assembler)**: Created `ep1_shots/storyboard.md` (locked to 2020s Ufotable/Makoto Shinkai style + Episode 2 continuity hooks), all 20 bilingual MiniMax H3 prompt files (`ep1_shots/prompt_{01,02,04,05,06,09,11,13,14,15}[_hk].txt`), `ep1_shots/flow/FLOW_PROMPTS_PLAN.md` (5 Flow action shots + `Flow_Bridge_08_09`), and `ep1_shots/assemble_ep1.sh` (relative paths, `-42dB` trailing-silence trimming, `MAX_DUR=12.25`, 138% punch-in).
+- [TODO] **Step 3 (16:9 Single-Frame Keyframes)**: Generate and standardize `ep1_shots/01.png`–`15.png` via ChatGPT / Hybrid Image Pipeline.
+- [TODO] **Step 4 (Dual-Engine Render & Assembly)**: Render the 5 Flow clips + `Flow_Bridge_08_09` in `ep1_shots/flow/` and run Colab A100 H3 batch (`COLAB_EXEC_TIMEOUT=1200 COLAB_HIGH_MEM=1`) for all 10 bilingual dialogue shots, then assemble `Episode_1_Hybrid_Master_HK.mp4` & `EN.mp4` via `./ep1_shots/assemble_ep1.sh ALL`.
 
 ### Episode 2 Planning (Completed — Director's Cut: 10 Flow Omni 1.2 Clips + Bilingual Hybrid Masters)
 - [DONE] **Step 1 (Character Roster & Turnaround Sheets)**: All 20 canonical characters locked in `bible/character_roster.md` and `bible/character_sheets/` (including Episode 2 debuts: `Oliver Kade.png`, `Finn Calder.png`, `Gideon Ward.png`, `Nia Vale.png`, and `Dorian Marlowe.png`).
@@ -42,6 +44,21 @@
   - [DONE] **Episode 2 Director's Cut Assembly**: Integrated all 10 Google Flow Omni 1.2 bridges & overrides (`Flow_Bridge_05_06.mp4`, `Flow_Bridge_09_10.mp4`, `Flow_Bridge_13_14.mp4`, `Flow_Bridge_14_15.mp4`, split `Flow_Bridge_15_16.mp4` + `Flow_Bridge_16_17.mp4`, replaced `Flow_Shot_11.mp4`, trimmed `Flow_Shot_15.mp4`, shared `Flow_Shot_19B.mp4`, `Flow_Shot_20.mp4`), applied `08 -> 07` causal Act II reorder, `Shot 16 (HK)` clean video swap (`Ep2_Shot_16_EN.mp4` video + `Ep2_Shot_16_HK.mp4` audio), trailing-silence-only `get_smart_duration` (`-42dB/d=0.60/+0.75s`) with `MAX_DUR=12.25` and `Shot 20` slow-mo stretch (`8.09s -> 12.25s`), and assembled final 27-segment Director's Cut Masters via `ep2_shots/assemble_ep2.sh ALL`: `Episode_2_Hybrid_Master_HK.mp4` (`221M`, `272.849s`) and `Episode_2_Hybrid_Master_EN.mp4` (`230M`, `272.849s`).
 
 ## 2. Changelog (更新日誌)
+
+### [2026-11-21] - Episode 1 Remaster (Operation: Barefoot Banana) 15-Shot Production Package
+- **Remaster Storyboard & Canon Alignment (`ep1_shots/storyboard.md`)**:
+  - Locked full 15-shot + 1 Flow bridge (*Operation: Barefoot Banana*) script to 2020s high-budget modern anime lighting (Ufotable/Makoto Shinkai; strictly zero 1990s flat cel-shading) and verified `bible/character_roster.md` visual descriptors.
+  - Added Episode 2 continuity hooks: Golden Eagle Crest smuggled crates & Charity Gala invitation (`Ep1_Shot_01`, `14`), Oliver Kade's grapple-switch warning + Emily asking about Victoria (`Ep1_Shot_02`), `Project Simian` origin crate & Custody Order naming **Barnaby** (`Ep1_Shot_04`, `05`, `14`), Barnaby crate-throwing defensive showcase (`Ep1_Shot_08`), Chloe Taekwondo finisher (`Ep1_Shot_12`), upgraded classic epilogue (`Ep1_Shot_13`), and Gideon Ward's TV interview mask-slip reveal (`Ep1_Shot_15`).
+  - Documented Colab A100 CLI batch command (`COLAB_EXEC_TIMEOUT=1200 COLAB_HIGH_MEM=1`, `--mode first_frame`) and all 15 single-frame 16:9 keyframe prompts (`01.png`–`15.png`).
+- **MiniMax H3 Bilingual Prompts (`ep1_shots/prompt_*.txt`) & Google Flow Plan (`ep1_shots/flow/FLOW_PROMPTS_PLAN.md`)**:
+  - Generated all 20 bilingual H3 video prompts (`01, 02, 04, 05, 06, 09, 11, 13, 14, 15` EN + HK Cantonese) with English scene framing, spoken lines inside quotation marks, and `a quiet orange ape` placed at the end of Barnaby shots (`05, 09, 11, 13, 14`) to prevent voice-stealing.
+  - Created `ep1_shots/flow/FLOW_PROMPTS_PLAN.md` containing ready-to-copy non-dialogue Omni 1.2 prompts for `Flow_Shot_03` (`5s`), `07` (`4s`), `08` (`5s`), `Flow_Bridge_08_09` (`4s`), `10` (`6s`), and `12` (`6s`).
+- **Hybrid Assembler & Git Hygiene (`ep1_shots/assemble_ep1.sh`, `.gitignore`)**:
+  - Built `ep1_shots/assemble_ep1.sh` from the repaired `assemble_ep2.sh` template (`SCRIPT_DIR`/`REPO_ROOT` paths, trailing-silence-only `-42dB/d=0.60/+0.75s` trim, `MAX_DUR=12.25`, 138% zoom punch-in, and automatic `ep1_shots/flow/` override & bridge detection).
+  - Updated `.gitignore` with `ep1_edited_clips/` and `ep1_shots/flow/archive/`.
+
+### [2026-11-21] - Legacy Episode 1 Archive Audit (`ep1_shots/Archive/LEGACY_EP1_AUDIT.md`)
+- Audited all 24 legacy `.mp4` clips (`1280x720` + 2 H3 `1344x768` epilogues) and 25 archived `.txt` prompt scripts; pushed text records with `.gitignore` video exclusions verified (`commit 2a24670`).
 
 ### [2026-11-20] - Fix Dialogue Over-Cutting & Rebuild Bilingual Director's Cut Masters
 - **Root Cause & Audio Scan**: Voice-band (`300–3400 Hz`) envelope scans across all 36 H3 dialogue clips confirmed active speech up to `10.5s–12.0s` (including Shots 05, 13, 16, and 20) while ambient SFX kept tracks above `-42dB`, so previous `MAX_DUR` caps (`4.2s–9.5s`) and mid-clip silence detection clipped final words.

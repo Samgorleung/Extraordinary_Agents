@@ -1,7 +1,9 @@
 *.mp4
 *.mov
 work_*/
+ep1_edited_clips/
 ep2_edited_clips/
+ep1_shots/flow/archive/
 ep2_shots/flow/archive/
 .DS_Store
 Thumbs.db
