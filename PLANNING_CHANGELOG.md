@@ -2,11 +2,11 @@
 
 ## 1. Active Production Roadmap (目前計劃與待辦事項)
 
-### Episode 1 Remaster: Operation Barefoot Banana (In Progress — Step 2 Completed: 15-Shot Storyboard, Prompts, Flow Plan & Assembler Ready)
+### Episode 1 Remaster: Operation Barefoot Banana (In Progress — Step 2 Updated: 16-Shot Horror-Twist Structure Ready)
 - [DONE] **Legacy Archive & Audit (`ep1_shots/Archive/LEGACY_EP1_AUDIT.md`)**: Probed all 24 legacy `.mp4` clips (`1280x720` + 2 H3 `1344x768` epilogues) and consolidated all 25 legacy `.txt` prompt scripts (commit `2a24670`).
-- [DONE] **Step 2 (15-Shot Remaster Storyboard, Video Prompts & Hybrid Assembler)**: Created `ep1_shots/storyboard.md` (locked to 2020s Ufotable/Makoto Shinkai style + Episode 2 continuity hooks), all 20 bilingual MiniMax H3 prompt files (`ep1_shots/prompt_{01,02,04,05,06,09,11,13,14,15}[_hk].txt`), `ep1_shots/flow/FLOW_PROMPTS_PLAN.md` (5 Flow action shots + `Flow_Bridge_08_09`), and `ep1_shots/assemble_ep1.sh` (relative paths, `-42dB` trailing-silence trimming, `MAX_DUR=12.25`, 138% punch-in).
-- [TODO] **Step 3 (16:9 Single-Frame Keyframes)**: Generate and standardize `ep1_shots/01.png`–`15.png` via ChatGPT / Hybrid Image Pipeline.
-- [TODO] **Step 4 (Dual-Engine Render & Assembly)**: Render the 5 Flow clips + `Flow_Bridge_08_09` in `ep1_shots/flow/` and run Colab A100 H3 batch (`COLAB_EXEC_TIMEOUT=1200 COLAB_HIGH_MEM=1`) for all 10 bilingual dialogue shots, then assemble `Episode_1_Hybrid_Master_HK.mp4` & `EN.mp4` via `./ep1_shots/assemble_ep1.sh ALL`.
+- [DONE] **Step 2 (16-Shot Remaster Storyboard, Video Prompts & Hybrid Assembler)**: Expanded `ep1_shots/storyboard.md` to 16 shots (`Ep1_Shot_01`–`16` + `Flow_Bridge_09_10`) featuring the glowing-amber-eyes thriller cliffhanger (`Ep1_Shot_05`), HQ Saffron red-alert dispatch (`Ep1_Shot_06`), and Barnaby reveal (`Ep1_Shot_07`), Frame-0 aligned Flow keyframe prompts (`03`, `09`, `11`, `13`), clean 20 bilingual MiniMax H3 prompts (`01, 02, 04, 06, 07, 10, 12, 14, 15, 16` EN & HK), `ep1_shots/flow/FLOW_PROMPTS_PLAN.md` (6 Flow shots + `Flow_Bridge_09_10`), and updated 16-shot `ep1_shots/assemble_ep1.sh`.
+- [TODO] **Step 3 (16:9 Single-Frame Keyframes)**: Generate and standardize `ep1_shots/01.png`–`16.png` via ChatGPT / Hybrid Image Pipeline.
+- [TODO] **Step 4 (Dual-Engine Render & Assembly)**: Render the 6 Flow clips + `Flow_Bridge_09_10` in `ep1_shots/flow/` and run Colab A100 H3 batch (`COLAB_EXEC_TIMEOUT=1200 COLAB_HIGH_MEM=1`) for all 10 bilingual dialogue shots (`01, 02, 04, 06, 07, 10, 12, 14, 15, 16`), then assemble `Episode_1_Hybrid_Master_HK.mp4` & `EN.mp4` via `./ep1_shots/assemble_ep1.sh ALL`.
 
 ### Episode 2 Planning (Completed — Director's Cut: 10 Flow Omni 1.2 Clips + Bilingual Hybrid Masters)
 - [DONE] **Step 1 (Character Roster & Turnaround Sheets)**: All 20 canonical characters locked in `bible/character_roster.md` and `bible/character_sheets/` (including Episode 2 debuts: `Oliver Kade.png`, `Finn Calder.png`, `Gideon Ward.png`, `Nia Vale.png`, and `Dorian Marlowe.png`).
@@ -44,6 +44,18 @@
   - [DONE] **Episode 2 Director's Cut Assembly**: Integrated all 10 Google Flow Omni 1.2 bridges & overrides (`Flow_Bridge_05_06.mp4`, `Flow_Bridge_09_10.mp4`, `Flow_Bridge_13_14.mp4`, `Flow_Bridge_14_15.mp4`, split `Flow_Bridge_15_16.mp4` + `Flow_Bridge_16_17.mp4`, replaced `Flow_Shot_11.mp4`, trimmed `Flow_Shot_15.mp4`, shared `Flow_Shot_19B.mp4`, `Flow_Shot_20.mp4`), applied `08 -> 07` causal Act II reorder, `Shot 16 (HK)` clean video swap (`Ep2_Shot_16_EN.mp4` video + `Ep2_Shot_16_HK.mp4` audio), trailing-silence-only `get_smart_duration` (`-42dB/d=0.60/+0.75s`) with `MAX_DUR=12.25` and `Shot 20` slow-mo stretch (`8.09s -> 12.25s`), and assembled final 27-segment Director's Cut Masters via `ep2_shots/assemble_ep2.sh ALL`: `Episode_2_Hybrid_Master_HK.mp4` (`221M`, `272.849s`) and `Episode_2_Hybrid_Master_EN.mp4` (`230M`, `272.849s`).
 
 ## 2. Changelog (更新日誌)
+
+### [2026-11-22] - Episode 1 Remaster 16-Shot Horror-Twist Restructure, HQ Saffron Red Alert & Frame-0 Alignment
+- **16-Shot Suspense-to-Comedy Restructure (`ep1_shots/storyboard.md`, `ep1_shots/prompt_*.txt`)**:
+  - Updated `Ep1_Shot_04` so Maya slips barefoot beside the `Project Simian` crate and knocks herself out cold on the concrete floor with a dead comms feed.
+  - Inserted **`Ep1_Shot_05`** (`Flow_Shot_05.mp4`, 4s non-dialogue): cold glowing amber eyes opening inside the pitch-black crate shadows behind unconscious Maya without spoiling Barnaby's cute face.
+  - Moved HQ red-alert panic forward to **`Ep1_Shot_06`** (`Griz + Saffron + Chloe + Aoi` in frame; Saffron boasting with matte-black prototype pistol to catch the "monster").
+  - Created **`Ep1_Shot_07`** (horror-to-comedy reveal): Maya jolts awake yelling monster, then melts into ticklish laughter realizing it is chip-collared Barnaby (`a quiet orange ape` @ end).
+  - Shifted subsequent beats cleanly +1 through **`Ep1_Shot_16`** and updated transition bridge to **`Flow_Bridge_09_10.mp4`**.
+- **Cleanup, Flow Frame-0 Lock & Script Sync (`ep1_shots/flow/FLOW_PROMPTS_PLAN.md`, `ep1_shots/assemble_ep1.sh`)**:
+  - Deleted obsolete `prompt_{05,09,11,13}[_hk].txt` files and regenerated exact 20 H3 prompts matching the 10 dialogue shots (`01, 02, 04, 06, 07, 10, 12, 14, 15, 16` EN & HK), keeping Chloe's blue-ribbon white rabbit beside Chloe in Shot 01.
+  - Locked Frame-0 starting keyframe poses for Flow shots `03.png` (pre-jump with heels on), `09.png` (crate overhead over 3 guards, no lasers yet), `11.png` (Saffron catwalk hero pose, no wire yet), and `13.png` (Chloe Taekwondo opening stance).
+  - Updated `FLOW_PROMPTS_PLAN.md` (6 Flow shots + `Flow_Bridge_09_10`), `assemble_ep1.sh` (16-shot `SHOT_CONFIGS`), and `storyboard.md` Colab CLI loop (`COLAB_EXEC_TIMEOUT=1200 COLAB_HIGH_MEM=1`).
 
 ### [2026-11-21] - Episode 1 Remaster (Operation: Barefoot Banana) 15-Shot Production Package
 - **Remaster Storyboard & Canon Alignment (`ep1_shots/storyboard.md`)**:

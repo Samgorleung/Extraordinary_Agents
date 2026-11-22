@@ -21,24 +21,26 @@ ZOOM="1.38" # 138% Medium Close-Up Punch-In for H3 dialogue shots
 mkdir -p "$OUT_DIR" "$FLOW_DIR"
 
 # Shot Routing Table: "SHOT_NUM|T_SPLIT|FOCUS_ZONE|MAX_DUR|IS_NON_DIALOGUE"
+# - 16-shot structure with Ep1_Shot_05 (horror eyes, Flow 4s), Ep1_Shot_06 (HQ red alert H3), Ep1_Shot_07 (reveal H3).
 # - Trailing silence trimming (-42dB/d=0.60) with MAX_DUR=12.25 prevents clipping dialogue tails.
-# - Flow shots (03, 07, 08, 10, 12) + auto-detected Flow_Bridge_08_09.mp4.
+# - Flow shots (03, 05, 08, 09, 11, 13) + auto-detected Flow_Bridge_09_10.mp4.
 SHOT_CONFIGS=(
-  "01|4.4|RIGHT|12.25|0"    # Griz Golden Eagle holo-map (L) -> Punch-in Chloe Earl Grey tea (Right)
+  "01|4.4|RIGHT|12.25|0"    # Griz Golden Eagle holo-map (L) -> Punch-in Chloe Earl Grey tea & rabbit (Right)
   "02|4.4|RIGHT|12.25|0"    # Oliver pistol grapple warning (L/C) -> Punch-in Emily asking about Victoria (Right)
-  "03|2.5|CENTER|5.0|1"     # [Flow Override: Flow_Shot_03.mp4] Maya moonlit skylight dive & heel drop
-  "04|4.2|CENTER|12.25|0"   # Maya barefoot landing, foot pain & banana peel slip by Project Simian crate
-  "05|4.0|CENTER|12.25|0"   # Barnaby licks/pokes banana off shoeless sole + Maya tickle-laughing dialogue
-  "06|4.5|RIGHT|12.25|0"    # HQ red alert: Griz migraine (L) -> Punch-in Chloe lifting pink launcher (Right)
-  "07|2.0|CENTER|4.0|1"     # [Flow Override: Flow_Shot_07.mp4] Tactical flashlights expose Maya & Barnaby
-  "08|2.5|CENTER|5.0|1"     # [Flow Override: Flow_Shot_08.mp4] Barnaby crate slam & shielding Maya -> Flow_Bridge_08_09
-  "09|4.4|RIGHT|12.25|0"    # Chloe smoking launcher (L) -> Punch-in Maya barefoot acoustic defense (Right)
-  "10|3.0|CENTER|6.0|1"     # [Flow Override: Flow_Shot_10.mp4] Saffron catwalk dodge & grapple-switch ankle drop
-  "11|4.5|LEFT|12.25|0"     # Saffron human-bowling pileup (R) -> Punch-in Chloe deadpan facepalm (Left)
-  "12|3.0|CENTER|6.0|1"     # [Flow Override: Flow_Shot_12.mp4] Chloe Taekwondo high kick & palm strike finale
-  "13|4.2|RIGHT|12.25|0"    # Classic Epilogue: Chloe wink report (L) -> Punch-in Barnaby banana poke & Maya laugh (Right)
-  "14|4.5|RIGHT|12.25|0"    # Custody order naming Barnaby (L/C) -> Punch-in Chloe & Charity Gala invite (Right)
-  "15|6.5|CENTER|12.25|0"   # Gideon Ward press interview -> subtle push-in as smile chills & eagle glints
+  "03|2.5|CENTER|5.0|1"     # [Flow Override: Flow_Shot_03.mp4] Maya rooftop jump, skylight shatter & heel drop
+  "04|4.2|CENTER|12.25|0"   # Maya barefoot landing, foot pain, banana slip & knocked out cold (comms dead)
+  "05|2.0|CENTER|4.0|1"     # [Flow Override: Flow_Shot_05.mp4] Horror cold glowing amber eyes creeping from crate shadow
+  "06|4.5|CENTER|12.25|0"   # HQ red alert: Griz panic (L) -> Saffron matte-black pistol monster boast (C) + Chloe (R)
+  "07|4.0|CENTER|12.25|0"   # Horror-to-comedy reveal: Maya jolts awake yelling monster -> Barnaby tickle laughter
+  "08|2.0|CENTER|4.0|1"     # [Flow Override: Flow_Shot_08.mp4] Tactical flashlights expose Maya & Barnaby
+  "09|2.5|CENTER|5.0|1"     # [Flow Override: Flow_Shot_09.mp4] Barnaby crate slam & shielding Maya -> Flow_Bridge_09_10
+  "10|4.4|RIGHT|12.25|0"    # Chloe smoking launcher (L) -> Punch-in Maya barefoot 40% stealth excuse (Right)
+  "11|3.0|CENTER|6.0|1"     # [Flow Override: Flow_Shot_11.mp4] Saffron catwalk hero pose -> dodge -> grapple ankle drop
+  "12|4.5|LEFT|12.25|0"     # Saffron human-bowling pileup (R) -> Punch-in Chloe deadpan facepalm (Left)
+  "13|3.0|CENTER|6.0|1"     # [Flow Override: Flow_Shot_13.mp4] Chloe Taekwondo stance -> rifle disarm & high kick finale
+  "14|4.2|RIGHT|12.25|0"    # Classic Epilogue: Chloe wink report (L) -> Punch-in Barnaby banana poke & Maya laugh (Right)
+  "15|4.5|RIGHT|12.25|0"    # Custody order naming Barnaby (L/C) -> Punch-in Chloe & Charity Gala invite (Right)
+  "16|6.5|CENTER|12.25|0"   # Gideon Ward press interview -> subtle push-in as smile chills & eagle glints
 )
 
 find_h3_clip() {
