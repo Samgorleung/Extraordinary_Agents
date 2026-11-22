@@ -2,11 +2,17 @@
 
 ## 1. Active Production Roadmap (目前計劃與待辦事項)
 
-### Episode 1 Remaster: Operation Barefoot Banana (In Progress — Step 2 Updated: 16-Shot Horror-Twist Structure Ready)
+### Episode 1 Remaster: Operation Barefoot Banana (In Progress — Step 3 Keyframes Started: `1/16` Done)
 - [DONE] **Legacy Archive & Audit (`ep1_shots/Archive/LEGACY_EP1_AUDIT.md`)**: Probed all 24 legacy `.mp4` clips (`1280x720` + 2 H3 `1344x768` epilogues) and consolidated all 25 legacy `.txt` prompt scripts (commit `2a24670`).
-- [DONE] **Step 2 (16-Shot Remaster Storyboard, Video Prompts & Hybrid Assembler)**: Expanded `ep1_shots/storyboard.md` to 16 shots (`Ep1_Shot_01`–`16` + `Flow_Bridge_09_10`) featuring the glowing-amber-eyes thriller cliffhanger (`Ep1_Shot_05`), HQ Saffron red-alert dispatch (`Ep1_Shot_06`), and Barnaby reveal (`Ep1_Shot_07`), Frame-0 aligned Flow keyframe prompts (`03`, `09`, `11`, `13`), clean 20 bilingual MiniMax H3 prompts (`01, 02, 04, 06, 07, 10, 12, 14, 15, 16` EN & HK), `ep1_shots/flow/FLOW_PROMPTS_PLAN.md` (6 Flow shots + `Flow_Bridge_09_10`), and updated 16-shot `ep1_shots/assemble_ep1.sh`.
-- [TODO] **Step 3 (16:9 Single-Frame Keyframes)**: Generate and standardize `ep1_shots/01.png`–`16.png` via ChatGPT / Hybrid Image Pipeline.
-- [TODO] **Step 4 (Dual-Engine Render & Assembly)**: Render the 6 Flow clips + `Flow_Bridge_09_10` in `ep1_shots/flow/` and run Colab A100 H3 batch (`COLAB_EXEC_TIMEOUT=1200 COLAB_HIGH_MEM=1`) for all 10 bilingual dialogue shots (`01, 02, 04, 06, 07, 10, 12, 14, 15, 16`), then assemble `Episode_1_Hybrid_Master_HK.mp4` & `EN.mp4` via `./ep1_shots/assemble_ep1.sh ALL`.
+- [DONE] **Step 2 (16-Shot Storyboard, Policy-Safe Rules, Prompts & Assembler)**: Locked `ep1_shots/storyboard.md` (`01`–`16` + `Flow_Bridge_09_10`), permanent Rule A (Flow Omni 1.2 policy-safe video prompting) & Rule B (ChatGPT `shoeless stockinged feet` / `20-denier glossy cocoa-brown sheer nylon tights` + 0-credit Nano Banana 2.1 `Thinking: High` texture pass + Keyframe Engine Split) in `prompts/style_guide.md` & `AGENTS.md`, clean 20 H3 prompts (`01, 02, 04, 06, 07, 10, 12, 14, 15, 16`), scrubbed `FLOW_PROMPTS_PLAN.md`, and 16-shot `ep1_shots/assemble_ep1.sh`.
+- **Step 3 (16:9 Single-Frame Keyframes — `1/16` Finalized)**:
+  - `[DONE]` **`ep1_shots/03.png`** (Frame-0 moonlit rooftop pre-jump pose with burgundy heels intact).
+  - `[DRAFT / PENDING REDO]` Local untracked draft `ep1_shots/Warehouse Shadows and Glowing Eyes.png` (old lying-down Shot 05 layout — supersede with policy-safe sitting-dazed `05.png`).
+  - `[TODO]` **Flow / Nano Banana 2.1 (`Rule B`) Leg & Hosiery Shots**: `04.png`, `05.png`, `07.png`, `08.png`, `09.png`, `14.png`.
+  - `[TODO]` **ChatGPT Complex / Multi-Character Shots**: `01.png`, `02.png`, `06.png`, `10.png`, `11.png`, `12.png`, `13.png`, `15.png`, `16.png` (`11/13` eligible for Nano Banana 2.1 hosiery pass if needed).
+- **Step 4 (Dual-Engine Video Render & Assembly — `.gitignore` Verified for `*.mp4`)**:
+  - `[TODO]` **Google Flow Omni 1.2 (`0/7`)**: `Flow_Shot_03.mp4`, `Flow_Shot_05.mp4`, `Flow_Shot_08.mp4`, `Flow_Shot_09.mp4`, `Flow_Bridge_09_10.mp4`, `Flow_Shot_11.mp4`, `Flow_Shot_13.mp4`.
+  - `[TODO]` **MiniMax H3 Colab A100 (`0/20`)**: `Ep1_Shot_{01,02,04,06,07,10,12,14,15,16}_{HK,EN}.mp4` (`COLAB_EXEC_TIMEOUT=1200 COLAB_HIGH_MEM=1`) ➔ `./ep1_shots/assemble_ep1.sh ALL`.
 
 ### Episode 2 Planning (Completed — Director's Cut: 10 Flow Omni 1.2 Clips + Bilingual Hybrid Masters)
 - [DONE] **Step 1 (Character Roster & Turnaround Sheets)**: All 20 canonical characters locked in `bible/character_roster.md` and `bible/character_sheets/` (including Episode 2 debuts: `Oliver Kade.png`, `Finn Calder.png`, `Gideon Ward.png`, `Nia Vale.png`, and `Dorian Marlowe.png`).
@@ -44,6 +50,15 @@
   - [DONE] **Episode 2 Director's Cut Assembly**: Integrated all 10 Google Flow Omni 1.2 bridges & overrides (`Flow_Bridge_05_06.mp4`, `Flow_Bridge_09_10.mp4`, `Flow_Bridge_13_14.mp4`, `Flow_Bridge_14_15.mp4`, split `Flow_Bridge_15_16.mp4` + `Flow_Bridge_16_17.mp4`, replaced `Flow_Shot_11.mp4`, trimmed `Flow_Shot_15.mp4`, shared `Flow_Shot_19B.mp4`, `Flow_Shot_20.mp4`), applied `08 -> 07` causal Act II reorder, `Shot 16 (HK)` clean video swap (`Ep2_Shot_16_EN.mp4` video + `Ep2_Shot_16_HK.mp4` audio), trailing-silence-only `get_smart_duration` (`-42dB/d=0.60/+0.75s`) with `MAX_DUR=12.25` and `Shot 20` slow-mo stretch (`8.09s -> 12.25s`), and assembled final 27-segment Director's Cut Masters via `ep2_shots/assemble_ep2.sh ALL`: `Episode_2_Hybrid_Master_HK.mp4` (`221M`, `272.849s`) and `Episode_2_Hybrid_Master_EN.mp4` (`230M`, `272.849s`).
 
 ## 2. Changelog (更新日誌)
+
+### [2026-11-22] - Flow Policy-Safe Rules, Nano Banana 2.1 Texture Pass & Shot 05 Redo
+- **Style & Workflow Rules (`prompts/style_guide.md`, `AGENTS.md`)**:
+  - Added **Rule A (Google Flow Policy-Safe Video Prompting)**: banned combining `unconscious`, `lying on back`, `unprotected sole`, `barefoot`, `shoeless`, `sheer pantyhose`, or `garter stockings` with looming figures in Omni 1.2 video prompts; omit hosiery/barefoot words in Flow video prompts since Frame 0 locks outfits.
+  - Added **Rule B (Hybrid Keyframe Pipeline & Sheer Hosiery Rendering)**: replaced `barefoot` / `pale brown` with `shoeless stockinged feet` and `20-denier glossy cocoa-brown sheer nylon tights` (smooth semi-translucent nylon encasing feet and toes, no bare skin/exposed toenails); added the 0-credit **Nano Banana 2.1** (`Thinking: High`, `x2`/`x4`, attaching ONLY the target GPT image) texture pass and **Keyframe Engine Split** (`03, 04, 05, 07, 08, 09, 14` Flow / Nano Banana 2.1 vs. `01, 02, 06, 10, 12, 15, 16` ChatGPT).
+- **Policy-Safe Shot 05 & Scrubbed Flow Plan (`ep1_shots/storyboard.md`, `ep1_shots/flow/FLOW_PROMPTS_PLAN.md`)**:
+  - Updated `Ep1_Shot_05` (`05.png` & `Flow_Shot_05.mp4`) to Maya sitting dazed on the concrete floor rubbing her forehead in the lower-left while glowing amber eyes shift out of the cracked crate behind her.
+  - Scrubbed all hosiery/shoeless/garter wording from every Flow video prompt in `FLOW_PROMPTS_PLAN.md` while upgrading all Section 4 keyframe prompts (`01.png`–`16.png`) to the Rule B glossy cocoa-brown nylon anchor.
+- **Asset Audit (`ep1_shots/`)**: Committed finalized `ep1_shots/03.png` (`[DONE]`, `1/16` keyframes ready); recorded local untracked draft `Warehouse Shadows and Glowing Eyes.png` as superseded pending policy-safe `05.png` redo; confirmed `.gitignore` ignores `*.mp4` across all subfolders.
 
 ### [2026-11-22] - Episode 1 Remaster 16-Shot Horror-Twist Restructure, HQ Saffron Red Alert & Frame-0 Alignment
 - **16-Shot Suspense-to-Comedy Restructure (`ep1_shots/storyboard.md`, `ep1_shots/prompt_*.txt`)**:

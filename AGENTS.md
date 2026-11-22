@@ -59,9 +59,9 @@ Antigravity 除咗負責本地檔案管理同 Git 同步之外，喺完成每一
    - **Antigravity 職責**：可直接同創作者一齊擴充 `storyboard.md`，或生成一段指令叫連咗 GitHub 嘅 **Gemini Chat** 讀取最新 Repo 協助構思對白，定稿後由 Antigravity 寫入 `storyboard.md` 並 `git push`。
 3. **Step 3: Single-Frame 16:9 Keyframe Generation (單幅 16:9 劇集分鏡底圖) 👉 Antigravity 出 Prompt ➔ 貼去 ChatGPT / Gemini / Flow 生圖**
    - **流程**：劇本分鏡表拍板後，需要為每一鏡生成 16:9 獨立算片底圖。
-   - **Hybrid Image Pipeline**：Use Google Flow / Nano Banana to draft complex multi-character staging first, then use ChatGPT for a 1:1 Master Style Upgrade.
+   - **Hybrid Image Pipeline (`Rule B`)**: Route complex multi-character/prop HQ shots (`01, 02, 06, 10, 12, 15, 16`) to ChatGPT, and route leg/hosiery-focused shots (`03, 04, 05, 07, 08, 09, 14`) to Google Flow or a ChatGPT ➔ **Nano Banana 2.1** (`Thinking: High`, `x2`/`x4`, 0 credits, attaching **ONLY** the target GPT image) texture pass. Always use `shoeless stockinged feet` + `20-denier glossy cocoa-brown sheer nylon tights` (NEVER `barefoot` or `pale brown`).
    - **Antigravity 職責**：根據 `prompts/style_guide.md` 嘅 `Rule Set 2 (單幅 16:9 劇集分鏡圖，嚴禁多格拼圖)`，逐鏡寫好英文生圖 Prompt，並明確提示創作者每一鏡需要附帶 `bible/character_sheets/` 入面邊幾張角色設定圖上傳俾 **ChatGPT / Gemini / Flow**；圖片放入 `epX_shots/` 後負責執齊檔名並 `git push`。
 4. **Step 4: Dual-Engine Video Generation (雙引擎算片：Google Flow vs. MiniMax H3) 👉 Antigravity 直接寫入算片 Prompts**
    - **流程**：按鏡頭性質分流算片：
-     - **Google Flow**：負責大場景 Establishing Shots、光影氣氛、緩慢推進及首尾幀過渡（Start-to-End Frame Transitions）。Antigravity 直接輸出 Flow 專用英文 Camera & Motion Instructions。
+     - **Google Flow (`Rule A` Policy-Safe)**：負責大場景 Establishing Shots、光影氣氛、緩慢推進及首尾幀過渡（Start-to-End Frame Transitions）。因為 Frame 0 已經鎖定造型，Flow 算片 Prompt **必須省略絲襪／赤腳／昏迷／吊襪帶等敏感字眼**，純寫攝影機運動、光影及動作。Antigravity 直接輸出 Flow 專用英文 Camera & Motion Instructions。
      - **MiniMax H3 (WSL)**：負責快節奏武打（如 Chloe 高踢腿）、複雜肢體拍檔搞笑互動（如 Maya 與 Barnaby 蕉皮／道具烏龍、Saffron 與 Dorian 撞擊鬧劇）、以及多國語言對嘴（特別係地道香港廣東話口語 Lip-Sync）。Antigravity 直接生成並更新 `epX_shots/prompt.txt`（英文版）及 `epX_shots/prompt_hk.txt`（香港廣東話口語版，包含 `<Picture 1>` 標記）。
