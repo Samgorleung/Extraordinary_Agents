@@ -2,7 +2,7 @@
 
 > **Rule A Compliance (`prompts/style_guide.md`)**: Frame-0 keyframes already lock every character's outfit and hosiery visually. All Google Flow **video** prompts below strictly focus on camera movement, lighting, and physical action—omitting `unconscious`, `lying on back`, `unprotected sole`, `barefoot`, `shoeless`, `sheer pantyhose`, `garter`, `stockings`, `tights`, and `hosiery` descriptors to prevent false-positive policy blocks. Character entrances follow the Z depth axis (`walks forward along the depth axis out of the mist`) to prevent cardboard sideways sliding. All 7 clips are strictly `No spoken dialogue`.
 
-Currently **6/7 Flow `.mp4` clips** are rendered and organized inside `ep1_shots/flow/` (`1280×720 @ 24fps`, `h264 + aac`). Only `Flow_Shot_03.mp4` remains pending (`image.png_ffb06f7c.jpg` was verified as Saffron's catwalk keyframe `11.png`).
+All **7/7 Flow `.mp4` clips** are rendered and organized inside `ep1_shots/flow/` (`1280×720 @ 24fps`, `h264 + aac`).
 
 ---
 
@@ -10,7 +10,7 @@ Currently **6/7 Flow `.mp4` clips** are rendered and organized inside `ep1_shots
 
 | Target Filename | Status | Verified Duration / Spec | Mode & Source Keyframes | Visual Focus |
 | :--- | :---: | :--- | :--- | :--- |
-| **`Flow_Shot_03.mp4`** | `[TODO]` | Target `5.0s` | First Frame (`ep1_shots/03.png`) | Moonlit skylight jump & burgundy heels slipping off in mid-air |
+| **`Flow_Shot_03.mp4`** | `[DONE]` | `5.035s` (`1280×720`, 24fps, aac) | First Frame (`ep1_shots/03.png`) | Moonlit skylight jump & burgundy heels slipping off in mid-air |
 | **`Flow_Shot_05.mp4`** | `[DONE]` | `4.032s` (`1280×720`, 24fps, aac) | First Frame (`ep1_shots/05.png`) | Policy-safe thriller push-in past dazed spy toward glowing amber eyes in dark crate |
 | **`Flow_Shot_08.mp4`** | `[DONE]` | `4.032s` (`1280×720`, 24fps, aac) | First Frame (`ep1_shots/08.png`) | Tactical flashlight sweep catching laughing Maya & Barnaby |
 | **`Flow_Shot_09.mp4`** | `[DONE]` | `5.035s` (`1280×720`, 24fps, aac) | First Frame (`ep1_shots/09.png`) | Barnaby throws crates at guards & shields Maya under catwalk laser dots |
@@ -22,7 +22,7 @@ Currently **6/7 Flow `.mp4` clips** are rendered and organized inside `ep1_shots
 
 ## 2. Final Approved Google Flow (Omni 1.2) Policy-Safe Prompts
 
-### Clip 1 — `Flow_Shot_03.mp4` (`Ep1_Shot_03`, Target `5s`, First Frame `03.png`) `[TODO]`
+### Clip 1 — `Flow_Shot_03.mp4` (`Ep1_Shot_03`, `5.03s`, First Frame `03.png`) `[DONE]`
 ```text
 Modern high-budget 2020s anime cinematic action animation (Ufotable and Makoto Shinkai moonlit volumetric lighting, delicate thin lineart, ray-traced glass reflections). Starting from the Frame-0 rooftop pose beside the intact glass skylight (both burgundy high heels firmly worn on her feet), Agent Maya gives a warm, confident smile as she taps her comms earpiece, coils, and dives cleanly straight through the skylight glass. Camera tracks rapidly downward amidst exploding crystal glass shards beneath the silver full moon as aerodynamic rush pulls both burgundy high heels off her feet in mid-descent. No spoken dialogue, only comms beep, whistling night wind, crisp skylight glass shatter, aerial whoosh, and twin shoe-slip sounds.
 ```

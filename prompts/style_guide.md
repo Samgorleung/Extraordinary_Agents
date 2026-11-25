@@ -2,7 +2,7 @@
 
 ## 1. Image Generation Rules: Two Distinct Formats (ChatGPT Image / Nano Banana)
 
-- **Base Visual Style (Applies to All Art)**: Modern high-budget 2020s anime key visual illustration (Ufotable and Makoto Shinkai cinematic lighting style), ultra-detailed digital painting, delicate thin lineart, soft multi-layered gradient shading, volumetric lighting, ray-traced floor reflections, and realistic glossy sheer pantyhose textures. Strictly NO 1990s flat cel-shading or thick comic ink outlines.
+- **Base Visual Style (Applies to All Art)**: Modern high-budget 2020s anime key visual illustration (Ufotable and Makoto Shinkai cinematic lighting style), ultra-detailed digital painting, delicate thin lineart, soft multi-layered gradient shading, volumetric lighting, ray-traced floor reflections, and natural semi-matte 15-denier sheer nylon textures (no oily glare). Strictly NO 1990s flat cel-shading or thick comic ink outlines.
 - **Stateless World Rule**: Continental Union alternate-modern setting; NO real-world national flags, country names, or unintended watermark text.
 
 ### Rule Set 1: 角色三視圖設定表 (Character Turnaround Sheets — 存入 `bible/character_sheets/`)
@@ -28,9 +28,14 @@
   - **AI Content Filter Balance**: To avoid false-positive safety blocks on image/video platforms, focus prompts on **action-comedy & earnest slapstick** (Maya doing silly things with deadpan elite poise, banana-peel slips, mixed-up gadgets, and chain-reaction collisions) rather than explicit foot-tickling/licking keywords.
   - When multiple characters are on the floor, state: `Keep all legs and feet clearly separated on the floor`.
 
-### Rule B — Hybrid Keyframe Pipeline & Sheer Hosiery Rendering
-- **Maya 絲襪定色與質感標準（防變赤腳／防變黑絲）**: Strictly **NEVER** use `barefoot` (causes ChatGPT to render bare skin + exposed toenails) and **NEVER** use `coffee-brown` or `cocoa-brown` (darkens into sheer black under moonlit/dark warehouse lighting). Always write verbatim:
-  `shoeless stockinged feet in 15-denier glossy sheer light nude-beige / pale suntan nylon pantyhose (warm light skin-toned beige, strictly NOT black, charcoal, grey, or dark brown), with silky vertical nylon specular highlights, subtle sheer contour shading, and smooth semi-translucent nylon seamlessly encasing the feet and toes (no bare skin texture or exposed toenails).`
+### Rule B — Hybrid Keyframe Pipeline, Semi-Matte 15D Hosiery & ChatGPT Anti-Trap Standards
+- **Maya 絲襪定色與質感標準（柔霧 15D、去油光、防變赤腳／防變黑絲）**: Strictly **NEVER** use `barefoot` (causes ChatGPT to render bare skin + exposed toenails), **NEVER** use `coffee-brown` or `cocoa-brown` (darkens into sheer black under moonlit/dark warehouse lighting), and **NEVER** stack `glossy`, `satin nylon sheen`, or `crisp vertical specular highlights` (causes oily plastic glare on legs/suits). Always write verbatim:
+  `subtle semi-matte 15-denier sheer light nude-beige nylon pantyhose (warm light skin-toned beige, strictly NOT black, charcoal, grey, or dark brown), with natural soft diffused fabric shading along the leg contours and smooth translucent nylon seamlessly encasing the feet and toes (no oily glare, no bare skin texture, no exposed toenails)`
+- **ChatGPT 生圖 4 大防伏標準 (ChatGPT Anti-Trap Standards)**:
+  1. **嚴禁負面詞反效果 (No Negative-Word Backfire)**: Never write `NO yellow gun` or `NO bananas` in weapon locks (ChatGPT often draws the forbidden yellow item); use pure positive locking instead: **`a sleek solid matte-black prototype compact tactical pistol`**.
+  2. **H3 對白首幀嚴禁 `motion blur` (Zero Motion Blur on Dialogue Keyframes)**: All MiniMax H3 dialogue keyframes (e.g., `12.png`) MUST enforce **`crisp sharp focus throughout with zero motion blur`** and clearly visible frontal faces so H3 lip-sync does not blur character faces.
+  3. **多角色警報場口控色 (Balanced Studio Lighting in Red-Alert Scenes)**: Red-alert HQ scenes (e.g., `06.png`) MUST specify **`balanced clean anime studio lighting`** on characters' faces and foregrounds, confining crimson red alarm illumination strictly to background walls and holographic screens (prevents the entire frame washing out in solid red).
+  4. **男裝／戰術服裝去膠感 ＋ Barnaby 閉嘴防搶嘴 (Matte Tactical/Wool Fabrics & Closed-Mouth Barnaby)**: Always specify **`matte black tactical combat vest`** (Commander Griz) and **`matte tailored dark charcoal wool formal suit`** (Gideon Ward) to avoid plastic-shine artifacts; on Barnaby H3 keyframes (`07, 12, 14, 15.png`), explicitly state **`with his mouth gently closed`** to prevent MiniMax H3 voice-stealing.
 - **Nano Banana 2.1「0-Credit 局部修圖」流程**: When a ChatGPT image renders hosiery too bare or too black, OR when a local character pose breaks continuity (e.g., `10.png` / `13.png` sitting too politely), use Google Flow with **Nano Banana 2.1 | Thinking: High | x2–x4 (0 credits)** and attach **ONLY the single target image** (NEVER attach character reference sheets simultaneously, so composition stays locked and no extra characters bleed in). Keep the unaffected half of the frame locked and only locally refine the target character and hosiery.
 - **Keyframe Engine Split**: Route leg/hosiery-focused single or duo shots (e.g., Ep1 `03, 04, 05, 07, 08, 09, 14`) to **Google Flow** (or ChatGPT ➔ Flow Nano Banana 2.1 localized texture pass); route complex multi-character/prop HQ shots (e.g., Ep1 `01, 02, 06, 10, 12, 15, 16`) to **ChatGPT**.
 
