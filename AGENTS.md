@@ -2,17 +2,17 @@
 
 This file serves as the Single Source of Truth (SSOT) operational manual for both human creators and AI Agents (Antigravity, ChatGPT, Gemini).
 
-## 1. Multi-AI Division of Labor (各 AI 與工具分工)
+## 1. Multi-AI Division of Labor (6 工具協作線與分工)
 
 | Tool / AI | Primary Role | Key Responsibilities |
 | :--- | :--- | :--- |
 | GitHub Repo | Central SSOT Database | Stores all Lore, Character Sheets, Locations, Prompts, and Changelog. |
-| Antigravity | Local Automation Agent & AI Dispatcher | Reads AGENTS.md, edits .md and .txt files locally, manages/renames new image files, updates PLANNING_CHANGELOG.md, runs git commit / git push automatically, **and proactively reminds the creator of the next production step while generating ready-to-copy prompts/instructions for ChatGPT, Gemini, Google Flow, and MiniMax H3**. |
-| ChatGPT | Visual & Storyboard Director | Connects via GitHub app. Reads bible/ and prompts/style_guide.md to generate Character Turnaround Sheets, Location Concept Art, and Single-Frame 16:9 Keyframe Images. |
-| Google Flow | Atmospheric Video Engine | Generates wide establishing shots, moody lighting scenes, slow camera push-ins, and Start-to-End frame transitions. |
-| MiniMax H3 (WSL) | Action & Dialogue Video Engine | Runs locally/Colab via WSL. Handles fast combat, complex character/limb interactions (Starting from <Picture 1>), and multi-language lip-sync dialogue (especially HK Cantonese). |
-| Gemini (General Chats) | Scriptwriter & Prompt Polisher | Connects via GitHub MCP. Assists with brainstorming episode scripts, translating dialogue (EN/HK/TW/JP), and formatting video prompts. |
-| Gemini (Main Architect) | Resource & Escalation Lead | Oversees global resource allocation, cross-tool architecture optimization, and troubleshoots complex technical/workflow bottlenecks when other AIs get stuck. |
+| Antigravity | Local Automation Agent & AI Dispatcher | GitHub 單一真相來源維護、`ffprobe`/PNG 標準化、WSL 安全斷點批跑腳本與 Colab CU 保護監控（失敗即停機），並主動派發下一步 Prompt。 |
+| ChatGPT | Co-Primary Keyframe & Sheet Illustrator | 雙主力 16:9 底圖繪師之一：主力負責**正經總部戲、複雜武器／道具、角色三視圖設定表**（須嚴守 4 大防伏標準）。 |
+| Meta AI Muse | Co-Primary Keyframe & Concept Illustrator *(Ep 3 起正式啟用；可作 Ep 1 單鏡補救)* | 與 ChatGPT 並列**雙主力 16:9 靜態底圖繪師**：優先負責**喜劇肢體互動、絲襪赤腳特寫、鉤爪纏繞**等易觸發 ChatGPT 誤判審查場口，兼顧 Ep 3+ 場景概念圖、多角色初稿與 IG/Threads/WhatsApp 宣發素材。 |
+| Google Flow | Nano Banana 2.1 + Omni 1.2 Engine | **Nano Banana 2.1**（0-Credit 局部精修、清理多餘鞋隻與統一絲襪質感）＋ **Omni 1.2**（無對白動作片、`Rule A` Z 軸進場及 `Bridge` 首尾幀過渡）。 |
+| MiniMax H3 (WSL / Colab A100) | Bilingual Lip-Sync Video Engine | 12 秒香港廣東話＋英文雙語對白對嘴量產（`--mode first_frame`，鎖死 `COLAB_EXEC_TIMEOUT=1200 COLAB_HIGH_MEM=1`）。 |
+| Gemini | Creative Director, Reviewer & Escalation Lead | 創意導演、分鏡防穿幫審查、審查繞路改寫與救火；亦協助構思劇本對白（EN/HK/TW/JP）及全域架構排錯。 |
 
 ## 2. Repository Directory Structure (資料夾結構)
 
@@ -57,11 +57,14 @@ Antigravity 除咗負責本地檔案管理同 Git 同步之外，喺完成每一
 2. **Step 2: Episode Script & Shot-by-Shot Storyboard (分場劇本與逐鏡腳本深化) 👉 交俾 Gemini (General Chat) 或 Antigravity**
    - **流程**：角色入齊庫後，根據 `epX_shots/storyboard.md` 嘅四幕大綱，細執每一鏡（Shot 1 – Shot N）嘅動作、搞笑橋段及中／英／粵語對白。
    - **Antigravity 職責**：可直接同創作者一齊擴充 `storyboard.md`，或生成一段指令叫連咗 GitHub 嘅 **Gemini Chat** 讀取最新 Repo 協助構思對白，定稿後由 Antigravity 寫入 `storyboard.md` 並 `git push`。
-3. **Step 3: Single-Frame 16:9 Keyframe Generation (單幅 16:9 劇集分鏡底圖) 👉 Antigravity 出 Prompt ➔ 貼去 ChatGPT / Gemini / Flow 生圖**
+3. **Step 3: Single-Frame 16:9 Keyframe Generation (單幅 16:9 劇集分鏡底圖) 👉 Antigravity 出 Prompt ➔ 貼去 ChatGPT / Meta AI Muse / Google Flow 生圖**
    - **流程**：劇本分鏡表拍板後，需要為每一鏡生成 16:9 獨立算片底圖。
-   - **Hybrid Image Pipeline (`Rule B`)**: Route complex multi-character/prop HQ shots (`01, 02, 06, 10, 12, 15, 16`) to ChatGPT, and route leg/hosiery-focused shots (`03, 04, 05, 07, 08, 09, 14`) to Google Flow or a ChatGPT ➔ **Nano Banana 2.1** (`Thinking: High`, `x2`–`x4`, 0 credits, attaching **ONLY** the single target image—never character sheets simultaneously) localized fix pass. Always use `subtle semi-matte 15-denier sheer light nude-beige nylon pantyhose (no oily glare)` (NEVER `barefoot`, `coffee-brown / cocoa-brown`, `glossy`, or `specular highlights`). Follow the 4 ChatGPT anti-trap rules: positive `a sleek solid matte-black prototype compact tactical pistol` (no negative `NO yellow gun/bananas`), `crisp sharp focus throughout with zero motion blur` on H3 dialogue keyframes, `balanced clean anime studio lighting` on faces in red-alert scenes, and `matte` tactical/wool fabrics + `with his mouth gently closed` for Barnaby.
-   - **Antigravity 職責**：根據 `prompts/style_guide.md` 嘅 `Rule Set 2 (單幅 16:9 劇集分鏡圖，嚴禁多格拼圖)`，逐鏡寫好英文生圖 Prompt，並明確提示創作者每一鏡需要附帶 `bible/character_sheets/` 入面邊幾張角色設定圖上傳俾 **ChatGPT / Gemini / Flow**；圖片放入 `epX_shots/` 後負責執齊檔名並 `git push`。
-4. **Step 4: Dual-Engine Video Generation (雙引擎算片：Google Flow vs. MiniMax H3) 👉 Antigravity 直接寫入算片 Prompts**
+   - **Hybrid Image Pipeline (`Rule B` — ChatGPT + Meta AI Muse 雙主力 + Nano Banana 2.1 收尾)**：
+     - **ChatGPT**：負責正經總部戲／複雜武器道具場口（Ep 1 `01, 02, 06, 10, 12, 15, 16`），嚴守 4 大防伏標準：正面鎖定 `a sleek solid matte-black prototype compact tactical pistol`（禁 `NO yellow gun/bananas`）、H3 首幀 `crisp sharp focus throughout with zero motion blur`、紅燈場口人臉 `balanced clean anime studio lighting`、`matte` 西裝／戰術背心＋Barnaby `with his mouth gently closed`。
+     - **Meta AI Muse** *(Ep 3 起正式啟用，亦可作 Ep 1 單鏡補救)*：優先處理喜劇肢體互動、絲襪／赤腳特寫、鉤爪纏繞等易觸發 ChatGPT 審查誤判嘅場口，以及 ChatGPT 額度緊張時嘅概念圖與多角色初稿。**Muse 防伏 3 鐵則**：(1) 必查鞋隻數量防「著住一對＋地下又一對」高跟鞋分身；(2) 原地對話微調必明確鎖定保留場內細道具（如 `keep Chloe's silver heels and the yellow banana peel on the floor unchanged`）；(3) 若絲襪質感未夠統一，交 Google Flow **Nano Banana 2.1**（`Thinking: High`, `x2`–`x4`, 0 credits，僅附單張目標圖）統一收尾。
+     - **Maya 柔霧 15D 定色鎖定**：一律使用 `subtle semi-matte 15-denier sheer light nude-beige nylon pantyhose (no oily glare)`（嚴禁 `barefoot`、`coffee-brown / cocoa-brown`、`glossy`、`specular highlights`）。
+   - **Antigravity 職責**：根據 `prompts/style_guide.md` 嘅 `Rule Set 2 (單幅 16:9 劇集分鏡圖，嚴禁多格拼圖)`，逐鏡寫好英文生圖 Prompt，明確標示引擎分流及需附帶嘅 `bible/character_sheets/` 設定圖；圖片放入 `epX_shots/` 後負責標準化轉 PNG、改名並 `git push`。
+4. **Step 4: Dual-Engine Video Generation (雙引擎算片：Google Flow Omni 1.2 vs. MiniMax H3) 👉 Antigravity 直接寫入算片 Prompts 與執行安全批跑**
    - **流程**：按鏡頭性質分流算片：
      - **Google Flow (`Rule A` Policy-Safe)**：負責大場景 Establishing Shots、光影氣氛、緩慢推進及首尾幀過渡（Start-to-End Frame Transitions）。因為 Frame 0 已經鎖定造型，Flow 算片 Prompt **必須省略絲襪／赤腳／昏迷／吊襪帶等敏感字眼**，純寫攝影機運動、光影及動作；角色登場須寫沿景深 Z 軸迎面步出（`walks forward along the depth axis out of the mist`），嚴禁側身滑入防滑步。Antigravity 直接輸出 Flow 專用英文 Camera & Motion Instructions。
-     - **MiniMax H3 (WSL)**：負責快節奏武打（如 Chloe 高踢腿）、複雜肢體拍檔搞笑互動（如 Maya 與 Barnaby 蕉皮／道具烏龍、Saffron 與 Dorian 撞擊鬧劇）、以及多國語言對嘴（特別係地道香港廣東話口語 Lip-Sync）。Antigravity 直接生成並更新 `epX_shots/prompt.txt`（英文版）及 `epX_shots/prompt_hk.txt`（香港廣東話口語版，包含 `<Picture 1>` 標記）。
+     - **MiniMax H3 (WSL / Colab A100)**：負責快節奏武打、複雜肢體拍檔搞笑互動、以及 12 秒香港廣東話＋英文雙語對嘴量產（`--mode first_frame`）。使用可斷點續跑腳本（如 `ep1_shots/run_ep1_h3_batch.sh hk|en|all`），鎖死 `COLAB_EXEC_TIMEOUT=1200 COLAB_HIGH_MEM=1`，遇錯或超時即時 `colab stop`（HTTP 503 最多只重試 1 次）。Antigravity 亦負責生成並更新 `epX_shots/prompt*.txt`。

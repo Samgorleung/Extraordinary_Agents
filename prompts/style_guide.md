@@ -1,6 +1,6 @@
 # Global Style & Dual-Engine Production Rules
 
-## 1. Image Generation Rules: Two Distinct Formats (ChatGPT Image / Nano Banana)
+## 1. Image Generation Rules: Two Distinct Formats (ChatGPT / Meta AI Muse / Nano Banana 2.1)
 
 - **Base Visual Style (Applies to All Art)**: Modern high-budget 2020s anime key visual illustration (Ufotable and Makoto Shinkai cinematic lighting style), ultra-detailed digital painting, delicate thin lineart, soft multi-layered gradient shading, volumetric lighting, ray-traced floor reflections, and natural semi-matte 15-denier sheer nylon textures (no oily glare). Strictly NO 1990s flat cel-shading or thick comic ink outlines.
 - **Stateless World Rule**: Continental Union alternate-modern setting; NO real-world national flags, country names, or unintended watermark text.
@@ -36,8 +36,17 @@
   2. **H3 對白首幀嚴禁 `motion blur` (Zero Motion Blur on Dialogue Keyframes)**: All MiniMax H3 dialogue keyframes (e.g., `12.png`) MUST enforce **`crisp sharp focus throughout with zero motion blur`** and clearly visible frontal faces so H3 lip-sync does not blur character faces.
   3. **多角色警報場口控色 (Balanced Studio Lighting in Red-Alert Scenes)**: Red-alert HQ scenes (e.g., `06.png`) MUST specify **`balanced clean anime studio lighting`** on characters' faces and foregrounds, confining crimson red alarm illumination strictly to background walls and holographic screens (prevents the entire frame washing out in solid red).
   4. **男裝／戰術服裝去膠感 ＋ Barnaby 閉嘴防搶嘴 (Matte Tactical/Wool Fabrics & Closed-Mouth Barnaby)**: Always specify **`matte black tactical combat vest`** (Commander Griz) and **`matte tailored dark charcoal wool formal suit`** (Gideon Ward) to avoid plastic-shine artifacts; on Barnaby H3 keyframes (`07, 12, 14, 15.png`), explicitly state **`with his mouth gently closed`** to prevent MiniMax H3 voice-stealing.
-- **Nano Banana 2.1「0-Credit 局部修圖」流程**: When a ChatGPT image renders hosiery too bare or too black, OR when a local character pose breaks continuity (e.g., `10.png` / `13.png` sitting too politely), use Google Flow with **Nano Banana 2.1 | Thinking: High | x2–x4 (0 credits)** and attach **ONLY the single target image** (NEVER attach character reference sheets simultaneously, so composition stays locked and no extra characters bleed in). Keep the unaffected half of the frame locked and only locally refine the target character and hosiery.
-- **Keyframe Engine Split**: Route leg/hosiery-focused single or duo shots (e.g., Ep1 `03, 04, 05, 07, 08, 09, 14`) to **Google Flow** (or ChatGPT ➔ Flow Nano Banana 2.1 localized texture pass); route complex multi-character/prop HQ shots (e.g., Ep1 `01, 02, 06, 10, 12, 15, 16`) to **ChatGPT**.
+- **Meta AI Muse 實戰定位與 3 大防伏鐵則（Co-Primary Keyframe Illustrator，Episode 3 起正式啟用，亦可用作 Ep 1 單鏡補救）**:
+  - **核心定位**：與 **ChatGPT** 並列為**雙主力 16:9 靜態底圖繪師（Co-Primary Keyframe Illustrator）**，另兼顧前期場景概念圖與 IG/Threads/WhatsApp 宣發素材。
+  - **何時優先選用 Muse（避開 ChatGPT 審查痛點與額度瓶頸）**：
+    1. 凡涉及**喜劇肢體互動、絲襪赤腳特寫、鉤爪纏繞**等容易觸發 ChatGPT 誤判審查（Fetish / Harassment guardrails）嘅場口，直接優先改用 Meta AI Muse 生成初圖。
+    2. 當 ChatGPT 生圖額度緊張時，由 Muse 承接 Episode 3+ 場景概念圖及多角色初稿。
+  - **Muse 實戰 3 大防伏鐵則（基於 Ep 1 `14.png` 實測）**：
+    1. **必做「鞋隻數量」檢查**：Muse 初圖有時會出現「人物腳上著住一對、地下又多畫一對」嘅高跟鞋分身問題，出圖後必須即場檢查，發現分身就要求 Muse 原地微調刪除或交 **Nano Banana 2.1** 清理。
+    2. **原地對話微調鎖定細道具**：Muse 支援極高一致性嘅對話式局部修圖並具自我 QC 意識，但每次落改圖指令時，**必須同時明確列出要原封不動保留嘅場內小型道具**（例如：`keep Chloe's silver heels and the yellow banana peel on the floor unchanged`），防止微調時誤刪配角物件。
+    3. **最後質感把關**：若 Muse 出圖嘅絲襪質感仍未夠統一，最後交由 Google Flow **Nano Banana 2.1（0 credits）** 做統一收尾。
+- **Nano Banana 2.1「0-Credit 局部修圖」流程**: When a ChatGPT or Meta AI Muse image renders hosiery too bare or too black, OR leaves duplicate shoes / pose breaks (e.g., `10.png` / `13.png` / `14.png`), use Google Flow with **Nano Banana 2.1 | Thinking: High | x2–x4 (0 credits)** and attach **ONLY the single target image** (NEVER attach character reference sheets simultaneously, so composition stays locked and no extra characters bleed in). Keep the unaffected half of the frame locked and only locally refine the target character, footwear count, and hosiery.
+- **Keyframe Engine Split (ChatGPT + Meta AI Muse 雙主力分流)**: Route serious HQ briefings & complex weapon/prop scenes (e.g., Ep1 `01, 02, 06, 10, 12, 15, 16`) to **ChatGPT**; route comedy physical interactions, leg/hosiery/shoeless close-ups, grapple-wire tangles, and Ep3+ concept drafts (e.g., Ep1 `03, 04, 05, 07, 08, 09, 14` fixes & Ep3+ comedy shots) to **Meta AI Muse** and/or **Google Flow**, finishing with **Nano Banana 2.1 (0 credits)** when texture unification is needed.
 
 ---
 
@@ -57,4 +66,4 @@
 
 ---
 
-**Hybrid Image Pipeline**: Use Google Flow / Nano Banana to draft complex multi-character staging first, then use ChatGPT for a 1:1 Master Style Upgrade.
+**6-Tool Hybrid Pipeline**: Use **Meta AI Muse** (comedy / hosiery / guardrail-sensitive scenes & Ep3+ concept drafts) and **ChatGPT** (serious HQ / complex weapon-prop scenes & turnaround sheets) as co-primary illustrators, refine locally with **Google Flow Nano Banana 2.1 (0 credits)**, render pure action & bridges in **Google Flow Omni 1.2**, and mass-produce 12s bilingual lip-sync in **MiniMax H3 (Colab A100)**—guided by **Gemini** (creative direction & continuity) and **Antigravity** (SSOT & WSL automation).

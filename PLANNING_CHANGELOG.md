@@ -10,7 +10,7 @@
   - `[DONE]` **All 4 Flow Frame-0 Reference PNGs Standardized in `ep1_shots/`**: `03.png` (`1376×768`, untouched), `09.png` (`1280×720`), `11.png` (`1672×941`), and `13.png` (`1376×768`). (`05` & `08` already rendered directly into `Flow_Shot_05.mp4` & `Flow_Shot_08.mp4`).
 - **Step 4 (Dual-Engine Video Render & Assembly — `.gitignore` Verified for `*.mp4`)**:
   - `[DONE]` **Google Flow Omni 1.2 (`7/7` COMPLETE in `ep1_shots/flow/`, `1280×720 @ 24fps` h264+aac)**: `Flow_Shot_03.mp4` (`5.035s`), `Flow_Shot_05.mp4` (`4.032s`), `Flow_Shot_08.mp4` (`4.032s`), `Flow_Shot_09.mp4` (`5.035s`), `Flow_Bridge_09_10.mp4` (`6.037s`), `Flow_Shot_11.mp4` (`6.037s`), `Flow_Shot_13.mp4` (`6.037s`).
-  - `[TODO]` **MiniMax H3 Colab A100 (`0/20`)**: All 10 H3 keyframes & 20 bilingual prompts ready — render `Ep1_Shot_{01,02,04,06,07,10,12,14,15,16}_{HK,EN}.mp4` (`COLAB_EXEC_TIMEOUT=1200 COLAB_HIGH_MEM=1`) ➔ `./ep1_shots/assemble_ep1.sh ALL`.
+  - `[TODO]` **MiniMax H3 Colab A100 (`1/20` — HK Batch Paused at Shot 02 During Peak 503)**: `Ep1_Shot_01_HK.mp4` `[DONE]` (`7.45 MiB`, `12.25s`, `1344×768`). Built safe resumable runner [`ep1_shots/run_ep1_h3_batch.sh`](ep1_shots/run_ep1_h3_batch.sh); HK batch halted cleanly at Shot 02 after US-peak Colab A100 High-RAM returned `Service Unavailable` (HTTP 503) on its 1 allowed retry (`colab stop` verified `Active assignments: 0`, `423.92 CU` remaining). Resume off-peak via `./Extraordinary_Agents/ep1_shots/run_ep1_h3_batch.sh hk` ➔ `./ep1_shots/assemble_ep1.sh ALL`.
 
 ### Episode 2 Planning (Completed — Director's Cut: 10 Flow Omni 1.2 Clips + Bilingual Hybrid Masters)
 - [DONE] **Step 1 (Character Roster & Turnaround Sheets)**: All 20 canonical characters locked in `bible/character_roster.md` and `bible/character_sheets/` (including Episode 2 debuts: `Oliver Kade.png`, `Finn Calder.png`, `Gideon Ward.png`, `Nia Vale.png`, and `Dorian Marlowe.png`).
@@ -48,6 +48,14 @@
   - [DONE] **Episode 2 Director's Cut Assembly**: Integrated all 10 Google Flow Omni 1.2 bridges & overrides (`Flow_Bridge_05_06.mp4`, `Flow_Bridge_09_10.mp4`, `Flow_Bridge_13_14.mp4`, `Flow_Bridge_14_15.mp4`, split `Flow_Bridge_15_16.mp4` + `Flow_Bridge_16_17.mp4`, replaced `Flow_Shot_11.mp4`, trimmed `Flow_Shot_15.mp4`, shared `Flow_Shot_19B.mp4`, `Flow_Shot_20.mp4`), applied `08 -> 07` causal Act II reorder, `Shot 16 (HK)` clean video swap (`Ep2_Shot_16_EN.mp4` video + `Ep2_Shot_16_HK.mp4` audio), trailing-silence-only `get_smart_duration` (`-42dB/d=0.60/+0.75s`) with `MAX_DUR=12.25` and `Shot 20` slow-mo stretch (`8.09s -> 12.25s`), and assembled final 27-segment Director's Cut Masters via `ep2_shots/assemble_ep2.sh ALL`: `Episode_2_Hybrid_Master_HK.mp4` (`221M`, `272.849s`) and `Episode_2_Hybrid_Master_EN.mp4` (`230M`, `272.849s`).
 
 ## 2. Changelog (更新日誌)
+
+### [2026-11-25] - Add Ep1 H3 Resumable Batch Script & Integrate Meta AI Muse into 6-Tool Workflow
+- **MiniMax H3 Safe Resumable Batch Runner (`ep1_shots/run_ep1_h3_batch.sh`, `.gitignore`)**:
+  - Created WSL-only `run_ep1_h3_batch.sh` (`hk|en|all`) with >0-byte auto-skip resume, hard-locked `COLAB_EXEC_TIMEOUT=1200 COLAB_HIGH_MEM=1` (A100 High-RAM, `1344×768`), immediate `colab stop` session cleanup on any failure/signal, max 1 retry on HTTP 503 / `Service Unavailable`, and strict guard refusing `assemble_ep1.sh` if any shot fails; ignored `ep1_shots/h3_batch_*.log` in `.gitignore`.
+  - Ran initial `hk` batch: generated **`Ep1_Shot_01_HK.mp4` (`7.45 MiB`, `12.25s`, `1344×768`)** cleanly, then halted safely at Shot 02 when Google Colab returned `Service Unavailable` (HTTP 503) during US peak hours (`Active assignments: 0`, `423.92 CU` balance preserved for off-peak resume).
+- **6-Tool Collaboration Upgrade (`AGENTS.md`, `prompts/style_guide.md`)**:
+  - Integrated **Meta AI Muse** alongside ChatGPT as **Co-Primary 16:9 Keyframe Illustrator** (official from Episode 3 onward + Ep 1 single-shot fixes) to handle comedy physical slapstick, sheer hosiery/shoeless close-ups, grapple tangles, and concept/promo assets without triggering ChatGPT guardrail false positives.
+  - Added Muse's 3 practical anti-trap rules (shoe-count duplicate check, small-prop retention lock during conversational edits, and optional Nano Banana 2.1 `0-credit` finishing pass) and updated the full 6-tool division of labor (`Gemini`, `Antigravity`, `ChatGPT`, `Meta AI Muse`, `Google Flow`, `MiniMax H3`).
 
 ### [2026-11-25] - Finalize Ep1 15.png & Upgrade 04.png (15D Sheer Nylon) — Flow 7/7 + H3 Keyframes 10/10 DONE
 - **Keyframe Finalization (`ep1_shots/04.png`, `ep1_shots/15.png`, `ep1_shots/Archive/04_old_opaque.png`)**:
