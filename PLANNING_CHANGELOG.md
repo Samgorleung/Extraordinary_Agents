@@ -2,16 +2,15 @@
 
 ## 1. Active Production Roadmap (目前計劃與待辦事項)
 
-### Episode 1 Remaster: Operation Barefoot Banana (In Progress — Flow 7/7 DONE, 13 Standardized PNGs / 9 of 10 H3 Keyframes DONE, Only 15.png Pending)
+### Episode 1 Remaster: Operation Barefoot Banana (Ready for Colab H3 Render — Flow 7/7 DONE + 10/10 H3 Keyframes DONE)
 - [DONE] **Legacy Archive & Audit (`ep1_shots/Archive/LEGACY_EP1_AUDIT.md`)**: Probed all 24 legacy `.mp4` clips (`1280x720` + 2 H3 `1344x768` epilogues) and consolidated all 25 legacy `.txt` prompt scripts (commit `2a24670`).
 - [DONE] **Step 2 (16-Shot Storyboard, Policy-Safe Rules, Prompts & Assembler)**: Locked `ep1_shots/storyboard.md` (`01`–`16` + `Flow_Bridge_09_10`), permanent **Rule A** (Flow Omni 1.2 policy-safe video prompting + Z-axis depth-axis entrances preventing sideways slides) & **Rule B** (semi-matte 15-denier sheer light nude-beige nylon pantyhose without oily glare + 4 ChatGPT anti-trap rules + 0-credit Nano Banana 2.1 `Thinking: High` single-image localized fix + Keyframe Engine Split) in `prompts/style_guide.md` & `AGENTS.md`, clean 20 H3 prompts (`01, 02, 04, 06, 07, 10, 12, 14, 15, 16`), scrubbed `FLOW_PROMPTS_PLAN.md`, and 16-shot `ep1_shots/assemble_ep1.sh`.
-- **Step 3 (16:9 Single-Frame Keyframes — 13 Standardized PNGs `[DONE]`; 9/10 H3 Keyframes `[DONE]`; Only `15.png` `[TODO]`)**:
-  - `[DONE]` **9/10 H3 Dialogue Keyframes Standardized in `ep1_shots/`**: `01.png` (`1672×941`), `02.png` (`1672×941`), `04.png` (`1671×941`), `06.png` (`1671×941`), `07.png` (`1376×768`, converted from `c8684e4a.jpg`), `10.png` (`1376×768`), `12.png` (`1376×768`, converted from `Agents_fighting...94b462d9.jpg`), `14.png` (`1376×768`, converted from `ec41af95.jpg`), and `16.png` (`1672×941`).
-  - `[DONE]` **4 Flow Frame-0 Reference PNGs Standardized in `ep1_shots/`**: `03.png` (`1376×768`, converted from `bf28250a.jpg`), `09.png` (`1280×720`), `11.png` (`1672×941`), and `13.png` (`1376×768`). (`05` & `08` already rendered directly into `Flow_Shot_05.mp4` & `Flow_Shot_08.mp4`).
-  - `[TODO]` **Sole Remaining H3 Keyframe (`1/10`)**: **`ep1_shots/15.png`** (HQ Custody Order & Charity Gala invitation discovery; use updated Rule B semi-matte 15D hosiery + matte black tactical combat vest + closed-mouth Barnaby prompt).
+- [DONE] **Step 3 (16:9 Single-Frame Keyframes — 14 Standardized PNGs `[DONE]`; 10/10 H3 Keyframes `[DONE]`)**:
+  - `[DONE]` **All 10/10 H3 Dialogue Keyframes Standardized in `ep1_shots/`**: `01.png` (`1672×941`), `02.png` (`1672×941`), `04.png` (`1376×768`, upgraded 15D sheer nylon texture; old `1671×941` backed up to `ep1_shots/Archive/04_old_opaque.png`), `06.png` (`1671×941`), `07.png` (`1376×768`), `10.png` (`1376×768`), `12.png` (`1376×768`), `14.png` (`1376×768`), `15.png` (`1672×941`, converted from `Triumphant Command Centre Gathering.png`), and `16.png` (`1672×941`).
+  - `[DONE]` **All 4 Flow Frame-0 Reference PNGs Standardized in `ep1_shots/`**: `03.png` (`1376×768`, untouched), `09.png` (`1280×720`), `11.png` (`1672×941`), and `13.png` (`1376×768`). (`05` & `08` already rendered directly into `Flow_Shot_05.mp4` & `Flow_Shot_08.mp4`).
 - **Step 4 (Dual-Engine Video Render & Assembly — `.gitignore` Verified for `*.mp4`)**:
   - `[DONE]` **Google Flow Omni 1.2 (`7/7` COMPLETE in `ep1_shots/flow/`, `1280×720 @ 24fps` h264+aac)**: `Flow_Shot_03.mp4` (`5.035s`), `Flow_Shot_05.mp4` (`4.032s`), `Flow_Shot_08.mp4` (`4.032s`), `Flow_Shot_09.mp4` (`5.035s`), `Flow_Bridge_09_10.mp4` (`6.037s`), `Flow_Shot_11.mp4` (`6.037s`), `Flow_Shot_13.mp4` (`6.037s`).
-  - `[TODO]` **MiniMax H3 Colab A100 (`0/20`)**: Ready once `15.png` is added — render `Ep1_Shot_{01,02,04,06,07,10,12,14,15,16}_{HK,EN}.mp4` (`COLAB_EXEC_TIMEOUT=1200 COLAB_HIGH_MEM=1`) ➔ `./ep1_shots/assemble_ep1.sh ALL`.
+  - `[TODO]` **MiniMax H3 Colab A100 (`0/20`)**: All 10 H3 keyframes & 20 bilingual prompts ready — render `Ep1_Shot_{01,02,04,06,07,10,12,14,15,16}_{HK,EN}.mp4` (`COLAB_EXEC_TIMEOUT=1200 COLAB_HIGH_MEM=1`) ➔ `./ep1_shots/assemble_ep1.sh ALL`.
 
 ### Episode 2 Planning (Completed — Director's Cut: 10 Flow Omni 1.2 Clips + Bilingual Hybrid Masters)
 - [DONE] **Step 1 (Character Roster & Turnaround Sheets)**: All 20 canonical characters locked in `bible/character_roster.md` and `bible/character_sheets/` (including Episode 2 debuts: `Oliver Kade.png`, `Finn Calder.png`, `Gideon Ward.png`, `Nia Vale.png`, and `Dorian Marlowe.png`).
@@ -49,6 +48,11 @@
   - [DONE] **Episode 2 Director's Cut Assembly**: Integrated all 10 Google Flow Omni 1.2 bridges & overrides (`Flow_Bridge_05_06.mp4`, `Flow_Bridge_09_10.mp4`, `Flow_Bridge_13_14.mp4`, `Flow_Bridge_14_15.mp4`, split `Flow_Bridge_15_16.mp4` + `Flow_Bridge_16_17.mp4`, replaced `Flow_Shot_11.mp4`, trimmed `Flow_Shot_15.mp4`, shared `Flow_Shot_19B.mp4`, `Flow_Shot_20.mp4`), applied `08 -> 07` causal Act II reorder, `Shot 16 (HK)` clean video swap (`Ep2_Shot_16_EN.mp4` video + `Ep2_Shot_16_HK.mp4` audio), trailing-silence-only `get_smart_duration` (`-42dB/d=0.60/+0.75s`) with `MAX_DUR=12.25` and `Shot 20` slow-mo stretch (`8.09s -> 12.25s`), and assembled final 27-segment Director's Cut Masters via `ep2_shots/assemble_ep2.sh ALL`: `Episode_2_Hybrid_Master_HK.mp4` (`221M`, `272.849s`) and `Episode_2_Hybrid_Master_EN.mp4` (`230M`, `272.849s`).
 
 ## 2. Changelog (更新日誌)
+
+### [2026-11-25] - Finalize Ep1 15.png & Upgrade 04.png (15D Sheer Nylon) — Flow 7/7 + H3 Keyframes 10/10 DONE
+- **Keyframe Finalization (`ep1_shots/04.png`, `ep1_shots/15.png`, `ep1_shots/Archive/04_old_opaque.png`)**:
+  - Backed up previous `ep1_shots/04.png` (`1671×941`) to `ep1_shots/Archive/04_old_opaque.png` and converted refined `ep1_shots/04.jpg` (15D sheer light nude-beige pantyhose with natural toe/sole detail) losslessly into `ep1_shots/04.png` (`1376×768`); left `ep1_shots/03.png` (`1376×768`) untouched.
+  - Standardized `Triumphant Command Centre Gathering.png` ➔ `ep1_shots/15.png` (`1672×941`), completing **all `10/10` Episode 1 H3 dialogue keyframes** alongside **all `7/7` Google Flow Omni 1.2 clips** (`storyboard.md` & roadmap updated `[DONE]`, ready for Colab A100 batch inference).
 
 ### [2026-11-25] - Upgrade Rule B to Semi-Matte 15D Hosiery & ChatGPT Anti-Trap Standards, Complete Flow 7/7 & Standardize 9 New Ep1 PNG Keyframes
 - **Rule B Semi-Matte 15D Hosiery & ChatGPT Anti-Trap Standards (`prompts/style_guide.md`, `AGENTS.md`, `ep1_shots/storyboard.md`)**:
