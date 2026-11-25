@@ -29,17 +29,19 @@
   - When multiple characters are on the floor, state: `Keep all legs and feet clearly separated on the floor`.
 
 ### Rule B — Hybrid Keyframe Pipeline & Sheer Hosiery Rendering
-- **ChatGPT Keyframe Prompts (No Bare Skin / Exposed Toenails)**: Strictly **NEVER** use the word `barefoot` (causes ChatGPT to render bare skin and exposed toenails) or overly skin-toned `pale brown`. Instead write **`shoeless stockinged feet`** and **`20-denier glossy cocoa-brown sheer nylon tights`**, explicitly specifying: `smooth semi-translucent nylon encasing feet and toes with soft vertical gloss highlights and darker outer edge contour shading (no bare skin texture or exposed toenails)`.
-- **0-Credit Flow Texture Upgrade Pass (Nano Banana 2.1)**: When fixing ChatGPT leg/hosiery rendering in Google Flow, select **Nano Banana 2.1**, **Thinking level: High**, **`x2` or `x4`** (0 credits), and attach **ONLY the target GPT image** (do **NOT** attach the full character sheet at the same time) so composition stays 100% locked while upgrading sheer nylon realism.
-- **Keyframe Engine Split**: Route leg/hosiery-focused single or duo shots (e.g., Ep1 `03, 04, 05, 07, 08, 09, 14`) to **Google Flow** (or ChatGPT ➔ Flow Nano Banana 2.1 texture pass); route complex multi-character/prop HQ shots (e.g., Ep1 `01, 02, 06, 10, 12, 15, 16`) to **ChatGPT**.
+- **Maya 絲襪定色與質感標準（防變赤腳／防變黑絲）**: Strictly **NEVER** use `barefoot` (causes ChatGPT to render bare skin + exposed toenails) and **NEVER** use `coffee-brown` or `cocoa-brown` (darkens into sheer black under moonlit/dark warehouse lighting). Always write verbatim:
+  `shoeless stockinged feet in 15-denier glossy sheer light nude-beige / pale suntan nylon pantyhose (warm light skin-toned beige, strictly NOT black, charcoal, grey, or dark brown), with silky vertical nylon specular highlights, subtle sheer contour shading, and smooth semi-translucent nylon seamlessly encasing the feet and toes (no bare skin texture or exposed toenails).`
+- **Nano Banana 2.1「0-Credit 局部修圖」流程**: When a ChatGPT image renders hosiery too bare or too black, OR when a local character pose breaks continuity (e.g., `10.png` / `13.png` sitting too politely), use Google Flow with **Nano Banana 2.1 | Thinking: High | x2–x4 (0 credits)** and attach **ONLY the single target image** (NEVER attach character reference sheets simultaneously, so composition stays locked and no extra characters bleed in). Keep the unaffected half of the frame locked and only locally refine the target character and hosiery.
+- **Keyframe Engine Split**: Route leg/hosiery-focused single or duo shots (e.g., Ep1 `03, 04, 05, 07, 08, 09, 14`) to **Google Flow** (or ChatGPT ➔ Flow Nano Banana 2.1 localized texture pass); route complex multi-character/prop HQ shots (e.g., Ep1 `01, 02, 06, 10, 12, 15, 16`) to **ChatGPT**.
 
 ---
 
 ## 2. Video Prompt Rules (Google Flow & MiniMax H3)
 
-### Rule A — Google Flow Policy-Safe Video Prompting (Omni 1.2)
+### Rule A — Google Flow Policy-Safe Video Prompting & Anti-Slide Entrance (Omni 1.2)
 - **Banned Keyword Combinations**: NEVER combine `unconscious`, `lying on back`, `unprotected sole`, `barefoot`, `shoeless`, `sheer pantyhose`, or `garter stockings` with looming/creeping figures in Google Flow video prompts (triggers false-positive safety policy blocks).
 - **Frame-0 Outfit Lock**: Because Frame 0 already locks the character's outfit and hosiery visually, Google Flow **video** prompts MUST focus strictly on camera movement, lighting, and physical action—**omitting hosiery, barefoot, shoeless, and garter descriptors**.
+- **Anti-Cardboard-Slide Depth-Axis Entrances (防滑步進場原則)**: Whenever a character enters the shot (e.g., Agent Chloe Han in `Flow_Bridge_09_10`), ALWAYS route them forward along the camera depth axis (`walks forward along the depth axis out of the mist`), and NEVER describe entering sideways from the frame edge (prevents flat cardboard-cutout horizontal sliding).
 - **LANGUAGE FORMAT RULE**: Write ALL camera movements, physical actions, and audio descriptions in **English** so prompts work seamlessly in both Google Flow and MiniMax H3. Only the spoken dialogue inside quotation marks `"..."` should be written in the target language.
 - **Multi-Language Audio Tags**:
   * Silent / Action: `no spoken dialogue, only natural laughter/breathing and ambient sound effects.`

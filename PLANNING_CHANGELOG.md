@@ -2,16 +2,15 @@
 
 ## 1. Active Production Roadmap (目前計劃與待辦事項)
 
-### Episode 1 Remaster: Operation Barefoot Banana (In Progress — Step 3 Keyframes Started: `1/16` Done)
+### Episode 1 Remaster: Operation Barefoot Banana (In Progress — All Flow Clips 6/7 + 3 New PNG Keyframes Organized)
 - [DONE] **Legacy Archive & Audit (`ep1_shots/Archive/LEGACY_EP1_AUDIT.md`)**: Probed all 24 legacy `.mp4` clips (`1280x720` + 2 H3 `1344x768` epilogues) and consolidated all 25 legacy `.txt` prompt scripts (commit `2a24670`).
-- [DONE] **Step 2 (16-Shot Storyboard, Policy-Safe Rules, Prompts & Assembler)**: Locked `ep1_shots/storyboard.md` (`01`–`16` + `Flow_Bridge_09_10`), permanent Rule A (Flow Omni 1.2 policy-safe video prompting) & Rule B (ChatGPT `shoeless stockinged feet` / `20-denier glossy cocoa-brown sheer nylon tights` + 0-credit Nano Banana 2.1 `Thinking: High` texture pass + Keyframe Engine Split) in `prompts/style_guide.md` & `AGENTS.md`, clean 20 H3 prompts (`01, 02, 04, 06, 07, 10, 12, 14, 15, 16`), scrubbed `FLOW_PROMPTS_PLAN.md`, and 16-shot `ep1_shots/assemble_ep1.sh`.
-- **Step 3 (16:9 Single-Frame Keyframes — `1/16` Finalized)**:
-  - `[DONE]` **`ep1_shots/03.png`** (Frame-0 moonlit rooftop pre-jump pose with burgundy heels intact).
-  - `[DRAFT / PENDING REDO]` Local untracked draft `ep1_shots/Warehouse Shadows and Glowing Eyes.png` (old lying-down Shot 05 layout — supersede with policy-safe sitting-dazed `05.png`).
-  - `[TODO]` **Flow / Nano Banana 2.1 (`Rule B`) Leg & Hosiery Shots**: `04.png`, `05.png`, `07.png`, `08.png`, `09.png`, `14.png`.
-  - `[TODO]` **ChatGPT Complex / Multi-Character Shots**: `01.png`, `02.png`, `06.png`, `10.png`, `11.png`, `12.png`, `13.png`, `15.png`, `16.png` (`11/13` eligible for Nano Banana 2.1 hosiery pass if needed).
+- [DONE] **Step 2 (16-Shot Storyboard, Policy-Safe Rules, Prompts & Assembler)**: Locked `ep1_shots/storyboard.md` (`01`–`16` + `Flow_Bridge_09_10`), permanent **Rule A** (Flow Omni 1.2 policy-safe video prompting + Z-axis depth-axis entrances preventing sideways slides) & **Rule B** (15-denier glossy sheer light nude-beige / pale suntan nylon pantyhose standard + 0-credit Nano Banana 2.1 `Thinking: High` single-image localized fix + Keyframe Engine Split) in `prompts/style_guide.md` & `AGENTS.md`, clean 20 H3 prompts (`01, 02, 04, 06, 07, 10, 12, 14, 15, 16`), scrubbed `FLOW_PROMPTS_PLAN.md`, and 16-shot `ep1_shots/assemble_ep1.sh`.
+- **Step 3 (16:9 Single-Frame Keyframes — `09/10/11/13.png` `[DONE]`; `9` H3 Keyframes `[TODO]`)**:
+  - `[DONE]` Converted & committed **`ep1_shots/09.png`** (`1280x720`), **`ep1_shots/10.png`** (`1376x768`, H3 `Ep1_Shot_10` ready), **`ep1_shots/11.png`** (`1672x941`, Saffron catwalk Frame 0; converted from `image.png_ffb06f7c.jpg`), and **`ep1_shots/13.png`** (`1376x768`, Chloe Taekwondo opening stance). *(Also `ep1_shots/03.png` previously committed in `5ad6632`; note `03.png` & `Warehouse Shadows and Glowing Eyes.png` deleted locally, kept in Git history).*
+  - `[TODO]` **9 remaining H3 keyframes** (`Rule B` 15-denier glossy sheer light nude-beige / pale suntan nylon pantyhose on Maya shots): `01.png`, `02.png`, **`04.png`**, `06.png`, **`07.png`**, **`12.png`**, **`14.png`**, `15.png`, `16.png` (`05.png` already rendered into `Flow_Shot_05.mp4`).
 - **Step 4 (Dual-Engine Video Render & Assembly — `.gitignore` Verified for `*.mp4`)**:
-  - `[TODO]` **Google Flow Omni 1.2 (`0/7`)**: `Flow_Shot_03.mp4`, `Flow_Shot_05.mp4`, `Flow_Shot_08.mp4`, `Flow_Shot_09.mp4`, `Flow_Bridge_09_10.mp4`, `Flow_Shot_11.mp4`, `Flow_Shot_13.mp4`.
+  - `[DONE]` **Google Flow Omni 1.2 (`6/7` in `ep1_shots/flow/`, `1280×720 @ 24fps` h264+aac)**: `Flow_Shot_05.mp4` (`4.03s`), `Flow_Shot_08.mp4` (`4.03s`), `Flow_Shot_09.mp4` (`5.03s`), `Flow_Bridge_09_10.mp4` (`6.04s`), `Flow_Shot_11.mp4` (`6.04s`), `Flow_Shot_13.mp4` (`6.04s`).
+  - `[TODO]` **Pending Flow (`1/7`)**: `Flow_Shot_03.mp4` (`image.png_ffb06f7c.jpg` was verified as `11.png` Saffron catwalk keyframe).
   - `[TODO]` **MiniMax H3 Colab A100 (`0/20`)**: `Ep1_Shot_{01,02,04,06,07,10,12,14,15,16}_{HK,EN}.mp4` (`COLAB_EXEC_TIMEOUT=1200 COLAB_HIGH_MEM=1`) ➔ `./ep1_shots/assemble_ep1.sh ALL`.
 
 ### Episode 2 Planning (Completed — Director's Cut: 10 Flow Omni 1.2 Clips + Bilingual Hybrid Masters)
@@ -50,6 +49,18 @@
   - [DONE] **Episode 2 Director's Cut Assembly**: Integrated all 10 Google Flow Omni 1.2 bridges & overrides (`Flow_Bridge_05_06.mp4`, `Flow_Bridge_09_10.mp4`, `Flow_Bridge_13_14.mp4`, `Flow_Bridge_14_15.mp4`, split `Flow_Bridge_15_16.mp4` + `Flow_Bridge_16_17.mp4`, replaced `Flow_Shot_11.mp4`, trimmed `Flow_Shot_15.mp4`, shared `Flow_Shot_19B.mp4`, `Flow_Shot_20.mp4`), applied `08 -> 07` causal Act II reorder, `Shot 16 (HK)` clean video swap (`Ep2_Shot_16_EN.mp4` video + `Ep2_Shot_16_HK.mp4` audio), trailing-silence-only `get_smart_duration` (`-42dB/d=0.60/+0.75s`) with `MAX_DUR=12.25` and `Shot 20` slow-mo stretch (`8.09s -> 12.25s`), and assembled final 27-segment Director's Cut Masters via `ep2_shots/assemble_ep2.sh ALL`: `Episode_2_Hybrid_Master_HK.mp4` (`221M`, `272.849s`) and `Episode_2_Hybrid_Master_EN.mp4` (`230M`, `272.849s`).
 
 ## 2. Changelog (更新日誌)
+
+### [2026-11-25] - Organize Ep1 Flow Clips (6/7) & Keyframes (09/10/11/13.png), Lock 15D Light Nude-Beige Hosiery & Flow Z-Axis Rules
+- **Flow Video Organization & Keyframe PNG Standardization (`ep1_shots/`, `ep1_shots/flow/`)**:
+  - Verified via `ffprobe` and moved 6 rendered Google Flow Omni 1.2 clips (`1280×720 @ 24fps`, `h264 + aac`) into `ep1_shots/flow/`: `Flow_Shot_05.mp4` (`4.03s`), `Flow_Shot_08.mp4` (`4.03s`), `Flow_Shot_09.mp4` (`5.03s`), `Flow_Bridge_09_10.mp4` (`6.04s`), `Flow_Shot_11.mp4` (`6.04s`), and `Flow_Shot_13.mp4` (`6.04s`).
+  - Converted 4 verified `.jpg` stills to standardized lossless `.png` in `ep1_shots/`: `09.png` (`1280×720`), `10.png` (`1376×768`, H3 Shot 10 ready), `11.png` (`1672×941` — pre-flight `ffprobe` + visual check caught that `image.png_ffb06f7c.jpg` is Saffron's Frame-0 catwalk still rather than `Flow_Shot_03.mp4`), and `13.png` (`1376×768`); flagged `Flow_Shot_03.mp4` as the sole pending Flow video (`6/7` done).
+- **Permanent Workflow Rule Upgrades (`prompts/style_guide.md`, `AGENTS.md`)**:
+  - Replaced `cocoa-brown` with **`15-denier glossy sheer light nude-beige / pale suntan nylon pantyhose`** (warm light skin-toned beige, strictly NOT black/charcoal/grey/dark brown, seamlessly encasing feet and toes without bare skin or exposed toenails) to prevent dark-scene black-tights drift.
+  - Formalized **Nano Banana 2.1 (`Thinking: High`, `x2`–`x4`, 0 credits)** single-image localized fix workflow (attach ONLY the target image, never character sheets simultaneously) for hosiery & pose continuity fixes.
+  - Added the **Anti-Cardboard-Slide Depth-Axis Entrance Rule** (`walks forward along the depth axis out of the mist`) alongside Rule A policy-safe Flow video prompting.
+- **Storyboard & Flow Plan Sync (`ep1_shots/storyboard.md`, `ep1_shots/flow/FLOW_PROMPTS_PLAN.md`)**:
+  - Updated all Maya keyframe prompts in `storyboard.md` Section 4 (especially un-generated `04, 07, 12, 14.png`) to the 15D light nude-beige standard and marked `09/10/11/13.png` `[DONE]`.
+  - Recorded the final passed `Flow_Shot_05.mp4` and `Flow_Bridge_09_10.mp4` (`6.04s`, diagonal upward catwalk stun-smoke shot -> Barnaby pulling Maya lower-right -> Chloe walking forward along Z depth axis out of pink mist) in `FLOW_PROMPTS_PLAN.md`.
 
 ### [2026-11-22] - Flow Policy-Safe Rules, Nano Banana 2.1 Texture Pass & Shot 05 Redo
 - **Style & Workflow Rules (`prompts/style_guide.md`, `AGENTS.md`)**:
